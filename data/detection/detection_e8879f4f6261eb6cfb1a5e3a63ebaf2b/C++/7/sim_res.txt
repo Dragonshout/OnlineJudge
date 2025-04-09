@@ -1,0 +1,11 @@
+File 1-7.cpp: 49 tokens, 10 lines (not NL-terminated)
+File 15-7.cpp: 45 tokens, 19 lines (not NL-terminated)
+File 21-7.cpp: 131 tokens, 23 lines (not NL-terminated)
+File 27-7.cpp: 171 tokens, 51 lines (not NL-terminated)
+File 45-7.cpp: 49 tokens, 10 lines (not NL-terminated)
+File 85-7.cpp: 131 tokens, 23 lines (not NL-terminated)
+Total input: 6 files (6 new, 0 old), 576 tokens
+
+21-7.cpp consists for 100 % of 85-7.cpp material
+1-7.cpp consists for 86 % of 45-7.cpp material
+15-7.cpp consists for 62 % of 27-7.cpp material

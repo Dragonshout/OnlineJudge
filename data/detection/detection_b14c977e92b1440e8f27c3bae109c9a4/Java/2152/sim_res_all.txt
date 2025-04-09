@@ -1,0 +1,4 @@
+File 304-2152.java: 265 tokens, 55 lines (not NL-terminated)
+File sim_res.txt: 33 tokens, 3 lines
+Total input: 2 files (2 new, 0 old), 298 tokens
+

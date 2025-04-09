@@ -1,0 +1,29 @@
+#include<stdio.h> 
+int main(){
+	int i,n,a[1000],k=0,m,y,x,sum=0,count=0;
+	scanf("%d",&n);
+	for(i=0;i<n;i++){
+		scanf("%d",&a[i]);
+	} 
+	scanf("%d",&x);
+	k=0;
+	for(i=0;i<n;i++){
+		if(a[i]!=x){
+			if(a[i]>=x){
+				y=a[i]-x;
+				sum=sum+y;
+			}else{
+				y=x-a[i];
+				sum=sum+y;
+			}
+		}else{
+			k=1;
+			count=count+10;
+		}
+	}
+	m=count-sum;
+	printf("%d\n",m);
+	if(m>0){
+		printf("Happy");
+	}
+}

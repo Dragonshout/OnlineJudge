@@ -1,0 +1,8 @@
+File 125-2145.c: 53 tokens, 14 lines (not NL-terminated)
+File 172-2145.c: 48 tokens, 10 lines (not NL-terminated)
+File 284-2145.c: 69 tokens, 13 lines (not NL-terminated)
+File 310-2145.c: 55 tokens, 10 lines (not NL-terminated)
+File 325-2145.c: 54 tokens, 10 lines (not NL-terminated)
+Total input: 5 files (5 new, 0 old), 279 tokens
+
+310-2145.c consists for 45 % of 325-2145.c material

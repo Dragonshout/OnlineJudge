@@ -1,0 +1,6 @@
+File 110-2148.c: 28 tokens, 8 lines (not NL-terminated)
+File 172-2148.c: 29 tokens, 8 lines (not NL-terminated)
+File 194-2148.c: 26 tokens, 8 lines (not NL-terminated)
+File 259-2148.c: 25 tokens, 8 lines (not NL-terminated)
+Total input: 4 files (4 new, 0 old), 108 tokens
+

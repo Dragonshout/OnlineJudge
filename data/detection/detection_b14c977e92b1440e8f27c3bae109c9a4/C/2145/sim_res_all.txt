@@ -1,0 +1,17 @@
+File 125-2145.c: 53 tokens, 14 lines (not NL-terminated)
+File 172-2145.c: 48 tokens, 10 lines (not NL-terminated)
+File 284-2145.c: 69 tokens, 13 lines (not NL-terminated)
+File 310-2145.c: 55 tokens, 10 lines (not NL-terminated)
+File 325-2145.c: 54 tokens, 10 lines (not NL-terminated)
+File sim_res.txt: 121 tokens, 8 lines
+Total input: 6 files (6 new, 0 old), 400 tokens
+
+sim_res.txt: line 1-2                  |sim_res.txt: line 3-4              [36]
+File 125-2145.c: 53 tokens, 14 lines (n|File 284-2145.c: 69 tokens, 13 lines (n
+File 172-2145.c: 48 tokens, 10 lines (n|File 310-2145.c: 55 tokens, 10 lines (n
+
+310-2145.c: line 3-5                   |325-2145.c: line 3-5               [25]
+ long long int i,x,sum=0,n;            | long int i,n,a=0,b;
+ scanf("%lld",&x);                     | scanf("%ld",&n);
+ for(i=x;i>0;i--){                     | for(i=n;i>=0;i--){
+

@@ -1,0 +1,3 @@
+File 304-2145.java: 70 tokens, 13 lines (not NL-terminated)
+Total input: 1 file (1 new, 0 old), 70 tokens
+

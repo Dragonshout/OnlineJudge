@@ -1,0 +1,38 @@
+File 314-2150.c: 496 tokens, 36 lines (not NL-terminated)
+File sim_res.txt: 33 tokens, 3 lines
+Total input: 2 files (2 new, 0 old), 529 tokens
+
+314-2150.c: line 22-25                 |314-2150.c: line 25-28             [67]
+  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=|  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+  printf("NO\n");                      |  printf("NO\n");
+  }                                    |  }
+  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=|  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+
+314-2150.c: line 19-22                 |314-2150.c: line 22-25             [54]
+  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]<|  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+  printf("NO\n");                      |  printf("NO\n");
+  }                                    |  }
+  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=|  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+
+314-2150.c: line 16-19                 |314-2150.c: line 19-22             [43]
+  else if(y[i]==a[i]&&m[i]<b[i]){      |  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]<
+  printf("NO\n");                      |  printf("NO\n");
+  }                                    |  }
+  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]<|  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+
+314-2150.c: line 8-9                   |314-2150.c: line 9-10              [40]
+  scanf("%d",&C);                      |  scanf("%d %d %d %d %d %d",&y[i],&m[i]
+  scanf("%d %d %d %d %d %d",&y[i],&m[i]|  scanf("%d %d %d %d %d %d",&a[i],&b[i]
+
+314-2150.c: line 13-16                 |314-2150.c: line 19-22             [35]
+  if(y[i]<a[i]){                       |  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]<
+  printf("NO\n");                      |  printf("NO\n");
+  }                                    |  }
+  else if(y[i]==a[i]&&m[i]<b[i]){      |  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+
+314-2150.c: line 5-5                   |314-2150.c: line 6-6               [30]
+ int y[t],m[t],d[t],h[t],min[t],s[t];  | int a[t],b[t],c[t],e[t],f[t],g[t];
+
+314-2150.c: line 28-28                 |314-2150.c: line 28-28             [28]
+  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=|  else if(y[i]==a[i]&&m[i]==b[i]&&d[i]=
+

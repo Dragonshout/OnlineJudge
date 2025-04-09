@@ -1,0 +1,23 @@
+File 13-2151.cpp: 369 tokens, 55 lines (not NL-terminated)
+File 14-2151.cpp: 192 tokens, 32 lines (not NL-terminated)
+File 15-2151.cpp: 191 tokens, 28 lines (not NL-terminated)
+File 24-2151.cpp: 245 tokens, 38 lines (not NL-terminated)
+File 38-2151.cpp: 260 tokens, 39 lines (not NL-terminated)
+File 42-2151.cpp: 411 tokens, 81 lines (not NL-terminated)
+File 58-2151.cpp: 195 tokens, 33 lines (not NL-terminated)
+File 64-2151.cpp: 242 tokens, 40 lines (not NL-terminated)
+File 67-2151.cpp: 368 tokens, 60 lines (not NL-terminated)
+File 72-2151.cpp: 251 tokens, 24 lines (not NL-terminated)
+File 76-2151.cpp: 303 tokens, 45 lines (not NL-terminated)
+File 78-2151.cpp: 511 tokens, 134 lines (not NL-terminated)
+File 90-2151.cpp: 325 tokens, 60 lines (not NL-terminated)
+Total input: 13 files (13 new, 0 old), 3863 tokens
+
+15-2151.cpp consists for 37 % of 78-2151.cpp material
+13-2151.cpp consists for 26 % of 78-2151.cpp material
+13-2151.cpp consists for 20 % of 24-2151.cpp material
+13-2151.cpp consists for 11 % of 76-2151.cpp material
+14-2151.cpp consists for 14 % of 78-2151.cpp material
+14-2151.cpp consists for 14 % of 90-2151.cpp material
+64-2151.cpp consists for 12 % of 78-2151.cpp material
+42-2151.cpp consists for 11 % of 78-2151.cpp material
