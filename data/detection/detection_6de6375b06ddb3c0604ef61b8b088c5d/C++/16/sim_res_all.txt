@@ -1,0 +1,211 @@
+File 11-16.cpp: 745 tokens, 70 lines (not NL-terminated)
+File 13-16.cpp: 416 tokens, 40 lines (not NL-terminated)
+File 19-16.cpp: 247 tokens, 26 lines (not NL-terminated)
+File 21-16.cpp: 381 tokens, 41 lines (not NL-terminated)
+File 26-16.cpp: 578 tokens, 90 lines (not NL-terminated)
+File 27-16.cpp: 506 tokens, 64 lines (not NL-terminated)
+File 30-16.cpp: 372 tokens, 34 lines (not NL-terminated)
+File 32-16.cpp: 339 tokens, 34 lines (not NL-terminated)
+File 35-16.cpp: 379 tokens, 36 lines (not NL-terminated)
+File 42-16.cpp: 273 tokens, 42 lines (not NL-terminated)
+File 45-16.cpp: 228 tokens, 23 lines (not NL-terminated)
+File 58-16.cpp: 418 tokens, 47 lines (not NL-terminated)
+File sim_res.txt: 231 tokens, 14 lines
+Total input: 13 files (13 new, 0 old), 5113 tokens
+
+21-16.cpp: line 17-24                  |32-16.cpp: line 16-21             [116]
+  s[1]='W'+s[1]+'W';                   |  s[0][n+1]='W';
+ for(int i=1;i<=n;i++)                 |  for (int i=1;i<=n;i++){
+ {                                     |  if (s[1][i]=='R') dp[1][i]=dp[1][i-1]
+  if(s[0][i]=='R') dp[0][i]=dp[0][i-1]+|  if (s[2][i]=='R') dp[2][i]=dp[2][i-1]
+  if(s[1][i]=='R') dp[1][i]=dp[1][i-1]+|  if (s[1][i]=='R'&&s[2][i]=='R'){
+  if(s[0][i]=='R'&&s[1][i]=='R')       |  int tmp1=dp[1][i];
+  {                                    |
+  int t1=dp[0][i],t2=dp[1][i];         |
+
+sim_res.txt: line 1-6                  |sim_res.txt: line 7-12            [108]
+File 11-16.cpp: 745 tokens, 70 lines (n|File 30-16.cpp: 372 tokens, 34 lines (n
+File 13-16.cpp: 416 tokens, 40 lines (n|File 32-16.cpp: 339 tokens, 34 lines (n
+File 19-16.cpp: 247 tokens, 26 lines (n|File 35-16.cpp: 379 tokens, 36 lines (n
+File 21-16.cpp: 381 tokens, 41 lines (n|File 42-16.cpp: 273 tokens, 42 lines (n
+File 26-16.cpp: 578 tokens, 90 lines (n|File 45-16.cpp: 228 tokens, 23 lines (n
+File 27-16.cpp: 506 tokens, 64 lines (n|File 58-16.cpp: 418 tokens, 47 lines (n
+
+11-16.cpp: line 48-53                  |21-16.cpp: line 21-27              [95]
+  if(s[1][i]=='R')dp[i][1]=dp[i-1][1]+1|  if(s[1][i]=='R') dp[1][i]=dp[1][i-1]+
+  if(s[0][i]=='R'&&s[1][i]=='R'){      |  if(s[0][i]=='R'&&s[1][i]=='R')
+  int x=dp[i][0],y=dp[i][1];           |  {
+  dp[i][0]=max(dp[i][0],y+1);          |  int t1=dp[0][i],t2=dp[1][i];
+  dp[i][1]=max(dp[i][1],x+1);          |  dp[0][i]=max(dp[0][i],t2+1);
+  }                                    |  dp[1][i]=max(dp[1][i],t1+1);
+                                       |  }
+
+26-16.cpp: line 57-61                  |26-16.cpp: line 67-71              [92]
+  if(g[1][i]=='R'){                    |  if(g[2][i]=='R'){
+  if(i-1!=0){                          |  if(i-1!=0){
+  if(g[2][i]=='W') f[1][i]=f[1][i-1]+1;|  if(g[1][i]=='W') f[2][i]=f[2][i-1]+1;
+  else f[1][i]=max(f[1][i-1]+1,f[2][i-1|  else f[2][i]=max(f[2][i-1]+1,f[1][i-1
+  }                                    |  }
+
+sim_res.txt: line 7-9                  |sim_res.txt: line 10-12            [54]
+File 30-16.cpp: 372 tokens, 34 lines (n|File 42-16.cpp: 273 tokens, 42 lines (n
+File 32-16.cpp: 339 tokens, 34 lines (n|File 45-16.cpp: 228 tokens, 23 lines (n
+File 35-16.cpp: 379 tokens, 36 lines (n|File 58-16.cpp: 418 tokens, 47 lines (n
+
+11-16.cpp: line 19-20                  |11-16.cpp: line 20-21              [52]
+  ll qpow(ll a, ll b) { ll ans = 1; a %|  ll qpow(ll a, ll b, ll q) { ll ans = 
+  ll qpow(ll a, ll b, ll q) { ll ans = |  ll inv(ll a) { return qpow(a, mod - 2
+
+35-16.cpp: line 17-18                  |35-16.cpp: line 18-19              [47]
+  if(a[1][i]=='R'&&a[1][i-1]=='R')dp[1]|  if(a[2][i]=='R'&&a[2][i-1]=='R')dp[2]
+  if(a[2][i]=='R'&&a[2][i-1]=='R')dp[2]|  if(a[1][i]=='R'&&a[2][i]=='R')
+
+13-16.cpp: line 15-15                  |13-16.cpp: line 16-16              [45]
+  if(a[0][i-1]=='R' and a[0][i]=='R') d|  if(a[1][i-1]=='R' and a[1][i]=='R') d
+
+30-16.cpp: line 8-11                   |30-16.cpp: line 13-16              [39]
+  for(i=0;i<2;i++){cin>>walk[i];}      |  }
+  for(j=0;j<n;j++){                    |  for(j=0;j<n;j++){
+  for(i=0;i<2;i++){                    |  for(i=0;i<2;i++){
+  if(walk[i][j]=='R')dp[i][j][0]=1;    |  if(walk[i][j]=='R'&&j>0){
+
+21-16.cpp: line 33-40                  |35-16.cpp: line 29-35              [39]
+signed main()                          |int main()
+{                                      |{
+ ios::sync_with_stdio(0);              | ios::sync_with_stdio(0);
+ cin.tie(0);cout.tie(0);               | cout.tie(0);cin.tie(0);
+ int T=1;                              | int t=1;//cin>>t;
+// cin>>T;                             | while(t--)solve();
+ while(T--) solve();                   | return 0;
+ return 0;                             |
+
+32-16.cpp: line 19-20                  |35-16.cpp: line 18-20              [38]
+  if (s[2][i]=='R') dp[2][i]=dp[2][i-1]|  if(a[2][i]=='R'&&a[2][i-1]=='R')dp[2]
+  if (s[1][i]=='R'&&s[2][i]=='R'){     |  if(a[1][i]=='R'&&a[2][i]=='R')
+                                       |  {
+
+11-16.cpp: line 46-47                  |21-16.cpp: line 18-20              [38]
+  for(int i=1;i<=n;i++){               | for(int i=1;i<=n;i++)
+  if(s[0][i]=='R')dp[i][0]=dp[i-1][0]+1| {
+                                       |  if(s[0][i]=='R') dp[0][i]=dp[0][i-1]+
+
+13-16.cpp: line 16-17                  |35-16.cpp: line 17-18              [38]
+  if(a[1][i-1]=='R' and a[1][i]=='R') d|  if(a[1][i]=='R'&&a[1][i-1]=='R')dp[1]
+  if(a[0][i]=='R' and a[1][i]=='R'){   |  if(a[2][i]=='R'&&a[2][i-1]=='R')dp[2]
+
+27-16.cpp: line 46-46                  |27-16.cpp: line 48-48              [37]
+  if(j==1||c[i][j-1]=='R')dp[i][j][0]=m|  if(c[i][j-1]=='R')dp[i][j][0]=max(dp[
+
+27-16.cpp: line 50-52                  |30-16.cpp: line 29-31              [35]
+  ans=max(ans,dp[i][j][0]);            |  M=max(M,dp[i][j][0]);
+  ans=max(ans,dp[i][j][1]);            |  M=max(M,dp[i][j][1]);
+  }                                    |  }
+
+26-16.cpp: line 72-73                  |35-16.cpp: line 22-23              [34]
+  else if(f[1][i]) f[2][i]=f[1][i]+1;  |  else if(dp[2][i]<dp[1][i])dp[2][i]=dp
+  else f[2][i]=1;                      |  else dp[2][i]=dp[1][i]=dp[2][i]+1;
+
+35-16.cpp: line 15-17                  |58-16.cpp: line 23-24              [34]
+  for(int i=1;i<=n;i++)                |  for(int i=1;i<=2;i++){
+  {                                    |  if(g[i][j]=='R'&&g[i][j+1]=='R')dp[i]
+  if(a[1][i]=='R'&&a[1][i-1]=='R')dp[1]|
+
+32-16.cpp: line 23-26                  |58-16.cpp: line 28-31              [34]
+  dp[1][i]=max(tmp1,tmp2+1);           |  dp[1][j]=max(t1,t2+1);
+  dp[2][i]=max(tmp1+1,tmp2);           |  dp[2][j]=max(t1+1,t2);
+  }                                    |  }
+  }                                    |  }
+
+35-16.cpp: line 21-21                  |35-16.cpp: line 22-22              [34]
+  if(dp[1][i]<dp[2][i])dp[1][i]=dp[2][i|  else if(dp[2][i]<dp[1][i])dp[2][i]=dp
+
+26-16.cpp: line 68-69                  |32-16.cpp: line 17-18              [33]
+  if(i-1!=0){                          |  for (int i=1;i<=n;i++){
+  if(g[1][i]=='W') f[2][i]=f[2][i-1]+1;|  if (s[1][i]=='R') dp[1][i]=dp[1][i-1]
+
+13-16.cpp: line 17-18                  |21-16.cpp: line 22-24              [32]
+  if(a[0][i]=='R' and a[1][i]=='R'){   |  if(s[0][i]=='R'&&s[1][i]=='R')
+  int x=dp[0][i],y=dp[1][i];           |  {
+                                       |  int t1=dp[0][i],t2=dp[1][i];
+
+32-16.cpp: line 18-19                  |32-16.cpp: line 19-20              [32]
+  if (s[1][i]=='R') dp[1][i]=dp[1][i-1]|  if (s[2][i]=='R') dp[2][i]=dp[2][i-1]
+  if (s[2][i]=='R') dp[2][i]=dp[2][i-1]|  if (s[1][i]=='R'&&s[2][i]=='R'){
+
+27-16.cpp: line 47-47                  |27-16.cpp: line 48-48              [30]
+  if(c[i^1][j]=='R')dp[i][j][1]=max(dp[|  if(c[i][j-1]=='R')dp[i][j][0]=max(dp[
+
+58-16.cpp: line 18-19                  |58-16.cpp: line 32-33              [28]
+  for(int i=1;i<=2;i++)                |  for(int i=1;i<=2;i++)
+  for(int j=1;j<=n;j++)                |  for(int j=1;j<=n;j++)
+
+27-16.cpp: line 46-46                  |30-16.cpp: line 17-17              [28]
+  if(j==1||c[i][j-1]=='R')dp[i][j][0]=m|  dp[i][j][0]+=max(dp[i][j-1][0],dp[i][
+
+35-16.cpp: line 18-20                  |42-16.cpp: line 22-24              [27]
+  if(a[2][i]=='R'&&a[2][i-1]=='R')dp[2]|  else dp[1] = 0;
+  if(a[1][i]=='R'&&a[2][i]=='R')       |  if (s[0][i] == 'R' && s[1][i] == 'R')
+  {                                    |  {
+
+32-16.cpp: line 17-18                  |35-16.cpp: line 15-17              [27]
+  for (int i=1;i<=n;i++){              |  for(int i=1;i<=n;i++)
+  if (s[1][i]=='R') dp[1][i]=dp[1][i-1]|  {
+                                       |  if(a[1][i]=='R'&&a[1][i-1]=='R')dp[1]
+
+11-16.cpp: line 47-48                  |21-16.cpp: line 20-21              [27]
+  if(s[0][i]=='R')dp[i][0]=dp[i-1][0]+1|  if(s[0][i]=='R') dp[0][i]=dp[0][i-1]+
+  if(s[1][i]=='R')dp[i][1]=dp[i-1][1]+1|  if(s[1][i]=='R') dp[1][i]=dp[1][i-1]+
+
+30-16.cpp: line 14-15                  |30-16.cpp: line 27-28              [26]
+  for(j=0;j<n;j++){                    |  for(i=0;i<2;i++){
+  for(i=0;i<2;i++){                    |  for(j=0;j<n;j++){
+
+42-16.cpp: line 23-24                  |58-16.cpp: line 27-27              [26]
+  if (s[0][i] == 'R' && s[1][i] == 'R')|  if(g[1][j]=='R'&&g[2][j]=='R'){
+  {                                    |
+
+19-16.cpp: line 3-7                    |45-16.cpp: line 5-9                [25]
+int n,f[1010101],g[1010101];           |char s1[M],s2[M];
+int main(){                            |int main()
+                                       |{
+ scanf("%d",&n);                       |  scanf("%d\n",&n);
+ scanf("%s%s",s+1,c+1);                |  scanf("%s%s",s1,s2);
+
+42-16.cpp: line 19-20                  |42-16.cpp: line 21-22              [25]
+  if (s[0][i] == 'R') dp[0] ++;        |  if (s[1][i] == 'R') dp[1] ++;
+  else dp[0] = 0;                      |  else dp[1] = 0;
+
+21-16.cpp: line 3-4                    |27-16.cpp: line 18-19              [25]
+#define all(x) (x).begin(),(x).end()   |#define all(x) (x).begin(),(x).end()
+#define lowbit(x) x&-x                 |#define sz(x) (int)(x).size()
+
+27-16.cpp: line 36-42                  |58-16.cpp: line 14-18              [25]
+int dp[2][N][2];                       |int dp[3][N];
+                                       |void work(){
+//-------------------------------------|  int n;
+                                       |  cin>>n;
+void solve(){                          |  for(int i=1;i<=2;i++)
+  int n; cin>>n;                       |
+  for(int i=0;i<2;++i)for(int j=1;j<=n;|
+
+30-16.cpp: line 19-20                  |42-16.cpp: line 17-19              [24]
+  for(i=0;i<2;i++){                    |  for (int i = 0; i < n; i ++)
+  if(walk[i][j]=='R'){                 |  {
+                                       |  if (s[0][i] == 'R') dp[0] ++;
+
+13-16.cpp: line 12-12                  |13-16.cpp: line 17-17              [24]
+  if(a[0][0]=='R' and a[1][0]=='R')dp[0|  if(a[0][i]=='R' and a[1][i]=='R'){
+
+32-16.cpp: line 5-8                    |58-16.cpp: line 15-18              [24]
+int main(){                            |void work(){
+  int n;                               |  int n;
+  cin>>n;                              |  cin>>n;
+  for (int i=1;i<=2;i++){              |  for(int i=1;i<=2;i++)
+
+13-16.cpp: line 34-36                  |26-16.cpp: line 27-31              [24]
+signed main(){                         |signed main()
+  ios::sync_with_stdio(false);         |{
+  cin.tie(0);cout.tie(0);              |  ios::sync_with_stdio(false); 
+                                       |  cin.tie(0);
+                                       |  cout.tie(0);
+

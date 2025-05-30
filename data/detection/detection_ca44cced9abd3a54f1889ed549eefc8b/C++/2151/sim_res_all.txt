@@ -1,0 +1,252 @@
+File 13-2151.cpp: 369 tokens, 55 lines (not NL-terminated)
+File 14-2151.cpp: 192 tokens, 32 lines (not NL-terminated)
+File 15-2151.cpp: 191 tokens, 28 lines (not NL-terminated)
+File 24-2151.cpp: 245 tokens, 38 lines (not NL-terminated)
+File 38-2151.cpp: 260 tokens, 39 lines (not NL-terminated)
+File 42-2151.cpp: 411 tokens, 81 lines (not NL-terminated)
+File 58-2151.cpp: 195 tokens, 33 lines (not NL-terminated)
+File 64-2151.cpp: 242 tokens, 40 lines (not NL-terminated)
+File 67-2151.cpp: 368 tokens, 60 lines (not NL-terminated)
+File 72-2151.cpp: 251 tokens, 24 lines (not NL-terminated)
+File 76-2151.cpp: 303 tokens, 45 lines (not NL-terminated)
+File 78-2151.cpp: 511 tokens, 134 lines (not NL-terminated)
+File 90-2151.cpp: 325 tokens, 60 lines (not NL-terminated)
+File sim_res.txt: 297 tokens, 18 lines
+Total input: 14 files (14 new, 0 old), 4160 tokens
+
+78-2151.cpp: line 21-71                |78-2151.cpp: line 79-129          [187]
+ int ca = 0;                           | ca = 0;
+ for (int i = 0; i < s2.size(); i ++)  |  for (int i = 0; i < s2.size(); i ++)
+ {                                     | {
+                                       |  
+  int a2 = s2[i] - '0';                |  int a2 = s2[i] - '0';
+  int a1 = 0;                          |  int a1 = 0;
+  if (i < s.size()) a1 = s[i] - '0';   |  if (i < s.size()) a1 = s[i] - '0';
+  if (ca == 0)                         |  if (ca == 0)
+  {                                    |  {
+  if (a1 && a2)                        |  if (a1 && a2)
+  {                                    |  {
+  sa = sa + '0';                       |  sa = sa + '0';
+  ca = 1;                              |  ca = 1;
+  }                                    |  }
+  else if (a1)                         |  else if (a1)
+  {                                    |  {
+  sa = sa + '1';                       |  sa = sa + '1';
+  ca = 0;                              |  ca = 0;
+  }                                    |  }
+  else if (a2)                         |  else if(a2)
+  {                                    |  {
+  sa = sa + '1';                       |  sa = sa + '1';
+  ca = 0;                              |  ca = 0;
+  }                                    |  }
+  else                                 |  else
+  {                                    |  {
+  sa = sa + '0';                       |  sa = sa + '0';
+  ca = 0;                              |  ca = 0;
+  }                                    |  }
+  }                                    |  }
+  else                                 |  else
+  {                                    |  {
+  if (a1 && a2)                        |  if (a1 && a2)
+  {                                    |  {
+  sa = sa + '1';                       |  sa = sa + '1';
+  ca = 1;                              |  ca = 1;
+  }                                    |  }
+  else if (a1 == 0 && a2 == 0)         |  else if (a1 == 0 && a2 == 0)
+  {                                    |  {
+  sa = sa + '1';                       |  sa = sa + '1';
+  ca = 0;                              |  ca = 0;
+  }                                    |  }
+  else                                 |  else
+  {                                    |  {
+  sa = sa + '0';                       |  sa = sa + '0';
+  ca = 1;                              |  ca = 1;
+  }                                    |  }
+  }                                    |  }
+// cout << sa[i] << endl;              |// cout << sa[i] << endl;
+ }                                     | }
+ if (ca == 1) sa = sa + '1';           | if (ca == 1) sa = sa + '1';
+
+sim_res.txt: line 1-6                  |sim_res.txt: line 7-12            [108]
+File 13-2151.cpp: 369 tokens, 55 lines |File 58-2151.cpp: 195 tokens, 33 lines 
+File 14-2151.cpp: 192 tokens, 32 lines |File 64-2151.cpp: 242 tokens, 40 lines 
+File 15-2151.cpp: 191 tokens, 28 lines |File 67-2151.cpp: 368 tokens, 60 lines 
+File 24-2151.cpp: 245 tokens, 38 lines |File 72-2151.cpp: 251 tokens, 24 lines 
+File 38-2151.cpp: 260 tokens, 39 lines |File 76-2151.cpp: 303 tokens, 45 lines 
+File 42-2151.cpp: 411 tokens, 81 lines |File 78-2151.cpp: 511 tokens, 134 lines
+
+13-2151.cpp: line 14-27                |13-2151.cpp: line 32-45            [80]
+  int y=b[i]-'0';                      |  int y=s[i]-'0';
+  int ans=x+y+f;                       |  int ans=x+y+f;
+  if(ans==1){                          |  if(ans==1){
+  a[i]='1';                            |  a[i]='1';
+  f=0;                                 |  f=0;
+  }else if(ans==2){                    |  }else if(ans==2){
+  a[i]='0';                            |  a[i]='0';
+  f=1;                                 |  f=1;
+  }else if(ans==3){                    |  }else if(ans==3){
+  a[i]=='1';                           |  a[i]=='1';
+  f=1;                                 |  f=1;
+  }                                    |  }
+ }                                     | }
+ if(f)a+='1';                          | if(f)a+='1';
+
+sim_res.txt: line 7-9                  |sim_res.txt: line 10-12            [54]
+File 58-2151.cpp: 195 tokens, 33 lines |File 72-2151.cpp: 251 tokens, 24 lines 
+File 64-2151.cpp: 242 tokens, 40 lines |File 76-2151.cpp: 303 tokens, 45 lines 
+File 67-2151.cpp: 368 tokens, 60 lines |File 78-2151.cpp: 511 tokens, 134 lines
+
+42-2151.cpp: line 20-25                |78-2151.cpp: line 18-21            [45]
+ reverse(s1.begin(), s1.end());        | reverse(s.begin(), s.end());
+ reverse(s2.begin(), s2.end());        | reverse(s2.begin(), s2.end());
+ reverse(s.begin(), s.end());          | reverse(s3.begin(), s3.end());
+// cout << s1 << endl << s2 << endl << | int ca = 0;
+                                       |
+ int mx = max(max(s1.size(), s2.size())|
+
+15-2151.cpp: line 13-16                |78-2151.cpp: line 17-20            [43]
+ string su="";                         | string s3 = s + "0000";
+ reverse(op.begin(),op.end());         | reverse(s.begin(), s.end());
+ reverse(ed.begin(),ed.end());         | reverse(s2.begin(), s2.end());
+ reverse(kw.begin(),kw.end());         | reverse(s3.begin(), s3.end());
+
+90-2151.cpp: line 23-28                |90-2151.cpp: line 29-34            [40]
+ if(a[i+3]>=1)                         | if(a[i+4]>=1)
+ {                                     | {
+  a[i+3]-=1;                           |  a[i+4]-=1;
+  a[i+4]+=1;                           |  a[i+5]+=1;
+ }                                     | }
+ else a[i+3]=1;                        | else a[i+4]=1;
+
+13-2151.cpp: line 50-54                |76-2151.cpp: line 38-44            [39]
+signed main(){                         |int main()
+ ios::sync_with_stdio(0);cin.tie(0);cou|{
+ int t=1;//cin>>t;                     | ios::sync_with_stdio(0);
+ while(t--) solve();                   | cout.tie(0);cin.tie(0);
+ return 0;                             | int t=1;//cin>>t;
+                                       | while(t--)solve();
+                                       | return 0;
+
+13-2151.cpp: line 34-40                |24-2151.cpp: line 13-17            [37]
+  if(ans==1){                          |  }else if(x==2){
+  a[i]='1';                            |  s[i]='0';t=1;
+  f=0;                                 |  }else if(x==3){
+  }else if(ans==2){                    |  s[i]='1';t=1;
+  a[i]='0';                            |  }
+  f=1;                                 |
+  }else if(ans==3){                    |
+
+67-2151.cpp: line 35-37                |67-2151.cpp: line 41-43            [36]
+  else if(t[i]=='1' && s[i]=='1'){     |  else if(t[i]=='0' && s[i]=='2'){
+  s[i]='0'; s[i+1]++;                  |  s[i]='0'; s[i+1]++;
+  }                                    |  }
+
+sim_res.txt: line 10-11                |sim_res.txt: line 12-13            [36]
+File 72-2151.cpp: 251 tokens, 24 lines |File 78-2151.cpp: 511 tokens, 134 lines
+File 76-2151.cpp: 303 tokens, 45 lines |File 90-2151.cpp: 325 tokens, 60 lines 
+
+67-2151.cpp: line 32-34                |67-2151.cpp: line 35-37            [35]
+  if(t[i]=='1' && s[i]=='2'){          |  else if(t[i]=='1' && s[i]=='1'){
+  s[i]='1'; s[i+1]++;                  |  s[i]='0'; s[i+1]++;
+  }                                    |  }
+
+90-2151.cpp: line 12-17                |90-2151.cpp: line 34-39            [35]
+ else a[i]=1;                          | else a[i+4]=1;
+ if(a[i+1]>1)                          | if(a[i+5]>1)
+ {                                     | {
+  a[i+1]-=2;                           |  a[i+5]-=2;
+  a[i+2]+=1;                           |  a[i+6]+=1;
+ }                                     | }
+
+13-2151.cpp: line 11-14                |78-2151.cpp: line 21-26            [34]
+ int f=0;                              | int ca = 0;
+ for(int i=0;i<b.size();i++){          | for (int i = 0; i < s2.size(); i ++)
+  int x=a[i]-'0';                      | {
+  int y=b[i]-'0';                      |  
+                                       |  int a2 = s2[i] - '0';
+                                       |  int a1 = 0;
+
+13-2151.cpp: line 8-10                 |78-2151.cpp: line 17-19            [33]
+ string a=s+"0000",b=s+"000";          | string s3 = s + "0000";
+ reverse(a.begin(),a.end());           | reverse(s.begin(), s.end());
+ reverse(b.begin(),b.end());b+='0';    | reverse(s2.begin(), s2.end());
+
+90-2151.cpp: line 18-22                |90-2151.cpp: line 35-39            [31]
+ if(a[i+2]>1)                          | if(a[i+5]>1)
+ {                                     | {
+  a[i+2]-=2;                           |  a[i+5]-=2;
+  a[i+3]+=1;                           |  a[i+6]+=1;
+ }                                     | }
+
+72-2151.cpp: line 10-10                |72-2151.cpp: line 11-11            [31]
+ for(int i = s2.size() - 1; i >= 0; i--|  for(int i = s.size() - 1; i >= 0; i--
+
+72-2151.cpp: line 9-9                  |72-2151.cpp: line 10-10            [31]
+  for(int i = s1.size() - 1; i >= 0; i-| for(int i = s2.size() - 1; i >= 0; i--
+
+13-2151.cpp: line 30-32                |78-2151.cpp: line 22-26            [30]
+ for(int i=0;i<a.size();i++){          | for (int i = 0; i < s2.size(); i ++)
+  int x=a[i]-'0';                      | {
+  int y=s[i]-'0';                      |  
+                                       |  int a2 = s2[i] - '0';
+                                       |  int a1 = 0;
+
+64-2151.cpp: line 6-7                  |78-2151.cpp: line 18-19            [28]
+  reverse(x.begin(),x.end());          | reverse(s.begin(), s.end());
+  reverse(y.begin(),y.end());          | reverse(s2.begin(), s2.end());
+
+15-2151.cpp: line 17-18                |78-2151.cpp: line 22-25            [27]
+ for(int i=0;i<ed.size();i++){         | for (int i = 0; i < s2.size(); i ++)
+  int jk=ed[i]-'0'+id;                 | {
+                                       |  
+                                       |  int a2 = s2[i] - '0';
+
+67-2151.cpp: line 38-39                |67-2151.cpp: line 41-42            [27]
+  else if(t[i]=='1' && s[i]=='0'){     |  else if(t[i]=='0' && s[i]=='2'){
+  s[i]='1';                            |  s[i]='0'; s[i+1]++;
+
+14-2151.cpp: line 29-31                |78-2151.cpp: line 129-133          [26]
+ if(b) res+=b+'0';                     | if (ca == 1) sa = sa + '1';
+ reverse(res.begin(),res.end());       | reverse(sa.begin(), sa.end());
+ cout<<res<<endl;                      | 
+                                       | cout << sa << endl;
+                                       | 
+
+42-2151.cpp: line 27-30                |42-2151.cpp: line 31-34            [26]
+ for (int i = s1.size(); i <= mx + 2; i| for (int i = s2.size(); i <= mx + 2; i
+ {                                     | {
+  s1 += '0';                           |  s2 += '0';
+ }                                     | }
+
+14-2151.cpp: line 14-16                |90-2151.cpp: line 44-47            [26]
+ int k=x3.length()-1;                  | cin>>s;
+ int b=0;                              | int i=0;
+ for(int i=x1.length()-1;i>=0;i--){    | for(int j=s.size()-1;j>=0;j--)
+                                       | {
+
+42-2151.cpp: line 31-34                |42-2151.cpp: line 35-38            [26]
+ for (int i = s2.size(); i <= mx + 2; i| for (int i = s.size(); i <= mx + 2; i 
+ {                                     | {
+  s2 += '0';                           |  s += '0';
+ }                                     | }
+
+67-2151.cpp: line 41-44                |67-2151.cpp: line 46-50            [25]
+  else if(t[i]=='0' && s[i]=='2'){     |  if(s[i]=='2'){
+  s[i]='0'; s[i+1]++;                  |  s[i]='0';
+  }                                    |  s[i+1]++;
+ }                                     |  }
+                                       | }
+
+78-2151.cpp: line 98-108               |78-2151.cpp: line 116-126          [24]
+  else if(a2)                          |  else if (a1 == 0 && a2 == 0)
+  {                                    |  {
+  sa = sa + '1';                       |  sa = sa + '1';
+  ca = 0;                              |  ca = 0;
+  }                                    |  }
+  else                                 |  else
+  {                                    |  {
+  sa = sa + '0';                       |  sa = sa + '0';
+  ca = 0;                              |  ca = 1;
+  }                                    |  }
+  }                                    |  }
+

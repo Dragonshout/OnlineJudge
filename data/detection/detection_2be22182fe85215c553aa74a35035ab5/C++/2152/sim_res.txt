@@ -1,0 +1,18 @@
+File 13-2152.cpp: 309 tokens, 58 lines (not NL-terminated)
+File 14-2152.cpp: 137 tokens, 29 lines (not NL-terminated)
+File 144-2152.cpp: 164 tokens, 42 lines (not NL-terminated)
+File 15-2152.cpp: 278 tokens, 57 lines (not NL-terminated)
+File 213-2152.cpp: 291 tokens, 53 lines (not NL-terminated)
+File 24-2152.cpp: 142 tokens, 27 lines (not NL-terminated)
+File 291-2152.cpp: 173 tokens, 39 lines (not NL-terminated)
+File 32-2152.cpp: 161 tokens, 35 lines (not NL-terminated)
+File 38-2152.cpp: 166 tokens, 36 lines (not NL-terminated)
+File 42-2152.cpp: 246 tokens, 63 lines (not NL-terminated)
+File 58-2152.cpp: 180 tokens, 36 lines (not NL-terminated)
+File 64-2152.cpp: 151 tokens, 32 lines (not NL-terminated)
+File 67-2152.cpp: 409 tokens, 68 lines (not NL-terminated)
+File 76-2152.cpp: 284 tokens, 62 lines (not NL-terminated)
+File 78-2152.cpp: 181 tokens, 40 lines (not NL-terminated)
+File 90-2152.cpp: 145 tokens, 35 lines (not NL-terminated)
+Total input: 16 files (16 new, 0 old), 3417 tokens
+

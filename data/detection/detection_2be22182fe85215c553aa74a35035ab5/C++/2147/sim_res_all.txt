@@ -1,0 +1,834 @@
+File 119-2147.cpp: 647 tokens, 49 lines (not NL-terminated)
+File 13-2147.cpp: 436 tokens, 52 lines (not NL-terminated)
+File 14-2147.cpp: 375 tokens, 62 lines (not NL-terminated)
+File 15-2147.cpp: 375 tokens, 51 lines (not NL-terminated)
+File 21-2147.cpp: 427 tokens, 64 lines (not NL-terminated)
+File 213-2147.cpp: 382 tokens, 54 lines (not NL-terminated)
+File 24-2147.cpp: 386 tokens, 51 lines (not NL-terminated)
+File 259-2147.cpp: 282 tokens, 49 lines (not NL-terminated)
+File 32-2147.cpp: 382 tokens, 51 lines (not NL-terminated)
+File 38-2147.cpp: 465 tokens, 48 lines (not NL-terminated)
+File 39-2147.cpp: 474 tokens, 43 lines (not NL-terminated)
+File 42-2147.cpp: 337 tokens, 58 lines (not NL-terminated)
+File 50-2147.cpp: 416 tokens, 62 lines (not NL-terminated)
+File 58-2147.cpp: 397 tokens, 53 lines (not NL-terminated)
+File 66-2147.cpp: 334 tokens, 56 lines (not NL-terminated)
+File 67-2147.cpp: 411 tokens, 55 lines (not NL-terminated)
+File 72-2147.cpp: 274 tokens, 34 lines (not NL-terminated)
+File 75-2147.cpp: 363 tokens, 41 lines (not NL-terminated)
+File 76-2147.cpp: 471 tokens, 63 lines (not NL-terminated)
+File 78-2147.cpp: 249 tokens, 43 lines (not NL-terminated)
+File 90-2147.cpp: 387 tokens, 61 lines (not NL-terminated)
+File sim_res.txt: 393 tokens, 23 lines
+Total input: 22 files (22 new, 0 old), 8663 tokens
+
+119-2147.cpp: line 17-26               |119-2147.cpp: line 27-35          [193]
+ }                                     | }
+                                       | for(int i=0;i<m;i++){
+ for(int i=0;i<n;i++){                 |  for(int j=0;j<m-i-1;j++){
+  for(int j=0;j<n-i-1;j++){            |  if(a2[j]<a2[j+1]||a2[j]==a2[j+1]&&b2[
+  if(a1[j]<a1[j+1]||a1[j]==a1[j+1]&&b1[|  x=a2[j];a2[j]=a2[j+1];a2[j+1]=x;
+  x=a1[j];a1[j]=a1[j+1];a1[j+1]=x;     |  x=b2[j];b2[j]=b2[j+1];b2[j+1]=x;
+  x=b1[j];b1[j]=b1[j+1];b1[j+1]=x;     |  x=c2[j];c2[j]=c2[j+1];c2[j+1]=x;
+  x=c1[j];c1[j]=c1[j+1];c1[j+1]=x;     |  }
+  }                                    |  }
+  }                                    |
+
+sim_res.txt: line 1-10                 |sim_res.txt: line 11-20           [180]
+File 119-2147.cpp: 647 tokens, 49 lines|File 39-2147.cpp: 474 tokens, 43 lines 
+File 13-2147.cpp: 436 tokens, 52 lines |File 42-2147.cpp: 337 tokens, 58 lines 
+File 14-2147.cpp: 375 tokens, 62 lines |File 50-2147.cpp: 416 tokens, 62 lines 
+File 15-2147.cpp: 375 tokens, 51 lines |File 58-2147.cpp: 397 tokens, 53 lines 
+File 21-2147.cpp: 427 tokens, 64 lines |File 66-2147.cpp: 334 tokens, 56 lines 
+File 213-2147.cpp: 382 tokens, 54 lines|File 67-2147.cpp: 411 tokens, 55 lines 
+File 24-2147.cpp: 386 tokens, 51 lines |File 72-2147.cpp: 274 tokens, 34 lines 
+File 259-2147.cpp: 282 tokens, 49 lines|File 75-2147.cpp: 363 tokens, 41 lines 
+File 32-2147.cpp: 382 tokens, 51 lines |File 76-2147.cpp: 471 tokens, 63 lines 
+File 38-2147.cpp: 465 tokens, 48 lines |File 78-2147.cpp: 249 tokens, 43 lines 
+
+213-2147.cpp: line 17-29               |90-2147.cpp: line 19-31           [108]
+ cin>>n1;                              | cin>>n;
+ for(int i=0;i<n1;i++){                | for(int i=0;i<n;i++)
+  cin>>r[i].a>>r[i].b>>r[i].c;         | {
+ }                                     |  cin>>a[i].a>>a[i].b>>a[i].c;
+ sort(r,r+n1,cmp);                     | }
+ /*for(int i=0;i<n1;i++){              | sort(a,a+n,cmp);
+  cout<<r[i].a<<r[i].b<<r[i].c<<endl;  | cin>>n;
+ }*/                                   | for(int i=0;i<n;i++)
+ cin>>n2;                              | {
+ for(int i=0;i<n2;i++){                |  cin>>b[i].a>>b[i].b>>b[i].c;
+  cin>>b[i].a>>b[i].b>>b[i].c;         | }
+ }                                     | 
+ sort(b,b+n2,cmp);                     | sort(b,b+n,cmp);
+
+14-2147.cpp: line 36-52                |58-2147.cpp: line 25-42           [105]
+  if(v[i].a>v1[i].a){                  |  if(R[i].a>B[i].a)
+  cnt1++;                              |  {
+  }                                    |  cnt1++;
+  else if(v[i].a<v1[i].a){             |  }
+  cnt2++;                              |  else if(R[i].a<B[i].a){
+  }                                    |  cnt2++;
+  else{                                |  }
+  if(v[i].b>v1[i].b){                  |  else{
+  cnt1++;                              |  if(R[i].b>B[i].b){
+  }                                    |  cnt1++;
+  else if(v[i].b<v1[i].b){             |  }
+  cnt2++;                              |  else if(R[i].b<B[i].b){
+  }                                    |  cnt2++;
+  else{                                |  }
+  if(v[i].c>v1[i].c){                  |  else{
+  cnt1++;                              |  if(R[i].c>B[i].c){
+  }                                    |  cnt1++;
+                                       |  }
+
+sim_res.txt: line 11-15                |sim_res.txt: line 16-20            [90]
+File 39-2147.cpp: 474 tokens, 43 lines |File 67-2147.cpp: 411 tokens, 55 lines 
+File 42-2147.cpp: 337 tokens, 58 lines |File 72-2147.cpp: 274 tokens, 34 lines 
+File 50-2147.cpp: 416 tokens, 62 lines |File 75-2147.cpp: 363 tokens, 41 lines 
+File 58-2147.cpp: 397 tokens, 53 lines |File 76-2147.cpp: 471 tokens, 63 lines 
+File 66-2147.cpp: 334 tokens, 56 lines |File 78-2147.cpp: 249 tokens, 43 lines 
+
+42-2147.cpp: line 16-26                |42-2147.cpp: line 28-38            [72]
+ int n1;                               | int n2;
+ cin >> n1;                            | cin >> n2;
+ vector<node> red(n1 + 1);             | vector<node> blue(n2 + 1);
+ for (int i = 1; i <= n1; i ++)        | for (int i = 1; i <= n2; i ++)
+ {                                     | {
+  int a, b, c;                         |  int a, b, c;
+  cin >> a >> b >> c;                  |  cin >> a >> b >> c;
+  red[i].a = a;                        |  blue[i].a = a;
+  red[i].b = b;                        |  blue[i].b = b;
+  red[i].c = c;                        |  blue[i].c = c;
+ }                                     | }
+
+15-2147.cpp: line 16-23                |15-2147.cpp: line 26-33            [64]
+  vector <book> wk;                    |  cin>>m;
+  for(int i=0;i<n;i++){                |  for(int i=0;i<m;i++){
+  int a,b,c;                           |  int a,b,c;
+  cin>>a>>b>>c;                        |  cin>>a>>b>>c;
+  book jk={a,b,c};                     |  book jk={a,b,c};
+  wk.push_back(jk);                    |  kw.push_back(jk);
+  }                                    |  }
+  sort(wk.begin(),wk.end(),cmp);       |  sort(kw.begin(),kw.end(),cmp);
+
+259-2147.cpp: line 23-28               |259-2147.cpp: line 29-34           [61]
+ scanf("%d",&n);                       | scanf("%d",&m);
+ for(int i=1;i<=n;i++)                 | for(int i=1;i<=m;i++)
+ {                                     | {
+  scanf("%d %d %d",&red[i].a,&red[i].b,|  scanf("%d %d %d",&blue[i].a,&blue[i].
+ }                                     | }
+ sort(red,red+n,cmp);                  | sort(blue,blue+m,cmp);
+
+58-2147.cpp: line 19-23                |72-2147.cpp: line 22-25            [61]
+ for(int i=0;i<m;i++)cin>>B[i].a>>B[i].|  cin >> m;struct x nb2[m];for(int i = 
+ sort(R,R+n,cmp);                      | sort(nb1, nb1 + n, cmp);
+ sort(B,B+m,cmp);                      |  sort(nb2, nb2 + m, cmp);
+// for(int i=0;i<n;i++)cout<<R[i].a<<R[|  int count = 0;
+ int cnt1=0,cnt2=0;                    |
+
+24-2147.cpp: line 22-28                |32-2147.cpp: line 25-30            [60]
+ cin>>m;                               | cin>>m;
+ for(int i=0;i<m;i++){                 | for (int i=0;i<m;i++){
+  cin>>b[i].a>>b[i].b>>b[i].c;         |  cin>>s2[i].a>>s2[i].b>>s2[i].c;
+ }                                     | }
+ //sort(a.begin(),a.end());            | sort(s1,s1+n);
+ sort(a,a+n);                          | sort(s2,s2+m);
+ sort(b,b+m);                          |
+
+66-2147.cpp: line 25-30                |66-2147.cpp: line 32-37            [58]
+ cin>>n;                               | cin>>m;
+ xz red[n];                            | xz blue[m];
+ for(i=0;i<n;i++){                     | for(i=0;i<m;i++){
+  cin>>red[i].a>>red[i].b>>red[i].c;   |  cin>>blue[i].a>>blue[i].b>>blue[i].c;
+ }                                     | }
+ sort(red,red+n,cmp);                  | sort(blue,blue+m,cmp);
+
+58-2147.cpp: line 6-10                 |90-2147.cpp: line 8-13             [58]
+ int a,b,c;                            | int c;
+}R[N],B[N];                            |}a[1005],b[1005];
+bool cmp(node t1,node t2){             |bool cmp(aa a,aa b)
+ if(t1.a!=t2.a)return t1.a>t2.a;       |{
+ if(t1.b!=t2.b)return t1.b>t2.b;       | if(a.a!=b.a) return a.a>b.a;
+                                       | if(a.b!=b.b) return a.b>b.b;
+
+76-2147.cpp: line 16-22                |76-2147.cpp: line 23-29            [57]
+ int n;cin>>n;                         | int m;cin>>m;
+ vector<pp> a(n);                      | vector<pp> b(m);
+ for(int i=0;i<n;i++)                  | for(int i=0;i<m;i++)
+ {                                     | {
+  int u,v,r;cin>>u>>v>>r;              |  int u,v,r;cin>>u>>v>>r;
+  a[i]={u,v,r};                        |  b[i]={u,v,r};
+ }                                     | }
+
+78-2147.cpp: line 11-19                |78-2147.cpp: line 20-28            [56]
+ int n;                                | int m;
+ cin >> n;                             | cin >> m;
+ for (int i = 1; i <= n; i ++)         | for (int i = 1; i <= m; i ++)
+ {                                     | {
+  int a, b, c;                         |  int a, b, c;
+  cin >> a >> b >> c;                  |  cin >> a >> b >> c;
+  int s = a * 100000000 + b * 10000 + c|  int s = a * 100000000 + b * 10000 + c
+  vr.push_back(s);                     |  vb.push_back(s);
+ }                                     | }
+
+90-2147.cpp: line 19-24                |90-2147.cpp: line 25-31            [54]
+ cin>>n;                               | cin>>n;
+ for(int i=0;i<n;i++)                  | for(int i=0;i<n;i++)
+ {                                     | {
+  cin>>a[i].a>>a[i].b>>a[i].c;         |  cin>>b[i].a>>b[i].b>>b[i].c;
+ }                                     | }
+ sort(a,a+n,cmp);                      | 
+                                       | sort(b,b+n,cmp);
+
+sim_res.txt: line 16-18                |sim_res.txt: line 19-21            [54]
+File 67-2147.cpp: 411 tokens, 55 lines |File 76-2147.cpp: 471 tokens, 63 lines 
+File 72-2147.cpp: 274 tokens, 34 lines |File 78-2147.cpp: 249 tokens, 43 lines 
+File 75-2147.cpp: 363 tokens, 41 lines |File 90-2147.cpp: 387 tokens, 61 lines 
+
+119-2147.cpp: line 8-12                |119-2147.cpp: line 13-17           [53]
+ cin>>n;                               | cin>>m;
+ int a1[n],b1[n],c1[n];                | int a2[m],b2[m],c2[m];
+ for(int i=0;i<n;i++){                 | for(int i=0;i<m;i++){
+  cin>>a1[i]>>b1[i]>>c1[i];            |  cin>>a2[i]>>b2[i]>>c2[i];
+ }                                     | }
+
+32-2147.cpp: line 24-29                |90-2147.cpp: line 18-24            [52]
+ int m;                                | int n;
+ cin>>m;                               | cin>>n;
+ for (int i=0;i<m;i++){                | for(int i=0;i<n;i++)
+  cin>>s2[i].a>>s2[i].b>>s2[i].c;      | {
+ }                                     |  cin>>a[i].a>>a[i].b>>a[i].c;
+ sort(s1,s1+n);                        | }
+                                       | sort(a,a+n,cmp);
+
+66-2147.cpp: line 34-39                |90-2147.cpp: line 26-32            [50]
+ for(i=0;i<m;i++){                     | for(int i=0;i<n;i++)
+  cin>>blue[i].a>>blue[i].b>>blue[i].c;| {
+ }                                     |  cin>>b[i].a>>b[i].b>>b[i].c;
+ sort(blue,blue+m,cmp);                | }
+                                       | 
+ int r=0;                              | sort(b,b+n,cmp);
+                                       | int ying=0;
+
+42-2147.cpp: line 10-15                |50-2147.cpp: line 13-18            [50]
+  if (x.a != y.a) return x.a > y.a;    |  if(x.a!=y.a) return x.a>y.a;
+  else if (x.b != y.b) return x.b > y.b|  else if(x.b!=x.b) return x.b>y.b;
+  else return x.c > y.c;               |  else return x.c>y.c;
+ }                                     |  }
+int main()                             |  int main()
+{                                      |  {
+
+32-2147.cpp: line 18-23                |90-2147.cpp: line 16-23            [50]
+void solve(){                          |signed main()
+ int n;                                |{
+ cin>>n;                               | int n;
+ for (int i=0;i<n;i++){                | cin>>n;
+  cin>>s1[i].a>>s1[i].b>>s1[i].c;      | for(int i=0;i<n;i++)
+ }                                     | {
+                                       |  cin>>a[i].a>>a[i].b>>a[i].c;
+                                       | }
+
+15-2147.cpp: line 6-9                  |39-2147.cpp: line 8-11             [49]
+}book;                                 |vector<peo> v1,v2;
+bool cmp(book op,book ed){             |bool cmp(peo aa,peo bb){
+ if(op.a!=ed.a) return op.a>ed.a;      | if(aa.a!=bb.a) return aa.a>bb.a;
+ else if(op.b!=ed.b) return op.b>ed.b; | else if(aa.b!=bb.b) return aa.b>bb.b;
+
+39-2147.cpp: line 9-11                 |42-2147.cpp: line 8-11             [48]
+bool cmp(peo aa,peo bb){               |bool cmp(node x, node y)
+ if(aa.a!=bb.a) return aa.a>bb.a;      | {
+ else if(aa.b!=bb.b) return aa.b>bb.b; |  if (x.a != y.a) return x.a > y.a;
+                                       |  else if (x.b != y.b) return x.b > y.b
+
+50-2147.cpp: line 5-13                 |58-2147.cpp: line 4-9              [48]
+  int n,cnt1=0,cnt2=0,m;               |const int N = 1010;
+  struct people                        |struct node{
+  {                                    | int a,b,c;
+  int a,b,c;                           |}R[N],B[N];
+  } red[N],blue[N];                    |bool cmp(node t1,node t2){
+                                       | if(t1.a!=t2.a)return t1.a>t2.a;
+  bool cmp(people x,people y)          |
+  {                                    |
+  if(x.a!=y.a) return x.a>y.a;         |
+
+72-2147.cpp: line 19-21                |72-2147.cpp: line 21-22            [48]
+  int n,m;cin >> n;                    | for(int i = 0; i < n; i++) cin >> nb1[
+  struct x nb1[n];                     |  cin >> m;struct x nb2[m];for(int i = 
+ for(int i = 0; i < n; i++) cin >> nb1[|
+
+39-2147.cpp: line 17-22                |39-2147.cpp: line 23-28            [47]
+ cin>>n;                               | cin>>m;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<m;i++){
+  int x,y,z;                           |  int x,y,z;
+  cin>>x>>y>>z;                        |  cin>>x>>y>>z;
+  v1.push_back({x,y,z});               |  v2.push_back({x,y,z});
+ }                                     | }
+
+90-2147.cpp: line 37-43                |90-2147.cpp: line 43-49            [47]
+  if(a[i].a!=b[i].a)                   |  if(bol==0&&a[i].b!=b[i].b)
+  {                                    |  {
+  if(a[i].a>b[i].a)                    |  if(a[i].b>b[i].b)
+  ying++;                              |  ying++;
+  bol=1;                               |  bol=1;
+  }                                    |  }
+  if(bol==0&&a[i].b!=b[i].b)           |  if(bol==0&&a[i].c!=b[i].c)
+
+38-2147.cpp: line 30-34                |58-2147.cpp: line 17-20            [47]
+  cin>>red[i].a>>red[i].b>>red[i].c;   | int m;
+  cin>>m;                              | cin>>m;
+  for(int i=0;i<m;i++)                 | for(int i=0;i<m;i++)cin>>B[i].a>>B[i].
+  cin>>blue[i].a>>blue[i].b>>blue[i].c;| sort(R,R+n,cmp);
+  sort(red,n);                         |
+
+32-2147.cpp: line 8-12                 |75-2147.cpp: line 11-15            [46]
+  friend bool operator<(const t t1,cons|bool operator>(struct P t1,struct P t2)
+  if (t1.a!=t2.a) return t1.a>t2.a;    | if(t1.a!=t2.a)return t1.a>t2.a;
+  else{                                | else{
+  if (t1.b!=t2.b) return t1.b>t1.b;    |  if(t1.b!=t2.b)return t1.b>t2.b;
+  else{                                |  else {
+
+21-2147.cpp: line 12-16                |213-2147.cpp: line 10-14           [46]
+ if(x.a!=y.a) return x.a>y.a;          | if(A.a!=B.a) return A.a>B.a;
+ if(x.b!=y.b) return x.b>y.b;          | if(A.b!=B.b) return A.b>B.b;
+ return x.c>y.c;                       | return A.c>B.c;
+}                                      |}
+int n,m;                               |int n1,n2,rw,bw;
+
+24-2147.cpp: line 31-35                |24-2147.cpp: line 35-39            [46]
+  x++;continue;                        |  x++;continue;
+  }else if(a[i].a<b[i].a){             |  }else if(a[i].b<b[i].b){
+  y++;continue;                        |  y++;continue;
+  }else if(a[i].b>b[i].b){             |  }else if(a[i].c>b[i].c){
+  x++;continue;                        |  x++;continue;
+
+13-2147.cpp: line 21-26                |14-2147.cpp: line 36-43            [46]
+  if(a[i].first>b[i].first){           |  if(v[i].a>v1[i].a){
+  x++;                                 |  cnt1++;
+  }else if(a[i].first<b[i].first){     |  }
+  y++;                                 |  else if(v[i].a<v1[i].a){
+  }else{                               |  cnt2++;
+  if(a[i].second.first>b[i].second.firs|  }
+                                       |  else{
+                                       |  if(v[i].b>v1[i].b){
+
+13-2147.cpp: line 7-11                 |13-2147.cpp: line 12-16            [46]
+ vector<pair<int,pair<int,int>>> a,b;  | int m;cin>>m;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<m;i++){
+  int x,y,z;cin>>x>>y>>z;              |  int x,y,z;cin>>x>>y>>z;
+  a.push_back({x,{y,z}});              |  b.push_back({x,{y,z}});
+ }                                     | }
+
+75-2147.cpp: line 21-25                |75-2147.cpp: line 26-30            [45]
+ int n1;cin>>n1;                       | int n2;cin>>n2;
+ P p1[n1];loop(n1){                    | P p2[n2];loop(n2){
+  int a,b,c;cin>>a>>b>>c;              |  int a,b,c;cin>>a>>b>>c;
+  p1[i]={a,b,c};                       |  p2[i]={a,b,c};
+ }                                     | }
+
+58-2147.cpp: line 25-33                |58-2147.cpp: line 33-40            [45]
+  if(R[i].a>B[i].a)                    |  if(R[i].b>B[i].b){
+  {                                    |  cnt1++;
+  cnt1++;                              |  }
+  }                                    |  else if(R[i].b<B[i].b){
+  else if(R[i].a<B[i].a){              |  cnt2++;
+  cnt2++;                              |  }
+  }                                    |  else{
+  else{                                |  if(R[i].c>B[i].c){
+  if(R[i].b>B[i].b){                   |
+
+213-2147.cpp: line 34-39               |213-2147.cpp: line 40-45           [44]
+  if(r[i].a<b[i].a){                   |  if(r[i].b<b[i].b){
+  bw++; continue;                      |  bw++; continue;
+  }                                    |  }
+  if(r[i].b>b[i].b){                   |  if(r[i].c>b[i].c){
+  rw++; continue;                      |  rw++; continue;
+  }                                    |  }
+
+13-2147.cpp: line 26-30                |13-2147.cpp: line 31-35            [44]
+  if(a[i].second.first>b[i].second.firs|  if(a[i].second.second>b[i].second.sec
+  x++;                                 |  x++;
+  }else if(a[i].second.first<b[i].secon|  }else if(a[i].second.second<b[i].seco
+  y++;                                 |  y++;
+  }else{                               |  }
+
+50-2147.cpp: line 39-44                |50-2147.cpp: line 46-51            [43]
+  {                                    |  {
+  if(red[i].a!=blue[i].a)              |  if(red[i].b!=blue[i].b)
+  {                                    |  {
+  if(red[i].a>blue[i].a) cnt1++;       |  if(red[i].b>blue[i].b) cnt1++;
+  else cnt2++;                         |  else cnt2++;
+  }                                    |  }
+
+58-2147.cpp: line 14-16                |58-2147.cpp: line 17-19            [43]
+ int n;                                | int m;
+ cin>>n;                               | cin>>m;
+ for(int i=0;i<n;i++)cin>>R[i].a>>R[i].| for(int i=0;i<m;i++)cin>>B[i].a>>B[i].
+
+213-2147.cpp: line 10-13               |72-2147.cpp: line 12-15            [43]
+ if(A.a!=B.a) return A.a>B.a;          |  if(t.a != k.a) return t.a > k.a;
+ if(A.b!=B.b) return A.b>B.b;          |  if(t.b != k.b) return t.b > k.b;
+ return A.c>B.c;                       |  return t.c > k.c;
+}                                      |}
+
+21-2147.cpp: line 34-38                |58-2147.cpp: line 20-24            [42]
+ sort(a,a+n,cmp);                      | sort(R,R+n,cmp);
+ sort(b,b+m,cmp);                      | sort(B,B+m,cmp);
+ int ans1=0,ans2=0;                    |// for(int i=0;i<n;i++)cout<<R[i].a<<R[
+ for(int i=0;i<3;i++)                  | int cnt1=0,cnt2=0;
+ {                                     | for(int i=0;i<3;i++){
+
+38-2147.cpp: line 27-30                |38-2147.cpp: line 30-33            [42]
+  int n,m,r=0,b=0;                     |  cin>>red[i].a>>red[i].b>>red[i].c;
+  cin>>n;                              |  cin>>m;
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<m;i++)
+  cin>>red[i].a>>red[i].b>>red[i].c;   |  cin>>blue[i].a>>blue[i].b>>blue[i].c;
+
+21-2147.cpp: line 18-25                |50-2147.cpp: line 17-24            [42]
+void solve()                           |  int main()
+{                                      |  {
+ cin>>n;                               |  cin>>n;
+ for(int i=0;i<n;i++)                  |  for(int i=0;i<n;i++)
+ {                                     |  {
+  int x,y,z;                           |  int a,b,c;
+  cin>>x>>y>>z;                        |  cin>>a>>b>>c;
+  a[i]={x,y,z};                        |  red[i].a=a;
+
+213-2147.cpp: line 46-51               |24-2147.cpp: line 40-45            [42]
+  if(r[i].c<b[i].c){                   |  }else if(a[i].c<b[i].c){
+  bw++; continue;                      |  y++;continue;
+  }                                    |  }
+ }                                     | }
+ cout<<rw<<" "<<bw<<endl;              | cout<<x<<" "<<y<<endl;
+ if(rw>bw) cout<<"Red";                | if(x>y){
+
+50-2147.cpp: line 19-24                |50-2147.cpp: line 28-33            [41]
+  cin>>n;                              |  cin>>m;
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<m;i++)
+  {                                    |  {
+  int a,b,c;                           |  int a,b,c;
+  cin>>a>>b>>c;                        |  cin>>a>>b>>c;
+  red[i].a=a;                          |  blue[i].a=a,blue[i].b=b,blue[i].c=c;
+
+76-2147.cpp: line 40-43                |76-2147.cpp: line 44-47            [41]
+  else                                 |  else
+  {                                    |  {
+  if(a[i].v>b[j].v)cnt1++;             |  if(a[i].r>b[j].r)cnt1++;
+  else if(a[i].v<b[j].v)cnt++;         |  else if(a[i].r<b[j].r)cnt++;
+
+13-2147.cpp: line 45-51                |21-2147.cpp: line 56-63            [41]
+}                                      |}
+                                       |signed main()
+signed main(){                         |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);cin.tie(0);cou
+ int t=1;//cin>>t;                     | int T=1;
+ while(t--) solve();                   |// cin>>T;
+ return 0;                             | while(T--) solve();
+                                       | return 0;
+
+24-2147.cpp: line 18-20                |24-2147.cpp: line 23-25            [40]
+ for(int i=0;i<n;i++){                 | for(int i=0;i<m;i++){
+  cin>>a[i].a>>a[i].b>>a[i].c;         |  cin>>b[i].a>>b[i].b>>b[i].c;
+ }                                     | }
+
+76-2147.cpp: line 37-39                |76-2147.cpp: line 41-43            [40]
+ {                                     |  {
+  if(a[i].u>b[j].u)cnt1++;             |  if(a[i].v>b[j].v)cnt1++;
+  else if(a[i].u<b[j].u)cnt++;         |  else if(a[i].v<b[j].v)cnt++;
+
+15-2147.cpp: line 36-41                |15-2147.cpp: line 41-46            [39]
+  if(wk[i].a>kw[i].a) {                |  if(wk[i].b>kw[i].b) {
+  id++;                                |  id++;
+  continue;                            |  continue;
+  }                                    |  }
+  if(wk[i].a<kw[i].a) continue;        |  if(wk[i].b<kw[i].b) continue;
+  if(wk[i].b>kw[i].b) {                |  if(wk[i].c>kw[i].c) id++;
+
+21-2147.cpp: line 26-32                |50-2147.cpp: line 27-33            [39]
+ }                                     |  }
+ cin>>m;                               |  cin>>m;
+ for(int i=0;i<m;i++)                  |  for(int i=0;i<m;i++)
+ {                                     |  {
+  int x,y,z;                           |  int a,b,c;
+  cin>>x>>y>>z;                        |  cin>>a>>b>>c;
+  b[i]={x,y,z};                        |  blue[i].a=a,blue[i].b=b,blue[i].c=c;
+
+21-2147.cpp: line 57-63                |76-2147.cpp: line 56-62            [39]
+signed main()                          |int main()
+{                                      |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);
+ int T=1;                              | cout.tie(0);cin.tie(0);
+// cin>>T;                             | int t=1;//cin>>t;
+ while(T--) solve();                   | while(t--)solve();
+ return 0;                             | return 0;
+
+39-2147.cpp: line 37-37                |39-2147.cpp: line 38-38            [39]
+  if(v1[i].a==v2[i].a&&v1[i].b==v2[i].b|  else if(v1[i].a==v2[i].a&&v1[i].b==v2
+
+14-2147.cpp: line 21-25                |14-2147.cpp: line 27-31            [38]
+ vector <node>v,v1;                    | cin>>m;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<m;i++){
+  cin>>a>>b>>c;                        |  cin>>a>>b>>c;
+  v.push_back({a,b,c});                |  v1.push_back({a,b,c});
+ }                                     | }
+
+58-2147.cpp: line 33-38                |58-2147.cpp: line 40-45            [37]
+  if(R[i].b>B[i].b){                   |  if(R[i].c>B[i].c){
+  cnt1++;                              |  cnt1++;
+  }                                    |  }
+  else if(R[i].b<B[i].b){              |  else if(R[i].c<B[i].c){
+  cnt2++;                              |  cnt2++;
+  }                                    |  }
+
+39-2147.cpp: line 27-31                |78-2147.cpp: line 27-31            [37]
+  v2.push_back({x,y,z});               |  vb.push_back(s);
+ }                                     | }
+ sort(v1.begin(),v1.end(),cmp);        | sort(vr.begin(), vr.end(), cmp);
+ sort(v2.begin(),v2.end(),cmp);        | sort(vb.begin(), vb.end(), cmp);
+ int sum1=0,sum2=0;                    | int ans = 0;
+
+50-2147.cpp: line 47-49                |90-2147.cpp: line 37-40            [37]
+  if(red[i].b!=blue[i].b)              |  if(a[i].a!=b[i].a)
+  {                                    |  {
+  if(red[i].b>blue[i].b) cnt1++;       |  if(a[i].a>b[i].a)
+                                       |  ying++;
+
+76-2147.cpp: line 29-32                |78-2147.cpp: line 28-31            [36]
+ }                                     | }
+ sort(a.begin(),a.end(),cmp);          | sort(vr.begin(), vr.end(), cmp);
+ sort(b.begin(),b.end(),cmp);          | sort(vb.begin(), vb.end(), cmp);
+ int cnt1=0,cnt=0;                     | int ans = 0;
+
+213-2147.cpp: line 5-10                |259-2147.cpp: line 3-10            [36]
+using namespace std;                   |using namespace std;
+struct jd{                             |struct node
+ int a,b,c;                            |{
+} r[1010],b[1010];                     | int a,b,c;
+bool cmp(jd A,jd B){                   |}red[1024],blue[1024];
+ if(A.a!=B.a) return A.a>B.a;          |bool cmp(node a,node b)
+                                       |{
+                                       | if(a.a == b.a)
+
+39-2147.cpp: line 35-36                |39-2147.cpp: line 37-38            [36]
+  if(v1[i].a==v2[i].a&&v1[i].b>v2[i].b)|  if(v1[i].a==v2[i].a&&v1[i].b==v2[i].b
+  else if(v1[i].a==v2[i].a&&v1[i].b<v2[|  else if(v1[i].a==v2[i].a&&v1[i].b==v2
+
+213-2147.cpp: line 30-33               |24-2147.cpp: line 29-32            [36]
+ for(int i=0;i<3;i++){                 | for(int i=0;i<3;i++){
+  if(r[i].a>b[i].a){                   |  if(a[i].a>b[i].a){
+  rw++; continue;                      |  x++;continue;
+  }                                    |  }else if(a[i].a<b[i].a){
+
+14-2147.cpp: line 29-32                |39-2147.cpp: line 26-29            [36]
+  cin>>a>>b>>c;                        |  cin>>x>>y>>z;
+  v1.push_back({a,b,c});               |  v2.push_back({x,y,z});
+ }                                     | }
+ sort(v.begin(),v.end());              | sort(v1.begin(),v1.end(),cmp);
+
+39-2147.cpp: line 31-33                |58-2147.cpp: line 23-25            [35]
+ int sum1=0,sum2=0;                    | int cnt1=0,cnt2=0;
+ for(int i=0;i<3;i++){                 | for(int i=0;i<3;i++){
+  if(v1[i].a>v2[i].a) sum1++;          |  if(R[i].a>B[i].a)
+
+90-2147.cpp: line 43-46                |90-2147.cpp: line 49-52            [35]
+  if(bol==0&&a[i].b!=b[i].b)           |  if(bol==0&&a[i].c!=b[i].c)
+  {                                    |  {
+  if(a[i].b>b[i].b)                    |  if(a[i].c>b[i].c)
+  ying++;                              |  ying++;
+
+13-2147.cpp: line 12-14                |15-2147.cpp: line 25-29            [35]
+ int m;cin>>m;                         |  int m;
+ for(int i=0;i<m;i++){                 |  cin>>m;
+  int x,y,z;cin>>x>>y>>z;              |  for(int i=0;i<m;i++){
+                                       |  int a,b,c;
+                                       |  cin>>a>>b>>c;
+
+15-2147.cpp: line 25-29                |39-2147.cpp: line 16-20            [34]
+  int m;                               | int n,m;
+  cin>>m;                              | cin>>n;
+  for(int i=0;i<m;i++){                | for(int i=0;i<n;i++){
+  int a,b,c;                           |  int x,y,z;
+  cin>>a>>b>>c;                        |  cin>>x>>y>>z;
+
+21-2147.cpp: line 4-12                 |76-2147.cpp: line 2-10             [34]
+using namespace std;                   |using namespace std;
+const int N=1e3+5;                     |const int N=1e6+5;
+struct node                            |struct pp
+{                                      |{
+ int a,b,c;                            | int u,v,r;
+};                                     |};
+bool cmp(node x,node y)                |bool cmp(pp a,pp b)
+{                                      |{
+ if(x.a!=y.a) return x.a>y.a;          | if(a.u==b.u&&a.v==b.v)return a.r<b.r;
+
+24-2147.cpp: line 29-31                |58-2147.cpp: line 24-27            [34]
+ for(int i=0;i<3;i++){                 | for(int i=0;i<3;i++){
+  if(a[i].a>b[i].a){                   |  if(R[i].a>B[i].a)
+  x++;continue;                        |  {
+                                       |  cnt1++;
+
+50-2147.cpp: line 29-33                |76-2147.cpp: line 18-21            [34]
+  for(int i=0;i<m;i++)                 | for(int i=0;i<n;i++)
+  {                                    | {
+  int a,b,c;                           |  int u,v,r;cin>>u>>v>>r;
+  cin>>a>>b>>c;                        |  a[i]={u,v,r};
+  blue[i].a=a,blue[i].b=b,blue[i].c=c; |
+
+38-2147.cpp: line 40-47                |78-2147.cpp: line 36-42            [34]
+  else                                 |  else ans2 ++;
+  b++;                                 | }
+  }                                    | cout << ans << " " << ans2 << endl;
+  cout<<r<<" "<<b<<endl;               | if (ans > ans2) cout << "Red\n";
+  if(r>b)                              | else cout << "Blue\n";
+  cout<<"Red";                         | 
+  else                                 | 
+  cout<<"Blue";                        |
+
+50-2147.cpp: line 14-18                |58-2147.cpp: line 10-13            [34]
+  else if(x.b!=x.b) return x.b>y.b;    | if(t1.b!=t2.b)return t1.b>t2.b;
+  else return x.c>y.c;                 | else return t1.c>t2.c;
+  }                                    |}
+  int main()                           |int main(){
+  {                                    |
+
+259-2147.cpp: line 34-38               |58-2147.cpp: line 21-25            [34]
+ sort(blue,blue+m,cmp);                | sort(B,B+m,cmp);
+ int rM=0,bM=0;                        |// for(int i=0;i<n;i++)cout<<R[i].a<<R[
+ for(int i = 0;i < 3;i++)              | int cnt1=0,cnt2=0;
+ {                                     | for(int i=0;i<3;i++){
+  if(cmp(blue[i],red[i]))              |  if(R[i].a>B[i].a)
+
+39-2147.cpp: line 38-42                |78-2147.cpp: line 36-42            [33]
+  else if(v1[i].a==v2[i].a&&v1[i].b==v2|  else ans2 ++;
+ }                                     | }
+ cout<<sum1<<" "<<sum2<<endl;          | cout << ans << " " << ans2 << endl;
+ if(sum1>sum2) cout<<"Red";            | if (ans > ans2) cout << "Red\n";
+ else cout<<"Blue";                    | else cout << "Blue\n";
+                                       | 
+                                       | 
+
+39-2147.cpp: line 23-26                |50-2147.cpp: line 19-23            [33]
+ cin>>m;                               |  cin>>n;
+ for(int i=0;i<m;i++){                 |  for(int i=0;i<n;i++)
+  int x,y,z;                           |  {
+  cin>>x>>y>>z;                        |  int a,b,c;
+                                       |  cin>>a>>b>>c;
+
+75-2147.cpp: line 27-31                |76-2147.cpp: line 25-30            [33]
+ P p2[n2];loop(n2){                    | for(int i=0;i<m;i++)
+  int a,b,c;cin>>a>>b>>c;              | {
+  p2[i]={a,b,c};                       |  int u,v,r;cin>>u>>v>>r;
+ }                                     |  b[i]={u,v,r};
+ sort(p1,p1+n1,greater<P>());          | }
+                                       | sort(a.begin(),a.end(),cmp);
+
+13-2147.cpp: line 18-21                |75-2147.cpp: line 32-35            [32]
+ sort(b.begin(),b.end(),greater<pair<in| sort(p2,p2+n2,greater<P>());
+ int x=0,y=0;                          | int l=0,r=0;
+ for(int i=0;i<3;i++){                 | for(int i=0;i<3;i++){
+  if(a[i].first>b[i].first){           |  if(p2[i]>p1[i])r++;
+
+75-2147.cpp: line 33-35                |78-2147.cpp: line 32-35            [32]
+ int l=0,r=0;                          | int ans2 = 0;
+ for(int i=0;i<3;i++){                 | for (int i = 0; i < 3; i ++)
+  if(p2[i]>p1[i])r++;                  | {
+                                       |  if (vr[i] > vb[i]) ans ++;
+
+38-2147.cpp: line 36-39                |72-2147.cpp: line 26-28            [32]
+  for(int i=0;i<3;i++)                 |  for(int i = 0; i < 3; i++)
+  {                                    |  {
+  if(fight(red[i],blue[i]))            |  if(cmp(nb1[i],nb2[i])) count++;
+  r++;                                 |
+
+14-2147.cpp: line 33-36                |75-2147.cpp: line 32-35            [31]
+ sort(v1.begin(),v1.end());            | sort(p2,p2+n2,greater<P>());
+ int cnt1=0,cnt2=0;                    | int l=0,r=0;
+ for(int i=0;i<3;i++){                 | for(int i=0;i<3;i++){
+  if(v[i].a>v1[i].a){                  |  if(p2[i]>p1[i])r++;
+
+15-2147.cpp: line 41-45                |213-2147.cpp: line 31-34           [31]
+  if(wk[i].b>kw[i].b) {                |  if(r[i].a>b[i].a){
+  id++;                                |  rw++; continue;
+  continue;                            |  }
+  }                                    |  if(r[i].a<b[i].a){
+  if(wk[i].b<kw[i].b) continue;        |
+
+13-2147.cpp: line 17-17                |13-2147.cpp: line 18-18            [31]
+ sort(a.begin(),a.end(),greater<pair<in| sort(b.begin(),b.end(),greater<pair<in
+
+42-2147.cpp: line 31-34                |78-2147.cpp: line 13-16            [30]
+ for (int i = 1; i <= n2; i ++)        | for (int i = 1; i <= n; i ++)
+ {                                     | {
+  int a, b, c;                         |  int a, b, c;
+  cin >> a >> b >> c;                  |  cin >> a >> b >> c;
+
+119-2147.cpp: line 14-16               |24-2147.cpp: line 16-19            [30]
+ int a2[m],b2[m],c2[m];                | struct tt a[1005],b[1005];
+ for(int i=0;i<m;i++){                 | //vector<tt> a(1005),b(1005);
+  cin>>a2[i]>>b2[i]>>c2[i];            | for(int i=0;i<n;i++){
+                                       |  cin>>a[i].a>>a[i].b>>a[i].c;
+
+72-2147.cpp: line 12-15                |90-2147.cpp: line 12-15            [29]
+  if(t.a != k.a) return t.a > k.a;     | if(a.a!=b.a) return a.a>b.a;
+  if(t.b != k.b) return t.b > k.b;     | if(a.b!=b.b) return a.b>b.b;
+  return t.c > k.c;                    | return a.c>b.c;
+}                                      |}
+
+32-2147.cpp: line 33-34                |32-2147.cpp: line 35-36            [29]
+  if (s1[i].a!=s2[i].a) sum+=s1[i].a<s2|  if (s1[i].b!=s2[i].b) sum+=s1[i].b<s2
+  else{                                |  else{
+
+50-2147.cpp: line 52-55                |76-2147.cpp: line 40-43            [29]
+  else                                 |  else
+  {                                    |  {
+  if(red[i].c>blue[i].c) cnt1++;       |  if(a[i].v>b[j].v)cnt1++;
+  else if(blue[i].c>red[i].c) cnt2++;  |  else if(a[i].v<b[j].v)cnt++;
+
+21-2147.cpp: line 40-43                |21-2147.cpp: line 44-47            [29]
+  if(x.a>y.a) ans1++;                  |  if(x.b>y.b) ans1++;
+  else if(x.a<y.a) ans2++;             |  else if(x.b<y.b) ans2++;
+  else                                 |  else
+  {                                    |  {
+
+72-2147.cpp: line 10-12                |75-2147.cpp: line 11-12            [28]
+bool cmp(struct x t, struct x k)       |bool operator>(struct P t1,struct P t2)
+{                                      | if(t1.a!=t2.a)return t1.a>t2.a;
+  if(t.a != k.a) return t.a > k.a;     |
+
+72-2147.cpp: line 24-27                |90-2147.cpp: line 31-34            [28]
+  sort(nb2, nb2 + m, cmp);             | sort(b,b+n,cmp);
+  int count = 0;                       | int ying=0;
+  for(int i = 0; i < 3; i++)           | for(int i=0;i<3;i++)
+  {                                    | {
+
+67-2147.cpp: line 6-8                  |67-2147.cpp: line 13-15            [27]
+ bool operator >(const GG x)const {    | bool operator <(const GG x)const {
+  for(int i=0;i<3;i++){                |  for(int i=0;i<3;i++){
+  if(a[i]>x.a[i]) return false;        |  if(a[i]<x.a[i]) return false;
+
+66-2147.cpp: line 8-11                 |66-2147.cpp: line 11-14            [27]
+bool cmp(xz p,xz q){                   | }else if(p.a==q.a){
+ if(p.a>q.a){                          |  if(p.b>q.b){
+  return true;                         |  return true;
+ }else if(p.a==q.a){                   |  }else if(p.b==q.b){
+
+21-2147.cpp: line 44-45                |21-2147.cpp: line 48-49            [27]
+  if(x.b>y.b) ans1++;                  |  if(x.c>y.c) ans1++;
+  else if(x.b<y.b) ans2++;             |  else if(x.c<y.c) ans2++;
+
+42-2147.cpp: line 53-56                |75-2147.cpp: line 36-39            [27]
+  else sum2 ++;                        |  else if(p1[i]>p2[i])l++;
+ }                                     | }
+  cout << sum1 << ' ' << sum2 << endl; | cout<<l<<' '<<r<<endl;
+ if (sum1 > sum2) cout << "Red\n";     | if(l>r)cout<<"Red"<<endl;
+
+119-2147.cpp: line 30-30               |119-2147.cpp: line 30-30           [27]
+  if(a2[j]<a2[j+1]||a2[j]==a2[j+1]&&b2[|  if(a2[j]<a2[j+1]||a2[j]==a2[j+1]&&b2[
+
+15-2147.cpp: line 33-36                |32-2147.cpp: line 30-33            [27]
+  sort(kw.begin(),kw.end(),cmp);       | sort(s2,s2+m);
+  int id=0;                            | int sum=0;
+  for(int i=0;i<3;i++){                | for (int i=0;i<3;i++){
+  if(wk[i].a>kw[i].a) {                |  if (s1[i].a!=s2[i].a) sum+=s1[i].a<s2
+
+15-2147.cpp: line 9-16                 |42-2147.cpp: line 11-18            [26]
+ else if(op.b!=ed.b) return op.b>ed.b; |  else if (x.b != y.b) return x.b > y.b
+ else return op.c>ed.c;                |  else return x.c > y.c;
+}                                      | }
+int main()                             |int main()
+{                                      |{
+  int n;                               | int n1;
+  cin>>n;                              | cin >> n1;
+  vector <book> wk;                    | vector<node> red(n1 + 1); 
+
+38-2147.cpp: line 19-19                |38-2147.cpp: line 19-19            [26]
+  if(red[j].a<red[j+1].a||(red[j].a==re|  if(red[j].a<red[j+1].a||(red[j].a==re
+
+66-2147.cpp: line 41-42                |72-2147.cpp: line 26-28            [26]
+ for(i=0;i<3;i++){                     |  for(int i = 0; i < 3; i++)
+  if(cmp(red[i],blue[i])){             |  {
+                                       |  if(cmp(nb1[i],nb2[i])) count++;
+
+42-2147.cpp: line 34-38                |50-2147.cpp: line 23-27            [26]
+  cin >> a >> b >> c;                  |  cin>>a>>b>>c;
+  blue[i].a = a;                       |  red[i].a=a;
+  blue[i].b = b;                       |  red[i].b=b;
+  blue[i].c = c;                       |  red[i].c=c;
+ }                                     |  }
+
+39-2147.cpp: line 34-35                |39-2147.cpp: line 36-37            [26]
+  else sum2++;                         |  else if(v1[i].a==v2[i].a&&v1[i].b<v2[
+  if(v1[i].a==v2[i].a&&v1[i].b>v2[i].b)|  if(v1[i].a==v2[i].a&&v1[i].b==v2[i].b
+
+14-2147.cpp: line 53-58                |50-2147.cpp: line 55-60            [25]
+  else cnt2++;                         |  else if(blue[i].c>red[i].c) cnt2++;
+  }                                    |  }
+  }                                    |  }
+ }                                     |  }
+ cout<<cnt1<<' '<<cnt2<<endl;          |  cout<<cnt1<<' '<<cnt2<<endl;
+ if(cnt1>cnt2){                        |  if(cnt1>cnt2) puts("Red");
+
+24-2147.cpp: line 35-38                |24-2147.cpp: line 39-42            [25]
+  x++;continue;                        |  x++;continue;
+  }else if(a[i].b<b[i].b){             |  }else if(a[i].c<b[i].c){
+  y++;continue;                        |  y++;continue;
+  }else if(a[i].c>b[i].c){             |  }
+
+58-2147.cpp: line 23-25                |75-2147.cpp: line 33-35            [25]
+ int cnt1=0,cnt2=0;                    | int l=0,r=0;
+ for(int i=0;i<3;i++){                 | for(int i=0;i<3;i++){
+  if(R[i].a>B[i].a)                    |  if(p2[i]>p1[i])r++;
+
+259-2147.cpp: line 3-8                 |38-2147.cpp: line 2-6              [25]
+using namespace std;                   |using namespace std;
+struct node                            |struct zu{
+{                                      |  int a,b,c;
+ int a,b,c;                            |}red[1000],blue[1000];
+}red[1024],blue[1024];                 |bool fight(struct zu red,struct zu blue
+bool cmp(node a,node b)                |
+
+119-2147.cpp: line 31-32               |119-2147.cpp: line 32-33           [25]
+  x=a2[j];a2[j]=a2[j+1];a2[j+1]=x;     |  x=b2[j];b2[j]=b2[j+1];b2[j+1]=x;
+  x=b2[j];b2[j]=b2[j+1];b2[j+1]=x;     |  x=c2[j];c2[j]=c2[j+1];c2[j+1]=x;
+
+42-2147.cpp: line 3-10                 |76-2147.cpp: line 3-10             [25]
+const int INF = 0x3f3f3f3f;            |const int N=1e6+5;
+struct node                            |struct pp
+{                                      |{
+ int a, b, c;                          | int u,v,r;
+};                                     |};
+bool cmp(node x, node y)               |bool cmp(pp a,pp b)
+ {                                     |{
+  if (x.a != y.a) return x.a > y.a;    | if(a.u==b.u&&a.v==b.v)return a.r<b.r;
+
+119-2147.cpp: line 37-39               |15-2147.cpp: line 34-36            [24]
+ int cnt=0;                            |  int id=0;
+ for(int i=0;i<3;i++){                 |  for(int i=0;i<3;i++){
+  if(a1[i]<a2[i]||a1[i]==a2[i]&&b1[i]<b|  if(wk[i].a>kw[i].a) {
+
+119-2147.cpp: line 28-29               |38-2147.cpp: line 16-18            [24]
+ for(int i=0;i<m;i++){                 |  for(int i=0;i<n;i++)
+  for(int j=0;j<m-i-1;j++){            |  {
+                                       |  for(int j=0;j<n-1;j++)
+
+119-2147.cpp: line 31-31               |119-2147.cpp: line 32-32           [24]
+  x=a2[j];a2[j]=a2[j+1];a2[j+1]=x;     |  x=b2[j];b2[j]=b2[j+1];b2[j+1]=x;
+
+42-2147.cpp: line 50-52                |72-2147.cpp: line 26-28            [24]
+ for (int i = 1; i <= 3; i ++)         |  for(int i = 0; i < 3; i++)
+ {                                     |  {
+  if (cmp(red[i], blue[i])) sum1 ++;   |  if(cmp(nb1[i],nb2[i])) count++;
+
+72-2147.cpp: line 22-22                |90-2147.cpp: line 22-22            [24]
+  cin >> m;struct x nb2[m];for(int i = |  cin>>a[i].a>>a[i].b>>a[i].c;
+
+32-2147.cpp: line 31-33                |78-2147.cpp: line 32-35            [24]
+ int sum=0;                            | int ans2 = 0;
+ for (int i=0;i<3;i++){                | for (int i = 0; i < 3; i ++)
+  if (s1[i].a!=s2[i].a) sum+=s1[i].a<s2| {
+                                       |  if (vr[i] > vb[i]) ans ++;
+
+58-2147.cpp: line 48-50                |78-2147.cpp: line 37-39            [24]
+ }                                     | }
+ cout<<cnt1<<" "<<cnt2<<endl;          | cout << ans << " " << ans2 << endl;
+ if(cnt1>cnt2)cout<<"Red"<<endl;       | if (ans > ans2) cout << "Red\n";
+

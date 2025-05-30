@@ -1,0 +1,14 @@
+File 11-16.cpp: 745 tokens, 70 lines (not NL-terminated)
+File 13-16.cpp: 416 tokens, 40 lines (not NL-terminated)
+File 19-16.cpp: 247 tokens, 26 lines (not NL-terminated)
+File 21-16.cpp: 381 tokens, 41 lines (not NL-terminated)
+File 26-16.cpp: 578 tokens, 90 lines (not NL-terminated)
+File 27-16.cpp: 506 tokens, 64 lines (not NL-terminated)
+File 30-16.cpp: 372 tokens, 34 lines (not NL-terminated)
+File 32-16.cpp: 339 tokens, 34 lines (not NL-terminated)
+File 35-16.cpp: 379 tokens, 36 lines (not NL-terminated)
+File 42-16.cpp: 273 tokens, 42 lines (not NL-terminated)
+File 45-16.cpp: 228 tokens, 23 lines (not NL-terminated)
+File 58-16.cpp: 418 tokens, 47 lines (not NL-terminated)
+Total input: 12 files (12 new, 0 old), 4882 tokens
+

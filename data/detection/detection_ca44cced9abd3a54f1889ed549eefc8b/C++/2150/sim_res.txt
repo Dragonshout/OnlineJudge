@@ -1,0 +1,8 @@
+File 13-2150.cpp: 423 tokens, 49 lines (not NL-terminated)
+File 15-2150.cpp: 445 tokens, 57 lines (not NL-terminated)
+File 32-2150.cpp: 597 tokens, 68 lines (not NL-terminated)
+File 76-2150.cpp: 473 tokens, 80 lines (not NL-terminated)
+File 90-2150.cpp: 409 tokens, 50 lines (not NL-terminated)
+Total input: 5 files (5 new, 0 old), 2347 tokens
+
+32-2150.cpp consists for 20 % of 76-2150.cpp material

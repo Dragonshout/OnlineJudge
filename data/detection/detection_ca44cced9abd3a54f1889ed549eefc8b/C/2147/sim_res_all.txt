@@ -1,0 +1,50 @@
+File 172-2147.c: 648 tokens, 131 lines (not NL-terminated)
+File sim_res.txt: 33 tokens, 3 lines
+Total input: 2 files (2 new, 0 old), 681 tokens
+
+172-2147.c: line 49-72                 |172-2147.c: line 75-98            [179]
+ int acount = 0;                       | int bcount = 0;
+ scanf("%d",&acount);                  | scanf("%d",&bcount);
+ team agroup[1002] = {0};              | team bgroup[1002] = {0};
+ for(int i = 0;i<acount;i++)           | for(int i = 0;i<bcount;i++)
+ {                                     | {
+  scanf("%d %d %d",&agroup[i].a,&agroup|  scanf("%d %d %d",&bgroup[i].a,&bgroup
+ }                                     | }
+ team ateams[3] = {0};                 | team bteams[3] = {0};
+ for(int i = acount - 1;i>=0;i--)      | for(int i = bcount - 1;i>=0;i--)
+ {                                     | {
+  for(int j = 0;j<i;j++)               |  for(int j = 0;j<i;j++)
+  {                                    |  {
+  if(cmp(&agroup[j],&agroup[j + 1])==1)|  if(cmp(&bgroup[j],&bgroup[j + 1])==1)
+  {                                    |  {
+  team tempt = agroup[j];              |  team tempt = bgroup[j];
+  agroup[j] = agroup[j + 1];           |  bgroup[j] = bgroup[j + 1];
+  agroup[j + 1] = tempt;               |  bgroup[j + 1] = tempt;
+  }                                    |  }
+  }                                    |  }
+ }                                     | }
+ for(int i =0;i<3;i++)                 | for(int i =0;i<3;i++)
+ {                                     | {
+  ateams[i] = agroup[i];               |  bteams[i] = bgroup[i];
+ }                                     | }
+
+172-2147.c: line 18-25                 |172-2147.c: line 26-33             [29]
+ if(a.b>b.b)                           | if(a.c>b.c)
+ {                                     | {
+  return 1;                            |  return 1;
+ }                                     | }
+ else if(a.b<b.b)                      | else if(a.c<b.c)
+ {                                     | {
+  return 0;                            |  return 0;
+ }                                     | }
+
+172-2147.c: line 10-17                 |172-2147.c: line 18-25             [29]
+ if(a.a>b.a)                           | if(a.b>b.b)
+ {                                     | {
+  return 1;                            |  return 1;
+ }                                     | }
+ else if(a.a<b.a)                      | else if(a.b<b.b)
+ {                                     | {
+  return 0;                            |  return 0;
+ }                                     | }
+

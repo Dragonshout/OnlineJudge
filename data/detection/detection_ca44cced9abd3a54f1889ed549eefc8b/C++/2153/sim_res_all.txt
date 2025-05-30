@@ -1,0 +1,17 @@
+File 13-2153.cpp: 102 tokens, 17 lines (not NL-terminated)
+File 21-2153.cpp: 123 tokens, 21 lines (not NL-terminated)
+File sim_res.txt: 67 tokens, 5 lines
+Total input: 3 files (3 new, 0 old), 292 tokens
+
+13-2153.cpp: line 8-16                 |21-2153.cpp: line 11-20            [57]
+ while(x*x+x<2*n)x++;                  | while(ans*(ans+1)/2<n) ans++;
+ cout<<x<<"\n";                        | cout<<ans<<"\n";
+}                                      |}
+                                       |signed main()
+signed main(){                         |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);cin.tie(0);cou
+ int t=1;cin>>t;                       | int T=1;
+ while(t--) solve();                   | cin>>T;
+ return 0;                             | while(T--) solve();
+                                       | return 0;
+

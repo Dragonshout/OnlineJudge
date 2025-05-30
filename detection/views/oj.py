@@ -3,13 +3,13 @@ from django.db.models import Max, F
 
 from account.decorators import login_required, detection_detail_permission_required
 from account.models import User
-from detection.models import DetectionComparison
+from detection.models import DetectionComparison, AIGCDetectionResult
 from utils.api import APIView
 from rest_framework.permissions import IsAuthenticated
 from problem.models import Problem
 from detection.serializers import DetectionSerializer
 from submission.models import Submission, JudgeStatus  # 导入提交模型
-from detection.tasks import do_detection
+from detection.tasks import do_detection, aigc_detection
 
 
 class DetectionAPI(APIView):
@@ -34,7 +34,6 @@ class DetectionAPI(APIView):
         detections = problem.detections.all().order_by("-created_at")
         # 序列化数据，many=True 表示序列化多个对象
         serializer = DetectionSerializer(detections, many=True)
-        # 返回数据放在 data 键下，这样前端可以通过 res.data.data 获取到查重列表
 
         return self.success(serializer.data)
 
@@ -66,6 +65,14 @@ class DetectionAPI(APIView):
         data["title"] = data.pop("problemID", None)
         data["file_count"] = submission_count  # 设置提交数量，只统计 result==0 的记录
 
+        algorithm = data.pop("checkAlgorithm",None)
+        if algorithm == "SIM查重算法":
+            algorithm = "SIM"
+        else:
+            algorithm = "AIGC"
+
+        data["algorithm_params"] = algorithm
+
         serializer = DetectionSerializer(data=data)
 
         if serializer.is_valid():
@@ -74,7 +81,10 @@ class DetectionAPI(APIView):
                 detection = serializer.save(created_by=request.user)
                 detection.submissions.set(submissions)
                 # 异步触发查重任务，传入 detection 对象的 pk
-                do_detection.send(detection.id)
+                if algorithm == "SIM":
+                    do_detection.send(detection.id)
+                else:
+                    aigc_detection.send(detection.id)
                 return self.success("已提交查重")
             else:
                 return self.success("没有需要查重的代码")
@@ -231,3 +241,50 @@ class DetectionCompareAPI(APIView):
 
         except Exception as e:
             return self.error(str(e))
+
+
+class DetectionAIGCDetailAPI(APIView):
+    permission_classes = [IsAuthenticated]
+
+    @login_required
+    @detection_detail_permission_required
+    def get(self, request, problem_id, detection_id):
+        try:
+            # 获取当前检测任务下的 AIGC 检测结果
+            aigc_results = AIGCDetectionResult.objects.filter(detection_id=detection_id)
+            if not aigc_results.exists():
+                return self.error("未找到 AIGC 查重记录")
+
+            # 2. 获取所有涉及的用户ID（包括user_a和user_b）
+            all_user_ids = set(
+                list(aigc_results.values_list('user_id', flat=True))
+            )
+
+            # 3. 批量查询所有用户名
+            users_map = {
+                user.id: user.username
+                for user in User.objects.filter(id__in=all_user_ids)
+            }
+
+
+            # 按照相似度倒序排序
+            sorted_results = aigc_results.order_by('-similarity')
+
+            results_list = []
+            for result in sorted_results:
+
+                results_list.append({
+                    "id": result.id,
+                    "language": result.language,
+                    "similarity": round(result.similarity),  # 百分比显示
+                    "user": users_map.get(result.user_id),           # 提交代码的人
+                    "submission_code": result.user_code,         # 提交的代码
+                    "created_at": result.created_at.strftime("%Y-%m-%d %H:%M:%S")
+                })
+
+            return self.success({
+                "aigc_detection_results": results_list
+            })
+
+        except Exception as e:
+            return self.error(f"查询失败: {str(e)}")

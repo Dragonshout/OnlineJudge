@@ -1,0 +1,48 @@
+File 125-2146.c: 222 tokens, 66 lines (not NL-terminated)
+File 172-2146.c: 273 tokens, 60 lines (not NL-terminated)
+File 284-2146.c: 226 tokens, 38 lines (not NL-terminated)
+File 345-2146.c: 425 tokens, 71 lines (not NL-terminated)
+File sim_res.txt: 87 tokens, 6 lines
+Total input: 5 files (5 new, 0 old), 1233 tokens
+
+345-2146.c: line 2-16                  |345-2146.c: line 22-36             [90]
+int max(int shu){                      |int min(int shu){
+ int a[10000];                         | int a[10000];
+ int i=0;                              | int i=0;
+ while(shu/10!=0){                     | while(shu/10!=0){
+  a[i]=shu%10;                         |  a[i]=shu%10;
+  shu/=10;                             |  shu/=10;
+  i++;                                 |  i++;
+ }                                     | }
+ if(shu/10==0){                        | if(shu/10==0){
+  a[i]=shu;                            |  a[i]=shu;
+ }                                     | }
+ int j,max;                            | int j,min;
+ max=a[0];                             | min=a[0];
+ for(j=1;j<i+1;j++){                   | for(j=1;j<i+1;j++){
+  if(a[j]>max){                        |  if(a[j]<min){
+
+125-2146.c: line 28-45                 |125-2146.c: line 49-62             [42]
+}                                      |}
+                                       |int min(int n)
+                                       |{
+                                       |  int a;
+                                       |  if(n/10==0)
+int max(int n)                         |  {
+{                                      |  return n;
+  int a;                               |  }
+  if(n/10==0)                          |  else
+  {                                    |  {
+  return n;                            |  a=n%10;
+  }                                    |  }
+  else                                 |  int b=min(n/10);
+  {                                    |  if(a>b)
+  a=n%10;                              |
+  }                                    |
+  int b=max(n/10);                     |
+  if(a<b)                              |
+
+sim_res.txt: line 1-2                  |sim_res.txt: line 3-4              [36]
+File 125-2146.c: 222 tokens, 66 lines (|File 284-2146.c: 226 tokens, 38 lines (
+File 172-2146.c: 273 tokens, 60 lines (|File 345-2146.c: 425 tokens, 71 lines (
+

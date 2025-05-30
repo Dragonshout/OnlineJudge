@@ -1,0 +1,3 @@
+File 172-2147.c: 648 tokens, 131 lines (not NL-terminated)
+Total input: 1 file (1 new, 0 old), 648 tokens
+

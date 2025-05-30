@@ -1,0 +1,1690 @@
+File 117-2144.cpp: 120 tokens, 39 lines (not NL-terminated)
+File 119-2144.cpp: 125 tokens, 27 lines (not NL-terminated)
+File 121-2144.cpp: 118 tokens, 26 lines (not NL-terminated)
+File 124-2144.cpp: 117 tokens, 25 lines (not NL-terminated)
+File 126-2144.cpp: 143 tokens, 23 lines (not NL-terminated)
+File 13-2144.cpp: 116 tokens, 19 lines (not NL-terminated)
+File 132-2144.cpp: 133 tokens, 29 lines (not NL-terminated)
+File 133-2144.cpp: 128 tokens, 20 lines (not NL-terminated)
+File 136-2144.cpp: 171 tokens, 35 lines (not NL-terminated)
+File 139-2144.cpp: 116 tokens, 18 lines (not NL-terminated)
+File 14-2144.cpp: 118 tokens, 20 lines (not NL-terminated)
+File 141-2144.cpp: 141 tokens, 46 lines (not NL-terminated)
+File 144-2144.cpp: 135 tokens, 33 lines (not NL-terminated)
+File 15-2144.cpp: 120 tokens, 21 lines (not NL-terminated)
+File 151-2144.cpp: 149 tokens, 25 lines (not NL-terminated)
+File 17-2144.cpp: 174 tokens, 25 lines (not NL-terminated)
+File 170-2144.cpp: 141 tokens, 31 lines (not NL-terminated)
+File 180-2144.cpp: 140 tokens, 33 lines (not NL-terminated)
+File 182-2144.cpp: 135 tokens, 26 lines (not NL-terminated)
+File 206-2144.cpp: 116 tokens, 24 lines (not NL-terminated)
+File 21-2144.cpp: 176 tokens, 29 lines (not NL-terminated)
+File 213-2144.cpp: 126 tokens, 23 lines (not NL-terminated)
+File 228-2144.cpp: 153 tokens, 36 lines (not NL-terminated)
+File 23-2144.cpp: 136 tokens, 28 lines (not NL-terminated)
+File 238-2144.cpp: 146 tokens, 26 lines (not NL-terminated)
+File 24-2144.cpp: 118 tokens, 20 lines (not NL-terminated)
+File 245-2144.cpp: 135 tokens, 21 lines (not NL-terminated)
+File 251-2144.cpp: 135 tokens, 24 lines (not NL-terminated)
+File 256-2144.cpp: 153 tokens, 28 lines (not NL-terminated)
+File 258-2144.cpp: 123 tokens, 19 lines (not NL-terminated)
+File 259-2144.cpp: 129 tokens, 33 lines (not NL-terminated)
+File 305-2144.cpp: 157 tokens, 37 lines (not NL-terminated)
+File 308-2144.cpp: 145 tokens, 26 lines (not NL-terminated)
+File 309-2144.cpp: 144 tokens, 38 lines (not NL-terminated)
+File 31-2144.cpp: 133 tokens, 21 lines (not NL-terminated)
+File 311-2144.cpp: 143 tokens, 33 lines (not NL-terminated)
+File 316-2144.cpp: 137 tokens, 25 lines (not NL-terminated)
+File 317-2144.cpp: 138 tokens, 30 lines (not NL-terminated)
+File 32-2144.cpp: 136 tokens, 25 lines (not NL-terminated)
+File 321-2144.cpp: 137 tokens, 33 lines (not NL-terminated)
+File 326-2144.cpp: 135 tokens, 28 lines (not NL-terminated)
+File 328-2144.cpp: 119 tokens, 22 lines (not NL-terminated)
+File 329-2144.cpp: 152 tokens, 25 lines (not NL-terminated)
+File 330-2144.cpp: 145 tokens, 20 lines (not NL-terminated)
+File 335-2144.cpp: 114 tokens, 18 lines (not NL-terminated)
+File 336-2144.cpp: 170 tokens, 44 lines (not NL-terminated)
+File 340-2144.cpp: 148 tokens, 31 lines (not NL-terminated)
+File 346-2144.cpp: 118 tokens, 24 lines (not NL-terminated)
+File 351-2144.cpp: 126 tokens, 27 lines (not NL-terminated)
+File 354-2144.cpp: 122 tokens, 23 lines (not NL-terminated)
+File 357-2144.cpp: 138 tokens, 35 lines (not NL-terminated)
+File 364-2144.cpp: 141 tokens, 29 lines (not NL-terminated)
+File 38-2144.cpp: 129 tokens, 23 lines (not NL-terminated)
+File 39-2144.cpp: 124 tokens, 25 lines (not NL-terminated)
+File 42-2144.cpp: 120 tokens, 23 lines (not NL-terminated)
+File 43-2144.cpp: 122 tokens, 26 lines (not NL-terminated)
+File 47-2144.cpp: 128 tokens, 21 lines (not NL-terminated)
+File 49-2144.cpp: 122 tokens, 22 lines (not NL-terminated)
+File 50-2144.cpp: 119 tokens, 19 lines (not NL-terminated)
+File 58-2144.cpp: 121 tokens, 19 lines (not NL-terminated)
+File 59-2144.cpp: 128 tokens, 24 lines (not NL-terminated)
+File 60-2144.cpp: 126 tokens, 29 lines (not NL-terminated)
+File 63-2144.cpp: 131 tokens, 26 lines (not NL-terminated)
+File 64-2144.cpp: 110 tokens, 22 lines (not NL-terminated)
+File 66-2144.cpp: 150 tokens, 27 lines (not NL-terminated)
+File 67-2144.cpp: 113 tokens, 26 lines (not NL-terminated)
+File 70-2144.cpp: 147 tokens, 30 lines (not NL-terminated)
+File 71-2144.cpp: 148 tokens, 38 lines (not NL-terminated)
+File 72-2144.cpp: 135 tokens, 20 lines (not NL-terminated)
+File 75-2144.cpp: 153 tokens, 17 lines (not NL-terminated)
+File 76-2144.cpp: 168 tokens, 29 lines (not NL-terminated)
+File 78-2144.cpp: 118 tokens, 23 lines (not NL-terminated)
+File 83-2144.cpp: 129 tokens, 20 lines (not NL-terminated)
+File 89-2144.cpp: 127 tokens, 26 lines (not NL-terminated)
+File 90-2144.cpp: 120 tokens, 34 lines (not NL-terminated)
+File 97-2144.cpp: 135 tokens, 34 lines (not NL-terminated)
+File 98-2144.cpp: 118 tokens, 28 lines (not NL-terminated)
+File sim_res.txt: 3257 tokens, 195 lines
+Total input: 78 files (78 new, 0 old), 13582 tokens
+
+sim_res.txt: line 78-137               |sim_res.txt: line 137-195         [928]
+Total input: 77 files (77 new, 0 old), |316-2144.cpp consists for 33 % of 351-2
+                                       |316-2144.cpp consists for 23 % of 321-2
+121-2144.cpp consists for 83 % of 132-2|60-2144.cpp consists for 33 % of 72-214
+13-2144.cpp consists for 71 % of 47-214|15-2144.cpp consists for 33 % of 21-214
+335-2144.cpp consists for 67 % of 38-21|15-2144.cpp consists for 24 % of 31-214
+335-2144.cpp consists for 30 % of 75-21|15-2144.cpp consists for 22 % of 78-214
+47-2144.cpp consists for 64 % of 72-214|31-2144.cpp consists for 32 % of 38-214
+43-2144.cpp consists for 61 % of 90-214|31-2144.cpp consists for 26 % of 330-21
+43-2144.cpp consists for 27 % of 59-214|31-2144.cpp consists for 23 % of 317-21
+14-2144.cpp consists for 61 % of 90-214|67-2144.cpp consists for 32 % of 70-214
+14-2144.cpp consists for 33 % of 32-214|67-2144.cpp consists for 28 % of 75-214
+50-2144.cpp consists for 61 % of 76-214|67-2144.cpp consists for 28 % of 72-214
+328-2144.cpp consists for 60 % of 70-21|329-2144.cpp consists for 32 % of 97-21
+119-2144.cpp consists for 58 % of 98-21|139-2144.cpp consists for 31 % of 182-2
+119-2144.cpp consists for 29 % of 31-21|256-2144.cpp consists for 31 % of 328-2
+42-2144.cpp consists for 57 % of 78-214|336-2144.cpp consists for 31 % of 59-21
+42-2144.cpp consists for 23 % of 67-214|21-2144.cpp consists for 30 % of 346-21
+71-2144.cpp consists for 53 % of 98-214|21-2144.cpp consists for 23 % of 76-214
+206-2144.cpp consists for 53 % of 50-21|24-2144.cpp consists for 30 % of 47-214
+206-2144.cpp consists for 27 % of 58-21|24-2144.cpp consists for 25 % of 245-21
+23-2144.cpp consists for 52 % of 98-214|24-2144.cpp consists for 23 % of 31-214
+23-2144.cpp consists for 23 % of 321-21|32-2144.cpp consists for 29 % of 58-214
+258-2144.cpp consists for 51 % of 50-21|32-2144.cpp consists for 28 % of 47-214
+346-2144.cpp consists for 51 % of 67-21|32-2144.cpp consists for 21 % of 75-214
+346-2144.cpp consists for 31 % of 97-21|124-2144.cpp consists for 29 % of 336-2
+90-2144.cpp consists for 50 % of 98-214|124-2144.cpp consists for 28 % of 259-2
+78-2144.cpp consists for 48 % of 90-214|58-2144.cpp consists for 29 % of 67-214
+228-2144.cpp consists for 48 % of 24-21|58-2144.cpp consists for 28 % of 72-214
+170-2144.cpp consists for 46 % of 305-2|58-2144.cpp consists for 21 % of 78-214
+305-2144.cpp consists for 45 % of 354-2|59-2144.cpp consists for 27 % of 71-214
+305-2144.cpp consists for 31 % of 71-21|59-2144.cpp consists for 26 % of 89-214
+136-2144.cpp consists for 44 % of 305-2|59-2144.cpp consists for 25 % of 60-214
+238-2144.cpp consists for 43 % of 47-21|63-2144.cpp consists for 27 % of 98-214
+213-2144.cpp consists for 43 % of 245-2|63-2144.cpp consists for 24 % of 76-214
+133-2144.cpp consists for 42 % of 97-21|63-2144.cpp consists for 21 % of 78-214
+133-2144.cpp consists for 29 % of 49-21|126-2144.cpp consists for 26 % of 256-2
+351-2144.cpp consists for 42 % of 90-21|126-2144.cpp consists for 22 % of 38-21
+97-2144.cpp consists for 41 % of 98-214|126-2144.cpp consists for 20 % of 132-2
+49-2144.cpp consists for 40 % of 66-214|72-2144.cpp consists for 25 % of 90-214
+49-2144.cpp consists for 26 % of 98-214|309-2144.cpp consists for 25 % of 340-2
+144-2144.cpp consists for 40 % of 43-21|309-2144.cpp consists for 21 % of 311-2
+144-2144.cpp consists for 24 % of 170-2|321-2144.cpp consists for 25 % of 43-21
+144-2144.cpp consists for 21 % of 213-2|340-2144.cpp consists for 24 % of 43-21
+132-2144.cpp consists for 38 % of 141-2|340-2144.cpp consists for 22 % of 97-21
+132-2144.cpp consists for 35 % of 256-2|39-2144.cpp consists for 24 % of 42-214
+132-2144.cpp consists for 21 % of 330-2|330-2144.cpp consists for 24 % of 60-21
+66-2144.cpp consists for 36 % of 71-214|38-2144.cpp consists for 24 % of 72-214
+180-2144.cpp consists for 36 % of 305-2|251-2144.cpp consists for 24 % of 83-21
+180-2144.cpp consists for 24 % of 321-2|251-2144.cpp consists for 22 % of 321-2
+180-2144.cpp consists for 22 % of 38-21|151-2144.cpp consists for 22 % of 66-21
+76-2144.cpp consists for 36 % of 78-214|151-2144.cpp consists for 21 % of 340-2
+83-2144.cpp consists for 36 % of 90-214|70-2144.cpp consists for 22 % of 97-214
+245-2144.cpp consists for 36 % of 351-2|317-2144.cpp consists for 21 % of 329-2
+245-2144.cpp consists for 24 % of 59-21|317-2144.cpp consists for 20 % of 42-21
+141-2144.cpp consists for 34 % of 316-2|89-2144.cpp consists for 20 % of 90-214
+354-2144.cpp consists for 34 % of 59-21|326-2144.cpp consists for 20 % of 49-21
+354-2144.cpp consists for 28 % of 70-21|117-2144.cpp consists for 20 % of 329-2
+354-2144.cpp consists for 25 % of 43-21|75-2144.cpp consists for 20 % of 76-214
+17-2144.cpp consists for 33 % of 83-214|311-2144.cpp consists for 20 % of 49-21
+316-2144.cpp consists for 33 % of 351-2|
+
+sim_res.txt: line 1-38                 |sim_res.txt: line 39-76           [684]
+File 117-2144.cpp: 120 tokens, 39 lines|File 32-2144.cpp: 136 tokens, 25 lines 
+File 119-2144.cpp: 125 tokens, 27 lines|File 321-2144.cpp: 137 tokens, 33 lines
+File 121-2144.cpp: 118 tokens, 26 lines|File 326-2144.cpp: 135 tokens, 28 lines
+File 124-2144.cpp: 117 tokens, 25 lines|File 328-2144.cpp: 119 tokens, 22 lines
+File 126-2144.cpp: 143 tokens, 23 lines|File 329-2144.cpp: 152 tokens, 25 lines
+File 13-2144.cpp: 116 tokens, 19 lines |File 330-2144.cpp: 145 tokens, 20 lines
+File 132-2144.cpp: 133 tokens, 29 lines|File 335-2144.cpp: 114 tokens, 18 lines
+File 133-2144.cpp: 128 tokens, 20 lines|File 336-2144.cpp: 170 tokens, 44 lines
+File 136-2144.cpp: 171 tokens, 35 lines|File 340-2144.cpp: 148 tokens, 31 lines
+File 139-2144.cpp: 116 tokens, 18 lines|File 346-2144.cpp: 118 tokens, 24 lines
+File 14-2144.cpp: 118 tokens, 20 lines |File 351-2144.cpp: 126 tokens, 27 lines
+File 141-2144.cpp: 141 tokens, 46 lines|File 354-2144.cpp: 122 tokens, 23 lines
+File 144-2144.cpp: 135 tokens, 33 lines|File 357-2144.cpp: 138 tokens, 35 lines
+File 15-2144.cpp: 120 tokens, 21 lines |File 364-2144.cpp: 141 tokens, 29 lines
+File 151-2144.cpp: 149 tokens, 25 lines|File 38-2144.cpp: 129 tokens, 23 lines 
+File 17-2144.cpp: 174 tokens, 25 lines |File 39-2144.cpp: 124 tokens, 25 lines 
+File 170-2144.cpp: 141 tokens, 31 lines|File 42-2144.cpp: 120 tokens, 23 lines 
+File 180-2144.cpp: 140 tokens, 33 lines|File 43-2144.cpp: 122 tokens, 26 lines 
+File 182-2144.cpp: 135 tokens, 26 lines|File 47-2144.cpp: 128 tokens, 21 lines 
+File 206-2144.cpp: 116 tokens, 24 lines|File 49-2144.cpp: 122 tokens, 22 lines 
+File 21-2144.cpp: 176 tokens, 29 lines |File 50-2144.cpp: 119 tokens, 19 lines 
+File 213-2144.cpp: 126 tokens, 23 lines|File 58-2144.cpp: 121 tokens, 19 lines 
+File 228-2144.cpp: 153 tokens, 36 lines|File 59-2144.cpp: 128 tokens, 24 lines 
+File 23-2144.cpp: 136 tokens, 28 lines |File 60-2144.cpp: 126 tokens, 29 lines 
+File 238-2144.cpp: 146 tokens, 26 lines|File 63-2144.cpp: 131 tokens, 26 lines 
+File 24-2144.cpp: 118 tokens, 20 lines |File 64-2144.cpp: 110 tokens, 22 lines 
+File 245-2144.cpp: 135 tokens, 21 lines|File 66-2144.cpp: 150 tokens, 27 lines 
+File 251-2144.cpp: 135 tokens, 24 lines|File 67-2144.cpp: 113 tokens, 26 lines 
+File 256-2144.cpp: 153 tokens, 28 lines|File 70-2144.cpp: 147 tokens, 30 lines 
+File 258-2144.cpp: 123 tokens, 19 lines|File 71-2144.cpp: 148 tokens, 38 lines 
+File 259-2144.cpp: 129 tokens, 33 lines|File 72-2144.cpp: 135 tokens, 20 lines 
+File 305-2144.cpp: 157 tokens, 37 lines|File 75-2144.cpp: 153 tokens, 17 lines 
+File 308-2144.cpp: 145 tokens, 26 lines|File 76-2144.cpp: 168 tokens, 29 lines 
+File 309-2144.cpp: 144 tokens, 38 lines|File 78-2144.cpp: 118 tokens, 23 lines 
+File 31-2144.cpp: 133 tokens, 21 lines |File 83-2144.cpp: 129 tokens, 20 lines 
+File 311-2144.cpp: 143 tokens, 33 lines|File 89-2144.cpp: 127 tokens, 26 lines 
+File 316-2144.cpp: 137 tokens, 25 lines|File 90-2144.cpp: 120 tokens, 34 lines 
+File 317-2144.cpp: 138 tokens, 30 lines|File 97-2144.cpp: 135 tokens, 34 lines 
+
+sim_res.txt: line 137-166              |sim_res.txt: line 166-195         [464]
+316-2144.cpp consists for 33 % of 351-2|59-2144.cpp consists for 27 % of 71-214
+316-2144.cpp consists for 23 % of 321-2|59-2144.cpp consists for 26 % of 89-214
+60-2144.cpp consists for 33 % of 72-214|59-2144.cpp consists for 25 % of 60-214
+15-2144.cpp consists for 33 % of 21-214|63-2144.cpp consists for 27 % of 98-214
+15-2144.cpp consists for 24 % of 31-214|63-2144.cpp consists for 24 % of 76-214
+15-2144.cpp consists for 22 % of 78-214|63-2144.cpp consists for 21 % of 78-214
+31-2144.cpp consists for 32 % of 38-214|126-2144.cpp consists for 26 % of 256-2
+31-2144.cpp consists for 26 % of 330-21|126-2144.cpp consists for 22 % of 38-21
+31-2144.cpp consists for 23 % of 317-21|126-2144.cpp consists for 20 % of 132-2
+67-2144.cpp consists for 32 % of 70-214|72-2144.cpp consists for 25 % of 90-214
+67-2144.cpp consists for 28 % of 75-214|309-2144.cpp consists for 25 % of 340-2
+67-2144.cpp consists for 28 % of 72-214|309-2144.cpp consists for 21 % of 311-2
+329-2144.cpp consists for 32 % of 97-21|321-2144.cpp consists for 25 % of 43-21
+139-2144.cpp consists for 31 % of 182-2|340-2144.cpp consists for 24 % of 43-21
+256-2144.cpp consists for 31 % of 328-2|340-2144.cpp consists for 22 % of 97-21
+336-2144.cpp consists for 31 % of 59-21|39-2144.cpp consists for 24 % of 42-214
+21-2144.cpp consists for 30 % of 346-21|330-2144.cpp consists for 24 % of 60-21
+21-2144.cpp consists for 23 % of 76-214|38-2144.cpp consists for 24 % of 72-214
+24-2144.cpp consists for 30 % of 47-214|251-2144.cpp consists for 24 % of 83-21
+24-2144.cpp consists for 25 % of 245-21|251-2144.cpp consists for 22 % of 321-2
+24-2144.cpp consists for 23 % of 31-214|151-2144.cpp consists for 22 % of 66-21
+32-2144.cpp consists for 29 % of 58-214|151-2144.cpp consists for 21 % of 340-2
+32-2144.cpp consists for 28 % of 47-214|70-2144.cpp consists for 22 % of 97-214
+32-2144.cpp consists for 21 % of 75-214|317-2144.cpp consists for 21 % of 329-2
+124-2144.cpp consists for 29 % of 336-2|317-2144.cpp consists for 20 % of 42-21
+124-2144.cpp consists for 28 % of 259-2|89-2144.cpp consists for 20 % of 90-214
+58-2144.cpp consists for 29 % of 67-214|326-2144.cpp consists for 20 % of 49-21
+58-2144.cpp consists for 28 % of 72-214|117-2144.cpp consists for 20 % of 329-2
+58-2144.cpp consists for 21 % of 78-214|75-2144.cpp consists for 20 % of 76-214
+59-2144.cpp consists for 27 % of 71-214|311-2144.cpp consists for 20 % of 49-21
+
+sim_res.txt: line 39-57                |sim_res.txt: line 58-76           [342]
+File 32-2144.cpp: 136 tokens, 25 lines |File 49-2144.cpp: 122 tokens, 22 lines 
+File 321-2144.cpp: 137 tokens, 33 lines|File 50-2144.cpp: 119 tokens, 19 lines 
+File 326-2144.cpp: 135 tokens, 28 lines|File 58-2144.cpp: 121 tokens, 19 lines 
+File 328-2144.cpp: 119 tokens, 22 lines|File 59-2144.cpp: 128 tokens, 24 lines 
+File 329-2144.cpp: 152 tokens, 25 lines|File 60-2144.cpp: 126 tokens, 29 lines 
+File 330-2144.cpp: 145 tokens, 20 lines|File 63-2144.cpp: 131 tokens, 26 lines 
+File 335-2144.cpp: 114 tokens, 18 lines|File 64-2144.cpp: 110 tokens, 22 lines 
+File 336-2144.cpp: 170 tokens, 44 lines|File 66-2144.cpp: 150 tokens, 27 lines 
+File 340-2144.cpp: 148 tokens, 31 lines|File 67-2144.cpp: 113 tokens, 26 lines 
+File 346-2144.cpp: 118 tokens, 24 lines|File 70-2144.cpp: 147 tokens, 30 lines 
+File 351-2144.cpp: 126 tokens, 27 lines|File 71-2144.cpp: 148 tokens, 38 lines 
+File 354-2144.cpp: 122 tokens, 23 lines|File 72-2144.cpp: 135 tokens, 20 lines 
+File 357-2144.cpp: 138 tokens, 35 lines|File 75-2144.cpp: 153 tokens, 17 lines 
+File 364-2144.cpp: 141 tokens, 29 lines|File 76-2144.cpp: 168 tokens, 29 lines 
+File 38-2144.cpp: 129 tokens, 23 lines |File 78-2144.cpp: 118 tokens, 23 lines 
+File 39-2144.cpp: 124 tokens, 25 lines |File 83-2144.cpp: 129 tokens, 20 lines 
+File 42-2144.cpp: 120 tokens, 23 lines |File 89-2144.cpp: 127 tokens, 26 lines 
+File 43-2144.cpp: 122 tokens, 26 lines |File 90-2144.cpp: 120 tokens, 34 lines 
+File 47-2144.cpp: 128 tokens, 21 lines |File 97-2144.cpp: 135 tokens, 34 lines 
+
+sim_res.txt: line 166-180              |sim_res.txt: line 180-194         [224]
+59-2144.cpp consists for 27 % of 71-214|340-2144.cpp consists for 22 % of 97-21
+59-2144.cpp consists for 26 % of 89-214|39-2144.cpp consists for 24 % of 42-214
+59-2144.cpp consists for 25 % of 60-214|330-2144.cpp consists for 24 % of 60-21
+63-2144.cpp consists for 27 % of 98-214|38-2144.cpp consists for 24 % of 72-214
+63-2144.cpp consists for 24 % of 76-214|251-2144.cpp consists for 24 % of 83-21
+63-2144.cpp consists for 21 % of 78-214|251-2144.cpp consists for 22 % of 321-2
+126-2144.cpp consists for 26 % of 256-2|151-2144.cpp consists for 22 % of 66-21
+126-2144.cpp consists for 22 % of 38-21|151-2144.cpp consists for 21 % of 340-2
+126-2144.cpp consists for 20 % of 132-2|70-2144.cpp consists for 22 % of 97-214
+72-2144.cpp consists for 25 % of 90-214|317-2144.cpp consists for 21 % of 329-2
+309-2144.cpp consists for 25 % of 340-2|317-2144.cpp consists for 20 % of 42-21
+309-2144.cpp consists for 21 % of 311-2|89-2144.cpp consists for 20 % of 90-214
+321-2144.cpp consists for 25 % of 43-21|326-2144.cpp consists for 20 % of 49-21
+340-2144.cpp consists for 24 % of 43-21|117-2144.cpp consists for 20 % of 329-2
+340-2144.cpp consists for 22 % of 97-21|75-2144.cpp consists for 20 % of 76-214
+
+sim_res.txt: line 58-67                |sim_res.txt: line 68-77           [180]
+File 49-2144.cpp: 122 tokens, 22 lines |File 71-2144.cpp: 148 tokens, 38 lines 
+File 50-2144.cpp: 119 tokens, 19 lines |File 72-2144.cpp: 135 tokens, 20 lines 
+File 58-2144.cpp: 121 tokens, 19 lines |File 75-2144.cpp: 153 tokens, 17 lines 
+File 59-2144.cpp: 128 tokens, 24 lines |File 76-2144.cpp: 168 tokens, 29 lines 
+File 60-2144.cpp: 126 tokens, 29 lines |File 78-2144.cpp: 118 tokens, 23 lines 
+File 63-2144.cpp: 131 tokens, 26 lines |File 83-2144.cpp: 129 tokens, 20 lines 
+File 64-2144.cpp: 110 tokens, 22 lines |File 89-2144.cpp: 127 tokens, 26 lines 
+File 66-2144.cpp: 150 tokens, 27 lines |File 90-2144.cpp: 120 tokens, 34 lines 
+File 67-2144.cpp: 113 tokens, 26 lines |File 97-2144.cpp: 135 tokens, 34 lines 
+File 70-2144.cpp: 147 tokens, 30 lines |File 98-2144.cpp: 118 tokens, 28 lines 
+
+sim_res.txt: line 180-187              |sim_res.txt: line 187-194         [112]
+340-2144.cpp consists for 22 % of 97-21|151-2144.cpp consists for 21 % of 340-2
+39-2144.cpp consists for 24 % of 42-214|70-2144.cpp consists for 22 % of 97-214
+330-2144.cpp consists for 24 % of 60-21|317-2144.cpp consists for 21 % of 329-2
+38-2144.cpp consists for 24 % of 72-214|317-2144.cpp consists for 20 % of 42-21
+251-2144.cpp consists for 24 % of 83-21|89-2144.cpp consists for 20 % of 90-214
+251-2144.cpp consists for 22 % of 321-2|326-2144.cpp consists for 20 % of 49-21
+151-2144.cpp consists for 22 % of 66-21|117-2144.cpp consists for 20 % of 329-2
+151-2144.cpp consists for 21 % of 340-2|75-2144.cpp consists for 20 % of 76-214
+
+121-2144.cpp: line 2-20                |132-2144.cpp: line 3-20            [98]
+using namespace std;                   |using namespace std;
+int main()                             |
+{                                      |int main(){
+ int n,sum=0;                          | int n,s = 0;
+ cin>>n;                               | cin >> n;
+ int a[n];                             | int x[n];
+ for(int i=0;i<n;i++)                  | for(int i = 0;i < n;i ++){
+ {                                     |  cin >> x[i];
+  cin>>a[i];                           | }
+ }                                     | int l;
+ int t;                                | cin >> l;
+ cin>>t;                               | for(int i = 0;i < n;i ++){
+ for(int i=0;i<n;i++){                 |  if (x[i] == l){
+  if(a[i]==t){                         |  s += 10;
+  sum+=10;                             |  }else{
+  }else{                               |  s = s - fabs(x[i] - l);
+  sum=sum-abs(a[i]-t);                 |  } 
+  }                                    | }
+ }                                     |
+
+sim_res.txt: line 68-72                |sim_res.txt: line 73-77            [90]
+File 71-2144.cpp: 148 tokens, 38 lines |File 83-2144.cpp: 129 tokens, 20 lines 
+File 72-2144.cpp: 135 tokens, 20 lines |File 89-2144.cpp: 127 tokens, 26 lines 
+File 75-2144.cpp: 153 tokens, 17 lines |File 90-2144.cpp: 120 tokens, 34 lines 
+File 76-2144.cpp: 168 tokens, 29 lines |File 97-2144.cpp: 135 tokens, 34 lines 
+File 78-2144.cpp: 118 tokens, 23 lines |File 98-2144.cpp: 118 tokens, 28 lines 
+
+13-2144.cpp: line 2-12                 |47-2144.cpp: line 2-12             [82]
+using namespace std;                   |using namespace std;
+                                       |int main(){
+int main(){                            |  int n;cin>>n;
+ int n;cin>>n;                         |  vector<int> v(n);
+ vector<int> a(n);                     |  for(int i=0;i<n;i++) cin>>v[i];
+ for(int i=0;i<n;i++) cin>>a[i];       |  int m;cin>>m;
+ int t;cin>>t;                         |  int s=0;
+ int ans=0;                            |  for(int i=0;i<n;i++){
+ for(int i=0;i<n;i++){                 |  if(v[i]==m)
+  if(a[i]==t)ans+=10;                  |  s+=10;
+  else{                                |  else{
+
+47-2144.cpp: line 2-12                 |72-2144.cpp: line 2-12             [82]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+  int n;cin>>n;                        |{
+  vector<int> v(n);                    |  int n;cin >> n;
+  for(int i=0;i<n;i++) cin>>v[i];      |  vector<int> v(n);
+  int m;cin>>m;                        |  for(int i = 0; i < n; i++) cin >> v[i
+  int s=0;                             |  int t;cin >> t;
+  for(int i=0;i<n;i++){                |  int ret = 0;
+  if(v[i]==m)                          |  for(int i = 0; i < n; i++){
+  s+=10;                               |  if(v[i] == t) ret += 10;
+  else{                                |  else{
+
+71-2144.cpp: line 4-22                 |98-2144.cpp: line 4-21             [79]
+signed main()                          |int main(){
+{                                      | int n;
+ int n;                                |  cin>>n;
+ cin>>n;                               |  int a[n];
+  int a[n];                            |  int t;
+  int x;                               |  int k=0;
+  int count=0;                         |  
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<n;i++){
+  {                                    |  cin>>a[i];
+  cin>>a[i]; }                         |  
+                                       |  
+  cin>>x;                              |  }
+for(int i=0;i<n;i++)                   |  cin>>t;
+{                                      |  for(int i=0;i<n;i++){
+  if(a[i]==x)                          |  if(a[i]==t){
+  {                                    |  k+=10;
+  count+=10;                           |  }
+  }else                                |  else{
+  {                                    |
+
+136-2144.cpp: line 2-17                |305-2144.cpp: line 2-18            [76]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+ //输入；                               |{
+ int n;                                | int n;
+ cin>>n;                               | cin>>n;
+ int arr[n];                           | int luck[n];
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+  cin>>arr[i];                         | {
+ }                                     |  cin>>luck[i];
+ int t;                                | }
+ cin>>t;                               | int t;
+                                       | cin>>t;
+ //检查;                                | int lucky=0;
+ int lucky=0;                          | for(int i=0;i<n;i++)
+ for(int i=0;i<n;i++){                 | {
+  if(arr[i]==t){                       |  if(luck[i]==t)
+                                       |  {
+
+335-2144.cpp: line 2-12                |38-2144.cpp: line 2-13             [76]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+ int n,a[200],t,tot=0;                 |  int n,a[1000],t,sum=0;
+ cin>>n;                               |  cin>>n;
+ for(int i=0;i<n;i++)                  |  for(int i=0;i<n;i++)
+  cin>>a[i];                           |  cin>>a[i];
+ cin>>t;                               |  cin>>t;
+ for(int j=0;j<n;j++)                  |  for(int i=0;i<n;i++)
+ {                                     |  {
+  if(a[j]==t)tot+=10;                  |  if(a[i]==t)
+                                       |  sum+=10;
+
+43-2144.cpp: line 11-24                |90-2144.cpp: line 13-31            [75]
+ }                                     | }
+ int t;                                | int t;
+ cin>>t;                               | cin>>t;
+ int total=0;                          | int zong=0;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+  if(a[i]==t){                         | {
+  total+=10;                           |  if(a[i]==t)
+  }else{                               |  {
+  total-=abs(a[i]-t);                  |  zong+=10;
+  }                                    |  }
+ }                                     |  else
+ cout<<total<<endl;                    |  {
+ if(total>0){                          |  zong-=abs(a[i]-t);
+  cout<<"Happy";                       |  }
+                                       | }
+                                       | cout<<zong<<endl;
+                                       | if(zong>0)
+                                       | {
+                                       |  cout<<"Happy"<<endl;
+
+228-2144.cpp: line 2-15                |24-2144.cpp: line 3-13             [73]
+using namespace std;                   |typedef long long LL;
+int main()                             |int main(){
+{                                      | int n,a[150],t;
+ int n,a[100],t;                       | cin>>n;
+ cin>>n;                               | for(int i=0;i<n;i++){
+ for(int i=0;i<n;i++)                  |  cin>>a[i];
+ {                                     | }
+  cin>>a[i];                           | cin>>t;
+ }                                     | int res=0;
+ cin>>t;                               | for(int i=0;i<n;i++){
+ int sum=0;                            |  if(a[i]==t)res+=10;
+ for(int j=0;j<n;j++)                  |
+ {                                     |
+ if(a[j]==t)                           |
+
+14-2144.cpp: line 4-15                 |90-2144.cpp: line 3-19             [72]
+int a[101];                            |int a[105];
+signed main(){                         |signed main()
+ int n ;                               |{
+ cin>>n;                               | int n;
+ for(int i=0;i<n;i++){                 | cin>>n;
+  cin>>a[i];                           | for(int i=0;i<n;i++)
+ }                                     | {
+ int t;                                |// int a;
+ cin>>t;                               |  cin>>a[i];
+ int sum=0;                            |  
+ for(int i=0;i<n;i++){                 | }
+  if(a[i]==t)sum+=10;                  | int t;
+                                       | cin>>t;
+                                       | int zong=0;
+                                       | for(int i=0;i<n;i++)
+                                       | {
+                                       |  if(a[i]==t)
+
+119-2144.cpp: line 10-23               |98-2144.cpp: line 11-26            [72]
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];
+ }                                     |  
+ cin>>t;                               |  
+ for(int i=0;i<n;i++){                 |  }
+  if(a[i]==t){                         |  cin>>t;
+  l+=10;                               |  for(int i=0;i<n;i++){
+  }else{                               |  if(a[i]==t){
+  l-=abs(a[i]-t);                      |  k+=10;
+  }                                    |  }
+                                       |  else{
+ }                                     |  k-=fabs(a[i]-t);
+ cout<<l<<endl;                        |  }
+ if(l>0)                               |  }
+                                       |  cout<<k<<endl;
+                                       |  if(k>0)cout<<"Happy"<<endl;
+
+328-2144.cpp: line 2-14                |70-2144.cpp: line 2-15             [71]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+  int ans=0;                           |{
+  int n;                               |  int x=0;
+  cin>>n;                              |  int n;
+  int a[101];                          |  cin>>n;
+  for(int i=0;i<n;i++){                |  int q[n];
+  cin>>a[i];                           |  for(int i=0;i<n;i++){
+  }                                    |  cin>>q[i]; 
+  int l;                               |  }
+  cin>>l;                              |  int t;
+  for(int i=0;i<n;i++){                |  cin>>t;
+  if(a[i]==l){                         |  for(int i=0;i<n;i++){
+                                       |  if(q[i]!=t){
+
+23-2144.cpp: line 2-15                 |98-2144.cpp: line 3-18             [71]
+using namespace std;                   |using namespace std;
+int main()                             |int main(){
+{                                      | int n;
+  int n;                               |  cin>>n;
+  cin>>n;                              |  int a[n];
+  int a[101];                          |  int t;
+  int t;                               |  int k=0;
+  int sum=0;                           |  
+  for(int i=0;i<n;i++){                |  for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];
+  }                                    |  
+  cin>>t;                              |  
+  for(int i=0;i<n;i++){                |  }
+  if(a[i]!=t){                         |  cin>>t;
+                                       |  for(int i=0;i<n;i++){
+                                       |  if(a[i]==t){
+
+305-2144.cpp: line 2-17                |354-2144.cpp: line 2-14            [71]
+using namespace std;                   |using namespace std;
+int main()                             |int main(){
+{                                      |int n;//循环次数 
+ int n;                                |cin>>n;
+ cin>>n;                               |int a[n];//存取数字 
+ int luck[n];                          |for(int i=0;i<n;i++){
+ for(int i=0;i<n;i++)                  | cin>>a[i];
+ {                                     |}
+  cin>>luck[i];                        |int x;//幸运数字 
+ }                                     |cin>>x;
+ int t;                                |int sum=0;//记录总值
+ cin>>t;                               |for(int i=0;i<n;i++){
+ int lucky=0;                          | if(a[i]!=x){
+ for(int i=0;i<n;i++)                  |
+ {                                     |
+  if(luck[i]==t)                       |
+
+42-2144.cpp: line 8-18                 |78-2144.cpp: line 9-19             [68]
+ for (int i = 1; i <= n; i ++)         | for (int i = 1; i <= n; i ++)
+ {                                     | {
+  cin >> a[i];                         |  cin >> a[i];
+ }                                     | }
+ int t;                                | int t;
+ cin >> t;                             | cin >> t;
+ int sum = 0;                          | int sum = 0;
+ for (int i = 1; i <= n; i ++)         | for (int i = 1; i <= n; i ++)
+ {                                     | {
+  if (a[i] == t) sum += 10;            |  if (a[i] == t) sum += 10;
+  else sum -= abs(a[i] - t);           |  else sum -= abs(t - a[i]);
+
+170-2144.cpp: line 2-14                |305-2144.cpp: line 2-16            [65]
+using namespace std;                   |using namespace std;
+ int main(){                           |int main()
+  int n;                               |{
+  cin>>n;                              | int n;
+  int a[100];                          | cin>>n;
+  for(int i=0;i<n;i++){                | int luck[n];
+  cin>>a[i];                           | for(int i=0;i<n;i++)
+  }                                    | {
+  int m;                               |  cin>>luck[i];
+  cin>>m;                              | }
+  int k=0;                             | int t;
+                                       | cin>>t;
+  for(int i=0;i<n;i++){                | int lucky=0;
+                                       | for(int i=0;i<n;i++)
+                                       | {
+
+sim_res.txt: line 187-191              |sim_res.txt: line 191-195          [64]
+151-2144.cpp consists for 21 % of 340-2|89-2144.cpp consists for 20 % of 90-214
+70-2144.cpp consists for 22 % of 97-214|326-2144.cpp consists for 20 % of 49-21
+317-2144.cpp consists for 21 % of 329-2|117-2144.cpp consists for 20 % of 329-2
+317-2144.cpp consists for 20 % of 42-21|75-2144.cpp consists for 20 % of 76-214
+89-2144.cpp consists for 20 % of 90-214|311-2144.cpp consists for 20 % of 49-21
+
+258-2144.cpp: line 4-11                |50-2144.cpp: line 5-13             [63]
+int tot=0,aab=0;                       |  int n,t,ans;
+int main(){                            |  int main()
+ cin>>n;                               |  {
+ for(int i=1;i<=n;i++) cin>>a[i];      |  cin>>n;
+ cin>>t;                               |  for(int i=1;i<=n;i++) cin>>a[i];
+ for(int i=1;i<=n;i++){                |  cin>>t;
+  if(a[i]==t)                          |  for(int i=1;i<=n;i++)
+  tot+=10;                             |  {
+                                       |  if(a[i]==t) ans+=10;
+
+206-2144.cpp: line 9-18                |50-2144.cpp: line 8-14             [61]
+ int f=0;                              |  cin>>n;
+ for(int i=1;i<=n;i++)                 |  for(int i=1;i<=n;i++) cin>>a[i];
+  cin>>A[i];                           |  cin>>t;
+ cin>>t;                               |  for(int i=1;i<=n;i++)
+ for(int i=1;i<=n;i++)                 |  {
+ {                                     |  if(a[i]==t) ans+=10;
+  if(A[i]==t)                          |  else ans-=abs(a[i]-t);
+  f+=10;                               |
+  else                                 |
+  f-=abs(t-A[i]);                      |
+
+346-2144.cpp: line 11-20               |67-2144.cpp: line 14-23            [60]
+ cin>>t;                               | cin>>t;
+ int luck=0;                           | 
+ for(int i=0;i<n;i++){                 | int x=0;
+  if(a[i]==t)                          | for(int i=0;i<n;i++){
+  luck+=10;                            |  if(a[i]==t) x+=10;
+  else                                 |  else x-= abs(a[i]-t);
+  luck-=abs(a[i]-t);                   |  
+ }                                     | }
+ cout<<luck<<endl;                     | cout<<x<<endl;
+ if(luck>0){                           | if(x>0)cout<<"Happy\n";
+
+90-2144.cpp: line 16-29                |98-2144.cpp: line 16-26            [60]
+ int zong=0;                           |  cin>>t;
+ for(int i=0;i<n;i++)                  |  for(int i=0;i<n;i++){
+ {                                     |  if(a[i]==t){
+  if(a[i]==t)                          |  k+=10;
+  {                                    |  }
+  zong+=10;                            |  else{
+  }                                    |  k-=fabs(a[i]-t);
+  else                                 |  }
+  {                                    |  }
+  zong-=abs(a[i]-t);                   |  cout<<k<<endl;
+  }                                    |  if(k>0)cout<<"Happy"<<endl;
+ }                                     |
+ cout<<zong<<endl;                     |
+ if(zong>0)                            |
+
+17-2144.cpp: line 12-18                |83-2144.cpp: line 7-12             [58]
+ int n,t;                              | int t,n,happy=0;
+ scanf("%d",&n);                       | scanf("%d",&n);
+ for(int i=0;i<n;i++)scanf("%d",&a[i]);| for(int i=0;i<n;i++) scanf("%d",&a[i])
+  scanf("%d",&t);                      | scanf("%d",&t);
+  for(int i=0;i<n;i++)                 | for(int i=0;i<n;i++){
+  {                                    |  if(a[i]==t){
+  if(a[i]!=t && a[i]>t)ans-=a[i]-t;    |
+
+97-2144.cpp: line 8-18                 |98-2144.cpp: line 11-20            [56]
+  for(int i=0;i<number;i++)            |  for(int i=0;i<n;i++){
+  {                                    |  cin>>a[i];
+  cin>>input[i];                       |  
+  }                                    |  
+  cin>>luck;                           |  }
+  for(int t=0;t<number;t++)            |  cin>>t;
+  {                                    |  for(int i=0;i<n;i++){
+  if(input[t]==luck)                   |  if(a[i]==t){
+  {                                    |  k+=10;
+  result+=10;                          |  }
+  }                                    |
+
+133-2144.cpp: line 5-13                |97-2144.cpp: line 5-15             [54]
+int n,x=0,b;                           |  int luck,number,result;
+cin>>n;                                |  cin>>number;
+int a[n];                              |  int input[number];
+for(int i=0;i<n;i++){                  |  for(int i=0;i<number;i++)
+ cin>>a[i];                            |  {
+}                                      |  cin>>input[i];
+cin>>b;                                |  }
+for(int i=0;i<n;i++){                  |  cin>>luck;
+ if(b==a[i]) x=x+10;                   |  for(int t=0;t<number;t++)
+                                       |  {
+                                       |  if(input[t]==luck)
+
+144-2144.cpp: line 11-22               |43-2144.cpp: line 8-18             [54]
+  int num = 0;                         |  int temp;
+  cin>>num;                            |  cin>>temp;
+  arr[i] = num;                        |  a[i]=temp;
+  }                                    | }
+  int lucky;                           | int t;
+  cin>>lucky;                          | cin>>t;
+  int sum = 0;                         | int total=0;
+  for(int i = 0;i<n;i++){              | for(int i=0;i<n;i++){
+  if(arr[i] == lucky){                 |  if(a[i]==t){
+  sum+=10;                             |  total+=10;
+  }                                    |  }else{
+  else{                                |
+
+213-2144.cpp: line 7-13                |245-2144.cpp: line 6-11            [54]
+ cin>>n;                               |  cin>>n;
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];}
+ }                                     |  cin>>lucky;
+ cin>>t;                               |  for(int j=0;j<n;j++){
+ for(int i=0;i<n;i++){                 |  if(a[j]==lucky){
+  if(a[i]==t) ans+=10;                 |
+
+21-2144.cpp: line 12-19                |346-2144.cpp: line 11-19           [53]
+ cin>>t;                               | cin>>t;
+ int ans=0;                            | int luck=0;
+ for(int i=0;i<n;i++)                  | for(int i=0;i<n;i++){
+ {                                     |  if(a[i]==t)
+  if(a[i]==t) ans+=10;                 |  luck+=10;
+  else ans-=abs(a[i]-t);               |  else
+ }                                     |  luck-=abs(a[i]-t);
+ cout<<ans<<"\n";                      | }
+                                       | cout<<luck<<endl;
+
+336-2144.cpp: line 21-28               |59-2144.cpp: line 10-18            [52]
+ int lucky = 0;                        | int l,sum=0;
+ cin >> luckyNum;                      | cin>>l;
+ for(int i = 0; i < N; i++){           | for(int i=0;i<n;i++){
+  if(numToCheck[i] == luckyNum){       |  if(ch[i]==l){
+  lucky += 10;                         |  sum+=10;
+  } else {                             |  }
+  int temp = numToCheck[i] - luckyNum; |  else{
+  if(temp <= 0){                       |  int a=ch[i]-l;
+                                       |  if(a<0) a=0-a;
+
+132-2144.cpp: line 18-28               |141-2144.cpp: line 32-45           [50]
+  s = s - fabs(x[i] - l);              |  sum = sum - abs(v[i] - u);
+  }                                    |  }
+ }                                     | }
+ if (s > 0){                           | 
+  cout << s << endl;                   | if(sum > 0)
+  cout << "Happy" << endl;             | {
+                                       |  cout << sum << endl;
+ }else{                                |  cout << "Happy" << endl;
+  cout << s << endl;                   | }
+ }                                     | else
+ return 0;                             | {
+                                       |  cout << sum << endl;
+                                       | }
+                                       | return 0;
+
+180-2144.cpp: line 2-14                |305-2144.cpp: line 2-14            [50]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+  int n;                               | int n;
+  cin>>n;                              | cin>>n;
+  int a[101];                          | int luck[n];
+ for(int i=0;i<n;i++)                  | for(int i=0;i<n;i++)
+ {                                     | {
+cin>>a[i];                             |  cin>>luck[i];
+ }                                     | }
+  int t;                               | int t;
+  cin>>t;                              | cin>>t;
+  int sum=0;                           | int lucky=0;
+
+49-2144.cpp: line 8-13                 |66-2144.cpp: line 7-12             [49]
+ for(i=0;i<a;i++){                     | for(i=0;i<n;i++){
+  cin>>b[i];                           |  cin>>a[i];
+ }                                     | }
+ cin>>c;                               | cin>>t;
+ for(i=0;i<a;i++){                     | for(i=0;i<n;i++){
+  if(b[i]==c){                         |  if(a[i]==t){
+
+141-2144.cpp: line 24-38               |316-2144.cpp: line 12-20           [48]
+ for(int i = 0;i < N;++i)              | for(int i=0;i<n;i++){
+ {                                     |  if(a[i]==t){
+  if(v[i] == u)                        |  ans+=10;
+  {                                    |  }else{
+  sum += 10;                           |  ans=ans-fabs(a[i]-t);
+  }                                    |  }
+  else                                 | }
+  {                                    | if(ans>0){
+  sum = sum - abs(v[i] - u);           |  cout<<ans<<endl<<"Happy"<<endl;
+  }                                    |
+ }                                     |
+                                       |
+ if(sum > 0)                           |
+ {                                     |
+  cout << sum << endl;                 |
+
+245-2144.cpp: line 5-10                |351-2144.cpp: line 7-13            [48]
+  int num=0;                           | int sum=0;
+  cin>>n;                              | cin>>n;
+  for(int i=0;i<n;i++){                | for(int i=0;i<n;i++){
+  cin>>a[i];}                          |  cin>>a[i];
+  cin>>lucky;                          | }
+  for(int j=0;j<n;j++){                | cin>>t;
+                                       | for(int i=0;i<n;i++){
+
+329-2144.cpp: line 9-15                |97-2144.cpp: line 7-15             [48]
+  int a[n+1];                          |  int input[number];
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<number;i++)
+  { cin>>a[i]; }                       |  {
+  cin>>num;                            |  cin>>input[i];
+  for(int i=0;i<n;i++)                 |  }
+  {                                    |  cin>>luck;
+  if(a[i]!=num)                        |  for(int t=0;t<number;t++)
+                                       |  {
+                                       |  if(input[t]==luck)
+
+132-2144.cpp: line 9-17                |256-2144.cpp: line 8-16            [47]
+ for(int i = 0;i < n;i ++){            | for(int i=0;i<n;i++){
+  cin >> x[i];                         |  cin>>a[i];
+ }                                     | }
+ int l;                                | int t;
+ cin >> l;                             | cin>>t;
+ for(int i = 0;i < n;i ++){            | for(int i=0;i<n;i++){
+  if (x[i] == l){                      |  if(a[i]==t){
+  s += 10;                             |  luck +=10;
+  }else{                               |  }else{
+
+256-2144.cpp: line 8-16                |328-2144.cpp: line 8-15            [47]
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];
+ }                                     |  }
+ int t;                                |  int l;
+ cin>>t;                               |  cin>>l;
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  if(a[i]==t){                         |  if(a[i]==l){
+  luck +=10;                           |  ans+=10;}else{
+  }else{                               |
+
+50-2144.cpp: line 10-15                |76-2144.cpp: line 9-14             [47]
+  cin>>t;                              | int sum=0,p;cin>>p;
+  for(int i=1;i<=n;i++)                | for(int i=1;i<=n;i++)
+  {                                    | {
+  if(a[i]==t) ans+=10;                 |  if(a[i]==p)sum+=10;
+  else ans-=abs(a[i]-t);               |  else sum-=abs(a[i]-p);
+  }                                    | }
+
+83-2144.cpp: line 11-17                |90-2144.cpp: line 17-27            [46]
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+  if(a[i]==t){                         | {
+  happy+=10;                           |  if(a[i]==t)
+  }else{                               |  {
+  happy-=abs(a[i]-t);                  |  zong+=10;
+  }                                    |  }
+ }                                     |  else
+                                       |  {
+                                       |  zong-=abs(a[i]-t);
+                                       |  }
+                                       | }
+
+316-2144.cpp: line 6-12                |351-2144.cpp: line 7-13            [45]
+ int n,t,ans=0;                        | int sum=0;
+ cin>>n;                               | cin>>n;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];
+ }                                     | }
+ cin>>t;                               | cin>>t;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++){
+
+31-2144.cpp: line 10-14                |38-2144.cpp: line 9-15             [43]
+ cin>>t;                               |  cin>>t;
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++)
+  if(temp[i]==t) num+=10;              |  {
+  else{                                |  if(a[i]==t)
+  if(temp[i]>t) num-=(temp[i]-t);      |  sum+=10;
+                                       |  else
+                                       |  {if(a[i]>t)
+
+21-2144.cpp: line 21-28                |76-2144.cpp: line 21-28            [41]
+}                                      |}
+int main()                             |int main()
+{                                      |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);
+ int T=1;                              | cout.tie(0);cin.tie(0);
+// cin>>T;                             | int t=1;//cin>>t;
+ while(T--) solve();                   | while(t--)solve();
+ return 0;                             | return 0;
+
+60-2144.cpp: line 10-16                |72-2144.cpp: line 7-11             [41]
+ for(int i=0;i<n;i++) cin >> a[i];     |  for(int i = 0; i < n; i++) cin >> v[i
+ int t;                                |  int t;cin >> t;
+ cin >> t;                             |  int ret = 0;
+ int ans=0;                            |  for(int i = 0; i < n; i++){
+ for(int i=0;i<n;i++)                  |  if(v[i] == t) ret += 10;
+ {                                     |
+  if(a[i] == t)                        |
+
+354-2144.cpp: line 2-9                 |59-2144.cpp: line 2-9              [41]
+using namespace std;                   |using namespace std;
+int main(){                            |int main(){
+int n;//循环次数                        | int n;
+cin>>n;                                | cin>>n;
+int a[n];//存取数字                     | int ch[n];
+for(int i=0;i<n;i++){                  | for(int i=0;i<n;i++){
+ cin>>a[i];                            |  cin>>ch[i];
+}                                      | }
+
+32-2144.cpp: line 10-14                |58-2144.cpp: line 10-14            [40]
+ int t;                                | int num;
+ cin>>t;                               | cin>>num;
+ for (int i=0;i<n;i++){                | for(int i=0;i<n;i++){
+  if (a[i]==t) ans+=10;                |  if(v[i]==num)ans+=10;
+  else ans-=abs(a[i]-t);               |  else ans-=abs(num-v[i]);
+
+14-2144.cpp: line 15-19                |32-2144.cpp: line 13-18            [39]
+  if(a[i]==t)sum+=10;                  |  if (a[i]==t) ans+=10;
+  else sum-=abs(a[i]-t);               |  else ans-=abs(a[i]-t);
+ }                                     | }
+ cout<<sum<<endl;                      | cout<<ans<<endl;
+ if(sum>0) cout<<"Happy"<<endl;        | if (ans>0) cout<<"Happy"<<endl;
+                                       |}
+
+15-2144.cpp: line 13-17                |21-2144.cpp: line 12-17            [39]
+ cin>>t;                               | cin>>t;
+ int sum=0;                            | int ans=0;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+  if(a[i]==t) sum+=10;                 | {
+  else sum-=abs(t-a[i]);               |  if(a[i]==t) ans+=10;
+                                       |  else ans-=abs(a[i]-t);
+
+32-2144.cpp: line 4-8                  |47-2144.cpp: line 3-6              [38]
+void solve(){                          |int main(){
+ int n;                                |  int n;cin>>n;
+ cin>>n;                               |  vector<int> v(n);
+ vector <int> a(n);                    |  for(int i=0;i<n;i++) cin>>v[i];
+ for (int i=0;i<n;i++) cin>>a[i];      |
+
+346-2144.cpp: line 5-11                |97-2144.cpp: line 5-12             [37]
+ int n,t;                              |  int luck,number,result;
+ cin>>n;                               |  cin>>number;
+ int a[n];                             |  int input[number];
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<number;i++)
+  cin>>a[i];                           |  {
+ }                                     |  cin>>input[i];
+ cin>>t;                               |  }
+                                       |  cin>>luck;
+
+133-2144.cpp: line 14-19               |49-2144.cpp: line 16-21            [37]
+ else if(a[i]!=b){                     |  else{
+  x=x-abs(a[i]-b);                     |  k=k-fabs(b[i]-c);
+ }                                     |  }
+}                                      | }
+cout<<x<<endl;                         | cout<<k<<endl;
+if(x>0) cout<<"Happy"<<endl;           | if(k>0) cout<<"Happy"<<endl;
+
+126-2144.cpp: line 5-11                |256-2144.cpp: line 4-10            [37]
+ int m;                                | int n;
+ int s=0;                              | int luck=0;
+ cin>>n;                               | cin>>n;
+ int a[101];                           | int a[n];
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];
+ }                                     | }
+
+sim_res.txt: line 73-74                |sim_res.txt: line 75-76            [36]
+File 83-2144.cpp: 129 tokens, 20 lines |File 90-2144.cpp: 120 tokens, 34 lines 
+File 89-2144.cpp: 127 tokens, 26 lines |File 97-2144.cpp: 135 tokens, 34 lines 
+
+67-2144.cpp: line 7-14                 |70-2144.cpp: line 7-13             [36]
+ cin>>n;                               |  cin>>n;
+ int a[10000];                         |  int q[n];
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>q[i]; 
+                                       |  }
+ }                                     |  int t;
+ int t;                                |  cin>>t;
+ cin>>t;                               |
+
+119-2144.cpp: line 3-10                |31-2144.cpp: line 3-8              [36]
+typedef long long int ll;              |using namespace std;
+                                       |int main(){
+int main()                             | int n,t,num=0;
+{                                      | cin>>n;
+ int n,t,l=0;                          | int temp[n];
+ cin>>n;                               | for(int i=0;i<n;i++)
+ int a[n];                             |
+ for(int i=0;i<n;i++){                 |
+
+340-2144.cpp: line 12-17               |43-2144.cpp: line 14-18            [36]
+ int ans = 0;                          | int total=0;
+ for (int j = 0; j < n; j++){          | for(int i=0;i<n;i++){
+  if (a[j] == t){                      |  if(a[i]==t){
+  ans += 10;                           |  total+=10;
+  }                                    |  }else{
+  else{                                |
+
+76-2144.cpp: line 9-13                 |78-2144.cpp: line 15-19            [36]
+ int sum=0,p;cin>>p;                   | int sum = 0;
+ for(int i=1;i<=n;i++)                 | for (int i = 1; i <= n; i ++)
+ {                                     | {
+  if(a[i]==p)sum+=10;                  |  if (a[i] == t) sum += 10;
+  else sum-=abs(a[i]-p);               |  else sum -= abs(t - a[i]);
+
+139-2144.cpp: line 7-10                |182-2144.cpp: line 17-21           [36]
+  cin>>n;                              |  int i,t,sum=0;
+  for(i=0;i<n;i++) cin>>a[i];          |  for(i=0;i<n;i++)
+  cin>>t;                              |  cin>>a[i];
+  for(i=0;i<n;i++){                    |  cin>>t;
+                                       |  for(i=0;i<n;i++)
+
+309-2144.cpp: line 21-27               |340-2144.cpp: line 10-14           [36]
+ int t = 0;                            | int t;
+ scanf("%d", &t);                      | scanf("%d", &t);
+                                       | int ans = 0;
+ int luck = 0;                         | for (int j = 0; j < n; j++){
+ for( int i = 0 ; i < n ; i++ )        |  if (a[j] == t){
+ {                                     |
+  if( a[i] == t )                      |
+
+63-2144.cpp: line 17-24                |98-2144.cpp: line 21-26            [35]
+  else                                 |  else{
+  {                                    |  k-=fabs(a[i]-t);
+  result-=abs(a[i]-x);                 |  }
+  }                                    |  }
+ }                                     |  cout<<k<<endl;
+                                       |  if(k>0)cout<<"Happy"<<endl;
+ cout<<result<<endl;                   |
+ if(result>0) cout<<"Happy"<<endl;     |
+
+330-2144.cpp: line 6-8                 |60-2144.cpp: line 7-12             [35]
+ int n, lucky = 0; cin >> n;           | int n;
+  int arr[n]; for(int i = 0 ; i < n ; i| cin >> n;
+ int t; cin >> t;                      | int a[n];
+                                       | for(int i=0;i<n;i++) cin >> a[i];
+                                       | int t;
+                                       | cin >> t;
+
+58-2144.cpp: line 11-14                |67-2144.cpp: line 16-19            [35]
+ cin>>num;                             | int x=0;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++){
+  if(v[i]==num)ans+=10;                |  if(a[i]==t) x+=10;
+  else ans-=abs(num-v[i]);             |  else x-= abs(a[i]-t);
+
+59-2144.cpp: line 13-18                |71-2144.cpp: line 18-25            [35]
+  if(ch[i]==l){                        |  if(a[i]==x)
+  sum+=10;                             |  {
+  }                                    |  count+=10;
+  else{                                |  }else
+  int a=ch[i]-l;                       |  {
+  if(a<0) a=0-a;                       |  int c=a[i]-x;
+                                       |  if(c<0)
+                                       |  c=-c;
+
+24-2144.cpp: line 10-14                |47-2144.cpp: line 7-12             [35]
+ cin>>t;                               |  int m;cin>>m;
+ int res=0;                            |  int s=0;
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  if(a[i]==t)res+=10;                  |  if(v[i]==m)
+  else {                               |  s+=10;
+                                       |  else{
+
+58-2144.cpp: line 7-11                 |72-2144.cpp: line 5-8              [34]
+ ll ans=0;                             |  int n;cin >> n;
+ vector<int> v(n);                     |  vector<int> v(n);
+ for(int i=0;i<n;i++)cin>>v[i];        |  for(int i = 0; i < n; i++) cin >> v[i
+ int num;                              |  int t;cin >> t;
+ cin>>num;                             |
+
+180-2144.cpp: line 15-23               |321-2144.cpp: line 16-21           [34]
+  int b;                               | int sum = 0;
+  for(int i=0;i<n;i++)                 | for(int i = 0; i < n; i++){
+  {                                    |  if(arr[i] == t){
+  if(a[i]==t)                          |  sum = sum + 10;
+  {                                    |  }
+  sum=sum+10;                          |  else{
+  }                                    |
+  else                                 |
+  {                                    |
+
+31-2144.cpp: line 5-9                  |330-2144.cpp: line 6-7             [34]
+ int n,t,num=0;                        | int n, lucky = 0; cin >> n;
+ cin>>n;                               |  int arr[n]; for(int i = 0 ; i < n ; i
+ int temp[n];                          |
+ for(int i=0;i<n;i++)                  |
+ cin>>temp[i];                         |
+
+354-2144.cpp: line 16-22               |70-2144.cpp: line 21-29            [34]
+ }else{                                |  }else{
+  sum+=10;                             |  x+=10;
+ }                                     |  } 
+}                                      |  }
+cout<<sum<<endl;                       |  cout<<x<<endl;
+if(sum>0){cout<<"Happy"<<endl;}        |  if(x>0){
+return 0;                              |  cout<<"Happy"<<endl;
+                                       |  }
+                                       | return 0; 
+
+124-2144.cpp: line 6-11                |336-2144.cpp: line 15-20           [34]
+ int i=0,luck=0;                       | int luckyNum = 0;
+ int a[101];                           | int numToCheck[100];
+ cin>>n;                               | cin >> N;
+ for(int j=0;j<n;j++){                 | for(int i = 0; i < N ; i++){
+  cin>>a[j];                           |  cin >> numToCheck[i];
+ }                                     | }
+
+335-2144.cpp: line 12-16               |75-2144.cpp: line 12-16            [34]
+  if(a[j]==t)tot+=10;                  |  if(a[i]==t)ans+=10;
+  else tot-=abs(a[j]-t);               |  else ans-=abs(a[i]-t);
+ }                                     | }
+ cout<<tot<<endl;                      | cout<<ans<<endl;
+ if(tot>0)cout<<"Happy"<<endl;         | if(ans>0)cout<<"Happy"<<endl;
+
+72-2144.cpp: line 8-11                 |90-2144.cpp: line 14-19            [34]
+  int t;cin >> t;                      | int t;
+  int ret = 0;                         | cin>>t;
+  for(int i = 0; i < n; i++){          | int zong=0;
+  if(v[i] == t) ret += 10;             | for(int i=0;i<n;i++)
+                                       | {
+                                       |  if(a[i]==t)
+
+321-2144.cpp: line 14-18               |43-2144.cpp: line 12-16            [34]
+ int t = 0;                            | int t;
+ cin>>t;                               | cin>>t;
+ int sum = 0;                          | int total=0;
+ for(int i = 0; i < n; i++){           | for(int i=0;i<n;i++){
+  if(arr[i] == t){                     |  if(a[i]==t){
+
+59-2144.cpp: line 7-12                 |89-2144.cpp: line 10-16            [33]
+ for(int i=0;i<n;i++){                 | {
+  cin>>ch[i];                          |  cin>>a[i];
+ }                                     | }
+ int l,sum=0;                          | int luck,num=0;
+ cin>>l;                               | cin>>luck;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+                                       | {
+
+151-2144.cpp: line 14-17               |66-2144.cpp: line 11-15            [33]
+  for(i=0;i<n;i++){                    | for(i=0;i<n;i++){
+  if(a[i]==t){                         |  if(a[i]==t){
+  cout+=10;                            |  sum+=10;
+  }else{ if(a[i]>t){                   |  }else{
+                                       |  if((a[i]-t)>0){
+
+245-2144.cpp: line 11-15               |59-2144.cpp: line 13-18            [33]
+  if(a[j]==lucky){                     |  if(ch[i]==l){
+  num+=10;}                            |  sum+=10;
+  else{                                |  }
+  int s=a[j]-lucky;                    |  else{
+  if(s<0){                             |  int a=ch[i]-l;
+                                       |  if(a<0) a=0-a;
+
+340-2144.cpp: line 18-24               |97-2144.cpp: line 19-27            [33]
+  if (a[j] > t){                       |  else if(input[t]>luck)
+  ans -= a[j] - t;                     |  {
+  }                                    |  result-=input[t]-luck;
+  else {                               |  }
+  ans -= t - a[j];                     |  else
+  }                                    |  {
+  }                                    |  result-=luck-input[t];
+                                       |  }
+                                       |  }
+
+124-2144.cpp: line 13-18               |259-2144.cpp: line 16-25           [33]
+ while(i<n){                           | for(int i=1;i<=n;i++)
+  if(a[i]==t){                         | {
+  luck+=10;                            |  if(nums[i]==key)
+  }else{                               |  {
+  luck-=abs(a[i]-t);                   |  luck += 10;
+  }                                    |  }
+                                       |  else
+                                       |  {
+                                       |  luck -= abs(nums[i] - key);
+                                       |  }
+
+238-2144.cpp: line 10-15               |47-2144.cpp: line 9-14             [33]
+  for(int i=1;i<=n;i++)                |  for(int i=0;i<n;i++){
+  {                                    |  if(v[i]==m)
+  if(luk[i]==hap)score+=10;            |  s+=10;
+  else {                               |  else{
+  int a=luk[i]-hap;                    |  int r=v[i]-m;
+  if(a<0)a=a*(-1);                     |  if(r>=0) s-=r;
+
+43-2144.cpp: line 2-7                  |59-2144.cpp: line 2-7              [33]
+using namespace std;                   |using namespace std;
+int main(){                            |int main(){
+ int n;                                | int n;
+ cin>>n;                               | cin>>n;
+ int a[n];                             | int ch[n];
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++){
+
+144-2144.cpp: line 3-10                |170-2144.cpp: line 2-7             [33]
+using namespace std;                   |using namespace std;
+                                       | int main(){
+int main(){                            |  int n;
+                                       |  cin>>n;
+  int n;                               |  int a[100];
+  cin>>n;                              |  for(int i=0;i<n;i++){
+  int arr[101];                        |
+  for(int i = 0;i<n;i++){              |
+
+67-2144.cpp: line 18-23                |75-2144.cpp: line 12-16            [32]
+  if(a[i]==t) x+=10;                   |  if(a[i]==t)ans+=10;
+  else x-= abs(a[i]-t);                |  else ans-=abs(a[i]-t);
+                                       | }
+ }                                     | cout<<ans<<endl;
+ cout<<x<<endl;                        | if(ans>0)cout<<"Happy"<<endl;
+ if(x>0)cout<<"Happy\n";               |
+
+sim_res.txt: line 191-193              |sim_res.txt: line 193-195          [32]
+89-2144.cpp consists for 20 % of 90-214|117-2144.cpp consists for 20 % of 329-2
+326-2144.cpp consists for 20 % of 49-21|75-2144.cpp consists for 20 % of 76-214
+117-2144.cpp consists for 20 % of 329-2|311-2144.cpp consists for 20 % of 49-21
+
+336-2144.cpp: line 15-20               |89-2144.cpp: line 6-12             [32]
+ int luckyNum = 0;                     | int n;
+ int numToCheck[100];                  | int a[N];
+ cin >> N;                             | cin>>n;
+ for(int i = 0; i < N ; i++){          | for(int i=0;i<n;i++)
+  cin >> numToCheck[i];                | {
+ }                                     |  cin>>a[i];
+                                       | }
+
+316-2144.cpp: line 14-20               |321-2144.cpp: line 19-26           [32]
+  ans+=10;                             |  sum = sum + 10;
+  }else{                               |  }
+  ans=ans-fabs(a[i]-t);                |  else{
+  }                                    |  sum = sum - abs(arr[i]-t);
+ }                                     |  }
+ if(ans>0){                            | }
+  cout<<ans<<endl<<"Happy"<<endl;      | if(sum > 0){
+                                       |  cout<<sum<<endl;
+
+78-2144.cpp: line 9-16                 |90-2144.cpp: line 8-17             [32]
+ for (int i = 1; i <= n; i ++)         | for(int i=0;i<n;i++)
+ {                                     | {
+  cin >> a[i];                         |// int a;
+ }                                     |  cin>>a[i];
+ int t;                                |  
+ cin >> t;                             | }
+ int sum = 0;                          | int t;
+ for (int i = 1; i <= n; i ++)         | cin>>t;
+                                       | int zong=0;
+                                       | for(int i=0;i<n;i++)
+
+59-2144.cpp: line 2-7                  |60-2144.cpp: line 3-10             [32]
+using namespace std;                   |using namespace std;
+int main(){                            |
+ int n;                                |int main()
+ cin>>n;                               |{
+ int ch[n];                            | int n;
+ for(int i=0;i<n;i++){                 | cin >> n;
+                                       | int a[n];
+                                       | for(int i=0;i<n;i++) cin >> a[i];
+
+251-2144.cpp: line 13-15               |83-2144.cpp: line 10-12            [32]
+  scanf("%d",&t);                      | scanf("%d",&t);
+  for(int j=0;j<n;j++){                | for(int i=0;i<n;i++){
+  if(x[j]==t){                         |  if(a[i]==t){
+
+67-2144.cpp: line 14-18                |72-2144.cpp: line 8-11             [32]
+ cin>>t;                               |  int t;cin >> t;
+                                       |  int ret = 0;
+ int x=0;                              |  for(int i = 0; i < n; i++){
+ for(int i=0;i<n;i++){                 |  if(v[i] == t) ret += 10;
+  if(a[i]==t) x+=10;                   |
+
+63-2144.cpp: line 13-16                |76-2144.cpp: line 9-12             [32]
+ cin>>x;                               | int sum=0,p;cin>>p;
+ for(int i=1;i<=n;i++)                 | for(int i=1;i<=n;i++)
+ {                                     | {
+  if(a[i]==x) result+=10;              |  if(a[i]==p)sum+=10;
+
+70-2144.cpp: line 6-11                 |97-2144.cpp: line 5-11             [32]
+  int n;                               |  int luck,number,result;
+  cin>>n;                              |  cin>>number;
+  int q[n];                            |  int input[number];
+  for(int i=0;i<n;i++){                |  for(int i=0;i<number;i++)
+  cin>>q[i];                           |  {
+  }                                    |  cin>>input[i];
+                                       |  }
+
+49-2144.cpp: line 17-21                |98-2144.cpp: line 22-27            [32]
+  k=k-fabs(b[i]-c);                    |  k-=fabs(a[i]-t);
+  }                                    |  }
+ }                                     |  }
+ cout<<k<<endl;                        |  cout<<k<<endl;
+ if(k>0) cout<<"Happy"<<endl;          |  if(k>0)cout<<"Happy"<<endl;
+                                       |  
+
+38-2144.cpp: line 10-15                |72-2144.cpp: line 10-13            [31]
+  for(int i=0;i<n;i++)                 |  for(int i = 0; i < n; i++){
+  {                                    |  if(v[i] == t) ret += 10;
+  if(a[i]==t)                          |  else{
+  sum+=10;                             |  if(v[i] > t) ret -= v[i] - t;
+  else                                 |
+  {if(a[i]>t)                          |
+
+23-2144.cpp: line 19-27                |321-2144.cpp: line 23-32           [31]
+  }                                    |  }
+  }                                    | }
+  if(sum>0){                           | if(sum > 0){
+  cout<<sum<<endl;                     |  cout<<sum<<endl;
+  cout<<"Happy";                       |  cout<<"Happy";
+  }else{                               | }
+  cout<<sum;                           | else{
+  }                                    |  cout<<sum;
+  return 0;                            | }
+                                       | return 0;
+
+151-2144.cpp: line 9-13                |340-2144.cpp: line 7-11            [31]
+  for(i=0;i<n;i++){                    | for (int i = 0; i < n; i++){
+  scanf("%d",&a[i]);                   |  scanf("%d", &a[i]);
+  }                                    | }
+  int t;                               | int t;
+  scanf("%d",&t);                      | scanf("%d", &t);
+
+180-2144.cpp: line 26-32               |38-2144.cpp: line 17-22            [31]
+  else                                 |  else
+  sum=sum+a[i]-t;                      |  sum=sum+a[i]-t;}
+  }                                    |  }
+  }                                    |  cout<<sum<<endl;
+  cout<<sum<<endl;                     |  if(sum>0)
+  if(sum>0)                            |  cout<<"Happy";
+  cout<<"Happy";                       |
+
+206-2144.cpp: line 18-23               |58-2144.cpp: line 14-18            [31]
+  f-=abs(t-A[i]);                      |  else ans-=abs(num-v[i]);
+ }                                     | }
+ cout<<f<<endl;                        | cout<<ans<<endl;
+ if(f>0)                               | if(ans>0)cout<<"Happy"<<endl;
+  cout<<"Happy"<<endl;                 | return 0;
+ return 0;                             |
+
+126-2144.cpp: line 15-18               |38-2144.cpp: line 15-18            [31]
+  else if(a[i]>m) s=s+m-a[i];          |  {if(a[i]>t)
+  else s=s+a[i]-m;                     |  sum=sum+t-a[i];
+                                       |  else
+ }                                     |  sum=sum+a[i]-t;}
+
+24-2144.cpp: line 5-10                 |245-2144.cpp: line 5-9             [30]
+ int n,a[150],t;                       |  int num=0;
+ cin>>n;                               |  cin>>n;
+ for(int i=0;i<n;i++){                 |  for(int i=0;i<n;i++){
+  cin>>a[i];                           |  cin>>a[i];}
+ }                                     |  cin>>lucky;
+ cin>>t;                               |
+
+251-2144.cpp: line 16-19               |321-2144.cpp: line 19-25           [30]
+  a=a+10;}else{                        |  sum = sum + 10;
+  a=a-fabs(x[j]-t);}                   |  }
+  }                                    |  else{
+  if(a>0){                             |  sum = sum - abs(arr[i]-t);
+                                       |  }
+                                       | }
+                                       | if(sum > 0){
+
+354-2144.cpp: line 10-14               |43-2144.cpp: line 12-16            [30]
+int x;//幸运数字                        | int t;
+cin>>x;                                | cin>>t;
+int sum=0;//记录总值                    | int total=0;
+for(int i=0;i<n;i++){                  | for(int i=0;i<n;i++){
+ if(a[i]!=x){                          |  if(a[i]==t){
+
+238-2144.cpp: line 7-10                |47-2144.cpp: line 6-9              [30]
+  for(int i=1;i<=n;i++)cin>>luk[i];    |  for(int i=0;i<n;i++) cin>>v[i];
+  int hap;cin>>hap;                    |  int m;cin>>m;
+  int score=0;                         |  int s=0;
+  for(int i=1;i<=n;i++)                |  for(int i=0;i<n;i++){
+
+39-2144.cpp: line 20-24                |42-2144.cpp: line 18-22            [30]
+  else sum=sum-abs(v[i]-t);            |  else sum -= abs(a[i] - t);
+ }                                     | }
+ cout<<sum<<endl;                      | cout << sum << endl;
+ if(sum>0) cout<<"Happy";              | if (sum > 0) cout << "Happy\n";
+ return 0;                             | return 0;
+
+309-2144.cpp: line 28-34               |311-2144.cpp: line 25-30           [30]
+  luck += 10;                          |  s+=10;
+  else                                 |  else
+  luck -= abs( a[i] - t );             |  s-=p(a[i]-t);
+ }                                     |  }
+                                       |  printf("%d\n",s);
+ printf("%d", luck);                   |  if(s>0)
+ if( luck>0 )                          |
+
+75-2144.cpp: line 11-14                |76-2144.cpp: line 10-14            [30]
+ loop(n){                              | for(int i=1;i<=n;i++)
+  if(a[i]==t)ans+=10;                  | {
+  else ans-=abs(a[i]-t);               |  if(a[i]==p)sum+=10;
+ }                                     |  else sum-=abs(a[i]-p);
+                                       | }
+
+31-2144.cpp: line 15-20                |317-2144.cpp: line 22-29           [30]
+  else num-=(t-temp[i]);               |  s=s-(t-a[i]);
+  }                                    |  }
+ }                                     |  }
+ cout<<num<<endl;                      |  cout<<s<<endl;
+ if(num>0) cout<<"Happy";              |  if(s>0)
+ return 0;                             |  cout<<"Happy";
+                                       |  
+                                       |  return 0;
+
+66-2144.cpp: line 11-14                |71-2144.cpp: line 16-22            [29]
+ for(i=0;i<n;i++){                     |for(int i=0;i<n;i++)
+  if(a[i]==t){                         |{
+  sum+=10;                             |  if(a[i]==x)
+  }else{                               |  {
+                                       |  count+=10;
+                                       |  }else
+                                       |  {
+
+32-2144.cpp: line 14-18                |75-2144.cpp: line 13-16            [29]
+  else ans-=abs(a[i]-t);               |  else ans-=abs(a[i]-t);
+ }                                     | }
+ cout<<ans<<endl;                      | cout<<ans<<endl;
+ if (ans>0) cout<<"Happy"<<endl;       | if(ans>0)cout<<"Happy"<<endl;
+}                                      |
+
+15-2144.cpp: line 10-13                |31-2144.cpp: line 6-10             [29]
+ int t;                                | cin>>n;
+ int a[N];                             | int temp[n];
+ for(int i=0;i<n;i++) cin>>a[i];       | for(int i=0;i<n;i++)
+ cin>>t;                               | cin>>temp[i];
+                                       | cin>>t;
+
+317-2144.cpp: line 19-23               |329-2144.cpp: line 17-18           [29]
+  if(a[i]>t)                           |  if(a[i]-num>0) x=x-(a[i]-num); else x
+  s=s-(a[i]-t);                        |  }
+  else                                 |
+  s=s-(t-a[i]);                        |
+  }                                    |
+
+126-2144.cpp: line 12-14               |132-2144.cpp: line 13-15           [28]
+ cin>>m;                               | cin >> l;
+ for(int i=0;i<n;i++){                 | for(int i = 0;i < n;i ++){
+  if(a[i]==m) s=s+10;                  |  if (x[i] == l){
+
+63-2144.cpp: line 7-12                 |78-2144.cpp: line 7-12             [28]
+ int n,a[110],x;                       | int n;
+ cin>>n;                               | cin >> n;
+ for(int i=1;i<=n;i++)                 | for (int i = 1; i <= n; i ++)
+ {                                     | {
+  cin>>a[i];                           |  cin >> a[i];
+ }                                     | }
+
+336-2144.cpp: line 33-43               |66-2144.cpp: line 19-26            [28]
+  }                                    |  }
+                                       |  }
+                                       | }
+  }                                    | cout<<sum<<endl;
+ }                                     | if(sum>0){
+ cout << lucky << endl;                |  cout<<"Happy"<<endl;
+ if(lucky > 0){                        | }
+  cout << "Happy" << endl;             | return 0;
+ }                                     |
+                                       |
+ return 0;                             |
+
+42-2144.cpp: line 18-22                |67-2144.cpp: line 19-25            [28]
+  else sum -= abs(a[i] - t);           |  else x-= abs(a[i]-t);
+ }                                     |  
+ cout << sum << endl;                  | }
+ if (sum > 0) cout << "Happy\n";       | cout<<x<<endl;
+ return 0;                             | if(x>0)cout<<"Happy\n";
+                                       | 
+                                       | return 0;
+
+317-2144.cpp: line 12-15               |42-2144.cpp: line 14-17            [28]
+  double s=0;                          | int sum = 0;
+  for(int i=1;i<=n;i++)                | for (int i = 1; i <= n; i ++)
+  {                                    | {
+  if(a[i]==t)                          |  if (a[i] == t) sum += 10;
+
+330-2144.cpp: line 8-11                |335-2144.cpp: line 9-12            [28]
+ int t; cin >> t;                      | cin>>t;
+                                       | for(int j=0;j<n;j++)
+ for(int i = 0 ; i < n ; i++){         | {
+  if(arr[i] == t) lucky += 10;         |  if(a[j]==t)tot+=10;
+
+144-2144.cpp: line 24-32               |213-2144.cpp: line 16-22           [28]
+  num = num>0?num:-num;                |  if(b<0) b*=-1;
+  sum -= num;                          |  ans-=b;
+  }                                    |  }
+  }                                    | }
+  cout<<sum<<endl;                     | cout<<ans<<endl;
+  if(sum>0) cout<<"Happy";             | if(ans>0) cout<<"Happy";
+                                       | return 0;
+                                       |
+  return 0;                            |
+
+311-2144.cpp: line 21-24               |49-2144.cpp: line 10-13            [28]
+}                                      | }
+  cin>>t;                              | cin>>c;
+  for(i=0;i<n;i++){                    | for(i=0;i<a;i++){
+  if(a[i]==t)                          |  if(b[i]==c){
+
+132-2144.cpp: line 6-9                 |330-2144.cpp: line 6-7             [28]
+ int n,s = 0;                          | int n, lucky = 0; cin >> n;
+ cin >> n;                             |  int arr[n]; for(int i = 0 ; i < n ; i
+ int x[n];                             |
+ for(int i = 0;i < n;i ++){            |
+
+17-2144.cpp: line 21-23                |308-2144.cpp: line 23-25           [27]
+  }                                    | }
+  if(ans>0)cout<<ans<<endl<<"Happy"<<en| if(count>0) cout<<count<<endl<<"Happy"
+  else cout<<ans<<endl;                | else cout<<count<<endl;
+
+21-2144.cpp: line 10-12                |335-2144.cpp: line 6-9             [27]
+ cin>>n;                               | cin>>n;
+ for(int i=0;i<n;i++) cin>>a[i];       | for(int i=0;i<n;i++)
+ cin>>t;                               |  cin>>a[i];
+                                       | cin>>t;
+
+24-2144.cpp: line 15-19                |31-2144.cpp: line 15-19            [27]
+  res=res-fabs(t-a[i]);                |  else num-=(t-temp[i]);
+  }                                    |  }
+ }                                     | }
+ cout<<res<<endl;                      | cout<<num<<endl;
+ if(res>0)cout<<"Happy";               | if(num>0) cout<<"Happy";
+
+326-2144.cpp: line 14-16               |49-2144.cpp: line 11-13            [27]
+  cin>>m;                              | cin>>c;
+  for(i=0;i<n;i++){                    | for(i=0;i<a;i++){
+  if(a[i]==m)                          |  if(b[i]==c){
+
+238-2144.cpp: line 2-7                 |305-2144.cpp: line 2-8             [27]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+  int n;cin>>n;                        | int n;
+  int luk[102];                        | cin>>n;
+  for(int i=1;i<=n;i++)cin>>luk[i];    | int luck[n];
+                                       | for(int i=0;i<n;i++)
+
+351-2144.cpp: line 7-11                |90-2144.cpp: line 6-13             [27]
+ int sum=0;                            | int n;
+ cin>>n;                               | cin>>n;
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+  cin>>a[i];                           | {
+ }                                     |// int a;
+                                       |  cin>>a[i];
+                                       |  
+                                       | }
+
+66-2144.cpp: line 20-26                |70-2144.cpp: line 23-29            [27]
+  }                                    |  } 
+ }                                     |  }
+ cout<<sum<<endl;                      |  cout<<x<<endl;
+ if(sum>0){                            |  if(x>0){
+  cout<<"Happy"<<endl;                 |  cout<<"Happy"<<endl;
+ }                                     |  }
+ return 0;                             | return 0; 
+
+308-2144.cpp: line 12-15               |326-2144.cpp: line 13-16           [26]
+ count=0;                              |  int m,y,lucky=0;
+ cin>>t;                               |  cin>>m;
+ for(i=0;i<n;i++){                     |  for(i=0;i<n;i++){
+  if(a[i]!=t){                         |  if(a[i]==m)
+
+357-2144.cpp: line 28-34               |66-2144.cpp: line 21-26            [26]
+  }                                    | }
+  cout<<val<<endl;                     | cout<<sum<<endl;
+  if(val>0)                            | if(sum>0){
+ {                                     |  cout<<"Happy"<<endl;
+  cout<<"Happy"<<endl;                 | }
+ }                                     | return 0;
+ return 0;                             |
+
+311-2144.cpp: line 14-19               |66-2144.cpp: line 4-8              [26]
+int x;                                 | int n,i,t,sum=0;
+  cin>>n;                              | cin>>n;
+  int a[n];                            | int a[110];
+for(i=0;i<n;i++)                       | for(i=0;i<n;i++){
+{                                      |  cin>>a[i];
+  cin>>j;                              |
+
+15-2144.cpp: line 17-20                |78-2144.cpp: line 19-22            [26]
+  else sum-=abs(t-a[i]);               |  else sum -= abs(t - a[i]);
+ }                                     | }
+ cout<<sum<<endl;                      | cout << sum << endl;
+ if(sum>0) cout<<"Happy";              | if (sum > 0) cout << "Happy\n";
+
+351-2144.cpp: line 19-25               |90-2144.cpp: line 25-32            [26]
+  sum=sum-abs(s);                      |  zong-=abs(a[i]-t);
+  }                                    |  }
+ }                                     | }
+ cout<<sum<<endl;                      | cout<<zong<<endl;
+ if(sum>0){                            | if(zong>0)
+  cout<<"Happy"<<endl;                 | {
+ }                                     |  cout<<"Happy"<<endl;
+                                       | }
+
+89-2144.cpp: line 8-12                 |90-2144.cpp: line 7-13             [26]
+ cin>>n;                               | cin>>n;
+ for(int i=0;i<n;i++)                  | for(int i=0;i<n;i++)
+ {                                     | {
+  cin>>a[i];                           |// int a;
+ }                                     |  cin>>a[i];
+                                       |  
+                                       | }
+
+316-2144.cpp: line 2-6                 |83-2144.cpp: line 3-7              [25]
+using namespace std;                   |using namespace std;
+const int N=1000;                      |const int N=110;
+int a[N];                              |int a[N];
+int main(){                            |int main(){
+ int n,t,ans=0;                        | int t,n,happy=0;
+
+259-2144.cpp: line 16-18               |317-2144.cpp: line 13-15           [25]
+ for(int i=1;i<=n;i++)                 |  for(int i=1;i<=n;i++)
+ {                                     |  {
+  if(nums[i]==key)                     |  if(a[i]==t)
+
+78-2144.cpp: line 3-9                  |90-2144.cpp: line 2-8              [25]
+const int N = 10010;                   |using namespace std;
+int a[N];                              |int a[105];
+signed main()                          |signed main()
+{                                      |{
+ int n;                                | int n;
+ cin >> n;                             | cin>>n;
+ for (int i = 1; i <= n; i ++)         | for(int i=0;i<n;i++)
+
+58-2144.cpp: line 14-17                |78-2144.cpp: line 19-22            [25]
+  else ans-=abs(num-v[i]);             |  else sum -= abs(t - a[i]);
+ }                                     | }
+ cout<<ans<<endl;                      | cout << sum << endl;
+ if(ans>0)cout<<"Happy"<<endl;         | if (sum > 0) cout << "Happy\n";
+
+251-2144.cpp: line 10-12               |340-2144.cpp: line 7-9             [25]
+  for(int i=0;i<n;i++){                | for (int i = 0; i < n; i++){
+  scanf("%d ",&x[i]);                  |  scanf("%d", &a[i]);
+  }                                    | }
+
+50-2144.cpp: line 8-9                  |76-2144.cpp: line 7-8              [25]
+  cin>>n;                              | int n;cin>>n;
+  for(int i=1;i<=n;i++) cin>>a[i];     | for(int i=1;i<=n;i++)cin>>a[i];
+
+66-2144.cpp: line 7-11                 |71-2144.cpp: line 11-16            [25]
+ for(i=0;i<n;i++){                     |  for(int i=0;i<n;i++)
+  cin>>a[i];                           |  {
+ }                                     |  cin>>a[i]; }
+ cin>>t;                               |
+ for(i=0;i<n;i++){                     |  cin>>x;
+                                       |for(int i=0;i<n;i++)
+
+317-2144.cpp: line 8-11                |50-2144.cpp: line 8-10             [25]
+  int t;                               |  cin>>n;
+  for(int i=1;i<=n;i++)                |  for(int i=1;i<=n;i++) cin>>a[i];
+  cin>>a[i];                           |  cin>>t;
+  cin>>t;                              |
+
+256-2144.cpp: line 5-8                 |31-2144.cpp: line 5-8              [25]
+ int luck=0;                           | int n,t,num=0;
+ cin>>n;                               | cin>>n;
+ int a[n];                             | int temp[n];
+ for(int i=0;i<n;i++){                 | for(int i=0;i<n;i++)
+
+170-2144.cpp: line 24-30               |245-2144.cpp: line 17-20           [24]
+  }                                    |  num=num-s;}}
+  }                                    |  cout<<num<<endl;
+  cout<<k<<endl;;                      |  if(num>0){
+  if(k>0){                             |  cout<<"Happy";}
+  cout<<"Happy";                       |
+  }                                    |
+  return 0;                            |
+
+76-2144.cpp: line 5-8                  |78-2144.cpp: line 5-9              [24]
+void solve()                           |signed main()
+{                                      |{
+ int n;cin>>n;                         | int n;
+ for(int i=1;i<=n;i++)cin>>a[i];       | cin >> n;
+                                       | for (int i = 1; i <= n; i ++)
+
+305-2144.cpp: line 22-25               |71-2144.cpp: line 22-26            [24]
+  {                                    |  {
+  int temp=luck[i]-t;                  |  int c=a[i]-x;
+  if(temp<0) temp=-temp;               |  if(c<0)
+  lucky=lucky-temp;                    |  c=-c;
+                                       |  count=count-(c);
+
+70-2144.cpp: line 13-15                |71-2144.cpp: line 15-18            [24]
+  cin>>t;                              |  cin>>x;
+  for(int i=0;i<n;i++){                |for(int i=0;i<n;i++)
+  if(q[i]!=t){                         |{
+                                       |  if(a[i]==x)
+
+60-2144.cpp: line 7-10                 |70-2144.cpp: line 6-9              [24]
+ int n;                                |  int n;
+ cin >> n;                             |  cin>>n;
+ int a[n];                             |  int q[n];
+ for(int i=0;i<n;i++) cin >> a[i];     |  for(int i=0;i<n;i++){
+
+72-2144.cpp: line 14-18                |97-2144.cpp: line 25-29            [24]
+  else ret -= t - v[i];                |  result-=luck-input[t];
+  }                                    |  }
+  }                                    |  }
+  cout << ret << endl;                 |  cout<<result<<endl;
+  if(ret > 0) cout << "Happy" << endl; |  if(result>0)
+
+326-2144.cpp: line 8-12                |43-2144.cpp: line 7-11             [24]
+  for(i=0;i<n;i++){                    | for(int i=0;i<n;i++){
+  int x;                               |  int temp;
+  cin>>x;                              |  cin>>temp;
+  a[i]=x;                              |  a[i]=temp;
+  }                                    | }
+
+305-2144.cpp: line 26-32               |71-2144.cpp: line 27-33            [24]
+  }                                    |  }
+ }                                     |}
+ if(lucky>0)                           |if(count>0)
+ {                                     |{
+  cout<<lucky<<endl;                   | cout<<count<<endl;
+  cout<<"Happy"<<endl;                 | cout<<"Happy"<<endl;
+ }                                     |}else
+
+38-2144.cpp: line 7-10                 |50-2144.cpp: line 9-11             [24]
+  for(int i=0;i<n;i++)                 |  for(int i=1;i<=n;i++) cin>>a[i];
+  cin>>a[i];                           |  cin>>t;
+  cin>>t;                              |  for(int i=1;i<=n;i++)
+  for(int i=0;i<n;i++)                 |
+
+70-2144.cpp: line 23-28                |90-2144.cpp: line 26-32            [24]
+  }                                    |  }
+  }                                    | }
+  cout<<x<<endl;                       | cout<<zong<<endl;
+  if(x>0){                             | if(zong>0)
+  cout<<"Happy"<<endl;                 | {
+  }                                    |  cout<<"Happy"<<endl;
+                                       | }
+
+245-2144.cpp: line 17-20               |97-2144.cpp: line 26-33            [24]
+  num=num-s;}}                         |  }
+  cout<<num<<endl;                     |  }
+  if(num>0){                           |  cout<<result<<endl;
+  cout<<"Happy";}                      |  if(result>0)
+                                       |  {
+                                       |  cout<<"Happy";
+                                       |  }
+                                       |  return 0;
+
+39-2144.cpp: line 17-19                |49-2144.cpp: line 11-13            [24]
+ int sum=0;                            | cin>>c;
+ for(i=0;i<n;i++){                     | for(i=0;i<a;i++){
+  if(v[i]==t) sum=sum+10;              |  if(b[i]==c){
+
+117-2144.cpp: line 30-37               |329-2144.cpp: line 21-23           [24]
+  }                                    |  }
+  if(result>0)                         |  if(x>0){ cout<<x<<endl; cout<<"Happy"
+  {                                    |  else cout<<x<<endl;
+  cout<<result<<endl;                  |
+  cout<<"Happy";                       |
+  }                                    |
+  else                                 |
+  cout<<result;                        |
+

@@ -1,0 +1,36 @@
+File 119-2147.cpp: 647 tokens, 49 lines (not NL-terminated)
+File 13-2147.cpp: 436 tokens, 52 lines (not NL-terminated)
+File 14-2147.cpp: 375 tokens, 62 lines (not NL-terminated)
+File 15-2147.cpp: 375 tokens, 51 lines (not NL-terminated)
+File 21-2147.cpp: 427 tokens, 64 lines (not NL-terminated)
+File 213-2147.cpp: 382 tokens, 54 lines (not NL-terminated)
+File 24-2147.cpp: 386 tokens, 51 lines (not NL-terminated)
+File 259-2147.cpp: 282 tokens, 49 lines (not NL-terminated)
+File 32-2147.cpp: 382 tokens, 51 lines (not NL-terminated)
+File 38-2147.cpp: 465 tokens, 48 lines (not NL-terminated)
+File 39-2147.cpp: 474 tokens, 43 lines (not NL-terminated)
+File 42-2147.cpp: 337 tokens, 58 lines (not NL-terminated)
+File 50-2147.cpp: 416 tokens, 62 lines (not NL-terminated)
+File 58-2147.cpp: 397 tokens, 53 lines (not NL-terminated)
+File 66-2147.cpp: 334 tokens, 56 lines (not NL-terminated)
+File 67-2147.cpp: 411 tokens, 55 lines (not NL-terminated)
+File 72-2147.cpp: 274 tokens, 34 lines (not NL-terminated)
+File 75-2147.cpp: 363 tokens, 41 lines (not NL-terminated)
+File 76-2147.cpp: 471 tokens, 63 lines (not NL-terminated)
+File 78-2147.cpp: 249 tokens, 43 lines (not NL-terminated)
+File 90-2147.cpp: 387 tokens, 61 lines (not NL-terminated)
+Total input: 21 files (21 new, 0 old), 8270 tokens
+
+72-2147.cpp consists for 38 % of 90-2147.cpp material
+42-2147.cpp consists for 30 % of 50-2147.cpp material
+66-2147.cpp consists for 30 % of 90-2147.cpp material
+213-2147.cpp consists for 28 % of 90-2147.cpp material
+213-2147.cpp consists for 20 % of 24-2147.cpp material
+14-2147.cpp consists for 28 % of 58-2147.cpp material
+32-2147.cpp consists for 27 % of 90-2147.cpp material
+24-2147.cpp consists for 26 % of 32-2147.cpp material
+58-2147.cpp consists for 25 % of 72-2147.cpp material
+39-2147.cpp consists for 25 % of 50-2147.cpp material
+50-2147.cpp consists for 23 % of 76-2147.cpp material
+50-2147.cpp consists for 20 % of 58-2147.cpp material
+15-2147.cpp consists for 22 % of 39-2147.cpp material

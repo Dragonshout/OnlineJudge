@@ -5,11 +5,11 @@ from account.decorators import login_required, detection_detail_permission_requi
 from account.models import User
 from contest.models import Contest
 from submission.models import Submission, JudgeStatus
-from ..models import  DetectionComparison
+from ..models import DetectionComparison, AIGCDetectionResult
 from utils.api import APIView
 from ..serializers import DetectionSerializer
 from rest_framework.permissions import IsAuthenticated
-from detection.tasks import do_detection
+from detection.tasks import do_detection, aigc_detection
 
 
 class DetectionAPI(APIView):
@@ -62,6 +62,15 @@ class DetectionAPI(APIView):
         data["title"] = data.pop("contestId", None)
         data["file_count"] = submission_count  # 设置提交数量，只统计 result==0 的记录
 
+        algorithm = data.pop("checkAlgorithm",None)
+        if algorithm == "SIM查重算法":
+            algorithm = "SIM"
+        else:
+            algorithm = "AIGC"
+
+        data["algorithm_params"] = algorithm
+
+
         serializer = DetectionSerializer(data=data)
         if serializer.is_valid():
             if submission_count > 0:
@@ -69,7 +78,10 @@ class DetectionAPI(APIView):
                 detection = serializer.save(created_by=request.user)
                 detection.submissions.set(submissions)
                 # 异步触发查重任务，传入 detection 对象的 pk
-                do_detection.send(detection.id)
+                if algorithm == "SIM":
+                    do_detection.send(detection.id)
+                else:
+                    aigc_detection.send(detection.id)
                 return self.success("已提交查重")
             else:
                 return self.success("没有需要查重的代码")
@@ -246,3 +258,83 @@ class DetectionCompareAPI(APIView):
         except Exception as e:
             return self.error(str(e))
 
+
+class DetectionAIGCDetailAPI(APIView):
+    permission_classes = [IsAuthenticated]
+
+    @login_required
+    @detection_detail_permission_required
+    def get(self, request, contest_id, detection_id):
+        try:
+            # 1. 获取当前检测任务下的所有AIGC结果
+            aigc_results = AIGCDetectionResult.objects.filter(
+                detection_id=detection_id
+            ).select_related('problem')  # 预取problem信息
+
+            if not aigc_results.exists():
+                return self.error("未找到查重记录")
+
+            # 2. 收集所有涉及的用户ID
+            all_user_ids = {result.user_id for result in aigc_results}
+
+            # 3. 批量查询用户信息
+            users_map = {
+                user.id: user.username
+                for user in User.objects.filter(id__in=all_user_ids)
+            }
+
+            # 4. 按问题ID分组结果
+            problem_groups = defaultdict(list)
+            for result in aigc_results:
+                problem_groups[result.problem_id].append(result)
+
+            # 5. 构建分层结果结构
+            final_result = []
+            for problem_id, results in problem_groups.items():
+                # 获取问题基本信息
+                problem = results[0].problem  # 从第一个结果中获取problem对象
+
+                # 按用户分组结果
+                user_results = defaultdict(list)
+                for res in results:
+                    user_results[res.user_id].append({
+                        "id": res.id,
+                        "similarity": round(res.similarity),
+                        "language": res.language,
+                        "code": res.user_code,
+                        "created_at": res.created_at.strftime("%Y-%m-%d %H:%M:%S")
+                    })
+
+                # 构建问题维度数据结构
+                problem_data = {
+                    "problem": {
+                        "id": problem.id,
+                        "title": problem.title,
+                    },
+                    "users": [
+                        {
+                            "user": {
+                                "id": uid,
+                                "name": users_map.get(uid, f"用户{uid}")
+                            },
+                            "detections": sorted(
+                                detections,
+                                key=lambda x: x["created_at"],
+                                reverse=True
+                            )
+                        } for uid, detections in user_results.items()
+                    ]
+                }
+                final_result.append(problem_data)
+
+            # 按问题默认排序（可改为按ordering字段排序）
+            final_result.sort(key=lambda x: x["problem"]["id"])
+
+            return self.success({
+                "detection_id": detection_id,
+                "contest_id": contest_id,
+                "results": final_result
+            })
+
+        except Exception as e:
+            return self.error(f"查询失败: {str(e)}")

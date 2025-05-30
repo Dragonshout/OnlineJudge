@@ -1,0 +1,261 @@
+File 304-2149.java: 1687 tokens, 228 lines (not NL-terminated)
+File sim_res.txt: 33 tokens, 3 lines
+Total input: 2 files (2 new, 0 old), 1720 tokens
+
+304-2149.java: line 79-109             |304-2149.java: line 109-139       [251]
+  if (hang == ((( a *2) +3) - (a -3)) -|  }else {
+  for (int x =0;x < (a + 5) - hang;x ++|  for (int x =0;x < (a + 5) - hang;x ++
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x =0;x < (xy) ;x ++) {      |  for (int x =0;x < (xy) ;x ++) {
+  System.out.print("@");               |  System.out.print(".");
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  xy++;                                |  xy++;
+  xy++;                                |  xy++;
+  for (int x =0;x < (a + 5) - hang;x ++|  for (int x =0;x < (a + 5) - hang;x ++
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+  for (int x =0;x < (a) + 1;x ++) {    |  for (int x =0;x < (a) + 1;x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x =0;x < (a*2) + 1;x ++) {  |  for (int x =0;x < (a*2) + 1;x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x =0;x < (a) + 1;x ++) {    |  for (int x =0;x < (a) + 1;x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x =0;x < (a*3) + 3;x ++) {  |  for (int x =0;x < (a*3) + 3;x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+  System.out.print("*");               |  System.out.print("*");
+  }else {                              |  }
+
+304-2149.java: line 120-138            |304-2149.java: line 173-198       [159]
+  for (int x =0;x < (a + 5) - hang;x ++|  for (int x = 0;x < (a*2) +3; x ++) {
+  System.out.print(".");               |  System.out.print("@");
+  }                                    |  
+  for (int x =0;x < (a) + 1;x ++) {    |  }
+  System.out.print(".");               |  for (int x = 0;x < (a) +1; x ++) {
+  }                                    |  System.out.print(".");
+  System.out.print("@");               |  
+  for (int x =0;x < (a*2) + 1;x ++) {  |  }
+  System.out.print(".");               |  System.out.print("@");
+  }                                    |
+  System.out.print("@");               |  for (int x = 0;x < (a*2) +1; x ++) {
+  for (int x =0;x < (a) + 1;x ++) {    |  System.out.print(".");
+  System.out.print(".");               |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x =0;x < (a*3) + 3;x ++) {  |
+  System.out.print(".");               |  for (int x = 0;x < (a) +1; x ++) {
+  }                                    |  System.out.print(".");
+  System.out.print("*");               |  
+                                       |  }
+                                       |  System.out.print("@");
+                                       |  for (int x = 0;x < (a*2) +1; x ++) {
+                                       |  System.out.print("@");
+                                       |  
+                                       |  }
+                                       |  System.out.print("@");
+
+304-2149.java: line 148-163            |304-2149.java: line 177-198       [144]
+  for (int x =0;x < (a) + 1;x ++) {    |  for (int x = 0;x < (a) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  
+  System.out.print("@");               |  }
+  for (int x =0;x < (a*2) + 1;x ++) {  |  System.out.print("@");
+  System.out.print(".");               |
+  }                                    |  for (int x = 0;x < (a*2) +1; x ++) {
+  System.out.print("@");               |  System.out.print(".");
+  for (int x =0;x < (a) + 1;x ++) {    |  
+  System.out.print(".");               |  }
+  }                                    |  System.out.print("@");
+  System.out.print("@");               |
+  for (int x =0;x < (a*3) + 3;x ++) {  |  for (int x = 0;x < (a) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  
+  System.out.print("*");               |  }
+                                       |  System.out.print("@");
+                                       |  for (int x = 0;x < (a*2) +1; x ++) {
+                                       |  System.out.print("@");
+                                       |  
+                                       |  }
+                                       |  System.out.print("@");
+
+304-2149.java: line 40-58              |304-2149.java: line 194-212       [124]
+  for (int x = 0;x < (a*2) +1; x ++) { |  for (int x = 0;x < (a*2) +1; x ++) {
+  System.out.print(".");               |  System.out.print("@");
+                                       |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x = 0;x < (a) +1; x ++) {   |  for (int x = 0;x < (a) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  for (int x = 0;x < (a*2) +3; x ++) { |  for (int x = 0;x < (a*2) +3; x ++) {
+  System.out.print("@");               |  System.out.print("@");
+                                       |  
+  }                                    |  }
+  for (int x = 0;x < a +1; x ++) {     |  for (int x = 0;x < a +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  System.out.print("*");               |  System.out.print("*");
+  System.out.println();                |  System.out.println();
+
+304-2149.java: line 166-177            |304-2149.java: line 195-207        [74]
+  System.out.println();                |  System.out.print("@");
+  }                                    |  
+  System.out.print("*");               |  }
+  for (int x = 0;x < (a) +1; x ++) {   |  System.out.print("@");
+  System.out.print(".");               |  for (int x = 0;x < (a) +1; x ++) {
+                                       |  System.out.print(".");
+  }                                    |  
+  for (int x = 0;x < (a*2) +3; x ++) { |  }
+  System.out.print("@");               |  for (int x = 0;x < (a*2) +3; x ++) {
+                                       |  System.out.print("@");
+  }                                    |  
+  for (int x = 0;x < (a) +1; x ++) {   |  }
+                                       |  for (int x = 0;x < a +1; x ++) {
+
+304-2149.java: line 21-30              |304-2149.java: line 168-177        [73]
+  System.out.print("*");               |  System.out.print("*");
+  for (int x = 0;x < (a) +1; x ++) {   |  for (int x = 0;x < (a) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  for (int x = 0;x < (a*2) +3; x ++) { |  for (int x = 0;x < (a*2) +3; x ++) {
+  System.out.print("@");               |  System.out.print("@");
+                                       |  
+  }                                    |  }
+  for (int x = 0;x < (a*2) +2; x ++) { |  for (int x = 0;x < (a) +1; x ++) {
+
+304-2149.java: line 177-189            |304-2149.java: line 189-199        [72]
+  for (int x = 0;x < (a) +1; x ++) {   |  for (int x = 0;x < (a) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+                                       |  for (int x = 0;x < (a*2) +1; x ++) {
+  for (int x = 0;x < (a*2) +1; x ++) { |  System.out.print("@");
+  System.out.print(".");               |  
+                                       |  }
+  }                                    |  System.out.print("@");
+  System.out.print("@");               |  for (int x = 0;x < (a) +1; x ++) {
+                                       |
+  for (int x = 0;x < (a) +1; x ++) {   |
+
+304-2149.java: line 10-20              |304-2149.java: line 212-222        [68]
+  System.out.println();                |  System.out.println();
+  for ( int x = 0; x < a;x ++) {       |  for ( int x = 0; x < a;x ++) {
+  System.out.print("*");               |  System.out.print("*");
+  for (int i = 0; i < (13*a) +17 ; i++)|  for (int i = 0; i < (13*a) +17 ; i++)
+  System.out.print(".");               |  System.out.print(".");
+                                       |
+  }                                    |  }
+  System.out.print("*");               |  System.out.print("*");
+                                       |
+  System.out.println();                |  System.out.println();
+  }                                    |  }
+
+304-2149.java: line 70-76              |304-2149.java: line 173-180        [56]
+  for (int x = 0;x < (a*2) +2; x ++) { |  for (int x = 0;x < (a*2) +3; x ++) {
+  System.out.print(".");               |  System.out.print("@");
+                                       |  
+  }                                    |  }
+  for (int x = 0;x < (a) +1; x ++) {   |  for (int x = 0;x < (a) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  
+                                       |  }
+
+304-2149.java: line 141-146            |304-2149.java: line 213-219        [46]
+  }else {                              |  for ( int x = 0; x < a;x ++) {
+  System.out.print("@");               |  System.out.print("*");
+  for (int x =0;x < (a*2) + 1;x ++) {  |  for (int i = 0; i < (13*a) +17 ; i++)
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |
+  System.out.print("@");               |  }
+                                       |  System.out.print("*");
+
+304-2149.java: line 30-35              |304-2149.java: line 35-40          [37]
+  for (int x = 0;x < (a*2) +2; x ++) { |  for (int x = 0;x < (a*2) +2; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x = 0;x < (a*2) +2; x ++) { |  for (int x = 0;x < (a*2) +1; x ++) {
+
+304-2149.java: line 35-40              |304-2149.java: line 40-45          [37]
+  for (int x = 0;x < (a*2) +2; x ++) { |  for (int x = 0;x < (a*2) +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x = 0;x < (a*2) +1; x ++) { |  for (int x = 0;x < (a) +1; x ++) {
+
+304-2149.java: line 6-10               |304-2149.java: line 12-17          [36]
+  int a = scanner.nextInt();           |  System.out.print("*");
+  for (int i = 0; i < (13*a) +19 ; i++)|  for (int i = 0; i < (13*a) +17 ; i++)
+  System.out.print("*");               |  System.out.print(".");
+  }                                    |
+  System.out.println();                |  }
+                                       |  System.out.print("*");
+
+304-2149.java: line 189-194            |304-2149.java: line 194-199        [35]
+  for (int x = 0;x < (a) +1; x ++) {   |  for (int x = 0;x < (a*2) +1; x ++) {
+  System.out.print(".");               |  System.out.print("@");
+                                       |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("@");
+  for (int x = 0;x < (a*2) +1; x ++) { |  for (int x = 0;x < (a) +1; x ++) {
+
+304-2149.java: line 64-68              |304-2149.java: line 207-211        [33]
+  for (int x = 0;x < a +1; x ++) {     |  for (int x = 0;x < a +1; x ++) {
+  System.out.print(".");               |  System.out.print(".");
+                                       |  
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("*");
+
+304-2149.java: line 207-212            |304-2149.java: line 215-221        [31]
+  for (int x = 0;x < a +1; x ++) {     |  for (int i = 0; i < (13*a) +17 ; i++)
+  System.out.print(".");               |  System.out.print(".");
+                                       |
+  }                                    |  }
+  System.out.print("*");               |  System.out.print("*");
+  System.out.println();                |
+                                       |  System.out.println();
+
+304-2149.java: line 110-112            |304-2149.java: line 120-122        [29]
+  for (int x =0;x < (a + 5) - hang;x ++|  for (int x =0;x < (a + 5) - hang;x ++
+  System.out.print(".");               |  System.out.print(".");
+  }                                    |  }
+
+304-2149.java: line 215-218            |304-2149.java: line 223-225        [29]
+  for (int i = 0; i < (13*a) +17 ; i++)|  for (int i = 0; i < (13*a) +19 ; i++)
+  System.out.print(".");               |  System.out.print("*");
+                                       |  }
+  }                                    |
+
+304-2149.java: line 194-198            |304-2149.java: line 215-219        [28]
+  for (int x = 0;x < (a*2) +1; x ++) { |  for (int i = 0; i < (13*a) +17 ; i++)
+  System.out.print("@");               |  System.out.print(".");
+                                       |
+  }                                    |  }
+  System.out.print("@");               |  System.out.print("*");
+
+304-2149.java: line 62-63              |304-2149.java: line 70-71          [28]
+  for (int i = 0; i < (a*2) +1; i++) { |  for (int x = 0;x < (a*2) +2; x ++) {
+  System.out.print("*");               |  System.out.print(".");
+
+304-2149.java: line 199-203            |304-2149.java: line 203-207        [26]
+  for (int x = 0;x < (a) +1; x ++) {   |  for (int x = 0;x < (a*2) +3; x ++) {
+  System.out.print(".");               |  System.out.print("@");
+                                       |  
+  }                                    |  }
+  for (int x = 0;x < (a*2) +3; x ++) { |  for (int x = 0;x < a +1; x ++) {
+

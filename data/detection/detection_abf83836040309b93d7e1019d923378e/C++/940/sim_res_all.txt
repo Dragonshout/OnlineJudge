@@ -1,0 +1,434 @@
+File 1-940.cpp: 62 tokens, 15 lines (not NL-terminated)
+File 101-940.cpp: 70 tokens, 21 lines (not NL-terminated)
+File 117-940.cpp: 75 tokens, 20 lines (not NL-terminated)
+File 121-940.cpp: 65 tokens, 17 lines (not NL-terminated)
+File 122-940.cpp: 65 tokens, 19 lines (not NL-terminated)
+File 132-940.cpp: 72 tokens, 19 lines (not NL-terminated)
+File 133-940.cpp: 66 tokens, 16 lines (not NL-terminated)
+File 136-940.cpp: 76 tokens, 19 lines (not NL-terminated)
+File 143-940.cpp: 60 tokens, 12 lines (not NL-terminated)
+File 144-940.cpp: 80 tokens, 23 lines (not NL-terminated)
+File 17-940.cpp: 65 tokens, 12 lines (not NL-terminated)
+File 170-940.cpp: 70 tokens, 19 lines (not NL-terminated)
+File 177-940.cpp: 80 tokens, 23 lines (not NL-terminated)
+File 180-940.cpp: 58 tokens, 18 lines (not NL-terminated)
+File 182-940.cpp: 66 tokens, 16 lines (not NL-terminated)
+File 204-940.cpp: 67 tokens, 18 lines (not NL-terminated)
+File 211-940.cpp: 64 tokens, 16 lines (not NL-terminated)
+File 213-940.cpp: 77 tokens, 18 lines (not NL-terminated)
+File 245-940.cpp: 67 tokens, 18 lines (not NL-terminated)
+File 259-940.cpp: 69 tokens, 21 lines (not NL-terminated)
+File 262-940.cpp: 63 tokens, 17 lines (not NL-terminated)
+File 267-940.cpp: 81 tokens, 21 lines (not NL-terminated)
+File 30-940.cpp: 60 tokens, 13 lines (not NL-terminated)
+File 335-940.cpp: 66 tokens, 17 lines (not NL-terminated)
+File 351-940.cpp: 67 tokens, 19 lines (not NL-terminated)
+File 38-940.cpp: 61 tokens, 15 lines (not NL-terminated)
+File 43-940.cpp: 67 tokens, 17 lines (not NL-terminated)
+File 50-940.cpp: 85 tokens, 18 lines (not NL-terminated)
+File 54-940.cpp: 76 tokens, 21 lines (not NL-terminated)
+File 62-940.cpp: 68 tokens, 17 lines (not NL-terminated)
+File 72-940.cpp: 72 tokens, 21 lines (not NL-terminated)
+File 83-940.cpp: 66 tokens, 11 lines (not NL-terminated)
+File 98-940.cpp: 62 tokens, 17 lines (not NL-terminated)
+File sim_res.txt: 897 tokens, 53 lines
+Total input: 34 files (34 new, 0 old), 3165 tokens
+
+sim_res.txt: line 1-16                 |sim_res.txt: line 17-32           [288]
+File 1-940.cpp: 62 tokens, 15 lines (no|File 211-940.cpp: 64 tokens, 16 lines (
+File 101-940.cpp: 70 tokens, 21 lines (|File 213-940.cpp: 77 tokens, 18 lines (
+File 117-940.cpp: 75 tokens, 20 lines (|File 245-940.cpp: 67 tokens, 18 lines (
+File 121-940.cpp: 65 tokens, 17 lines (|File 259-940.cpp: 69 tokens, 21 lines (
+File 122-940.cpp: 65 tokens, 19 lines (|File 262-940.cpp: 63 tokens, 17 lines (
+File 132-940.cpp: 72 tokens, 19 lines (|File 267-940.cpp: 81 tokens, 21 lines (
+File 133-940.cpp: 66 tokens, 16 lines (|File 30-940.cpp: 60 tokens, 13 lines (n
+File 136-940.cpp: 76 tokens, 19 lines (|File 335-940.cpp: 66 tokens, 17 lines (
+File 143-940.cpp: 60 tokens, 12 lines (|File 351-940.cpp: 67 tokens, 19 lines (
+File 144-940.cpp: 80 tokens, 23 lines (|File 38-940.cpp: 61 tokens, 15 lines (n
+File 17-940.cpp: 65 tokens, 12 lines (n|File 43-940.cpp: 67 tokens, 17 lines (n
+File 170-940.cpp: 70 tokens, 19 lines (|File 50-940.cpp: 85 tokens, 18 lines (n
+File 177-940.cpp: 80 tokens, 23 lines (|File 54-940.cpp: 76 tokens, 21 lines (n
+File 180-940.cpp: 58 tokens, 18 lines (|File 62-940.cpp: 68 tokens, 17 lines (n
+File 182-940.cpp: 66 tokens, 16 lines (|File 72-940.cpp: 72 tokens, 21 lines (n
+File 204-940.cpp: 67 tokens, 18 lines (|File 83-940.cpp: 66 tokens, 11 lines (n
+
+sim_res.txt: line 17-24                |sim_res.txt: line 25-32           [144]
+File 211-940.cpp: 64 tokens, 16 lines (|File 351-940.cpp: 67 tokens, 19 lines (
+File 213-940.cpp: 77 tokens, 18 lines (|File 38-940.cpp: 61 tokens, 15 lines (n
+File 245-940.cpp: 67 tokens, 18 lines (|File 43-940.cpp: 67 tokens, 17 lines (n
+File 259-940.cpp: 69 tokens, 21 lines (|File 50-940.cpp: 85 tokens, 18 lines (n
+File 262-940.cpp: 63 tokens, 17 lines (|File 54-940.cpp: 76 tokens, 21 lines (n
+File 267-940.cpp: 81 tokens, 21 lines (|File 62-940.cpp: 68 tokens, 17 lines (n
+File 30-940.cpp: 60 tokens, 13 lines (n|File 72-940.cpp: 72 tokens, 21 lines (n
+File 335-940.cpp: 66 tokens, 17 lines (|File 83-940.cpp: 66 tokens, 11 lines (n
+
+sim_res.txt: line 34-44                |sim_res.txt: line 44-53           [144]
+Total input: 33 files (33 new, 0 old), |17-940.cpp consists for 58 % of 182-940
+                                       |335-940.cpp consists for 58 % of 83-940
+121-940.cpp consists for 97 % of 245-94|38-940.cpp consists for 57 % of 83-940.
+262-940.cpp consists for 94 % of 38-940|101-940.cpp consists for 56 % of 132-94
+182-940.cpp consists for 89 % of 262-94|122-940.cpp consists for 55 % of 204-94
+1-940.cpp consists for 85 % of 335-940.|136-940.cpp consists for 53 % of 170-94
+30-940.cpp consists for 83 % of 335-940|245-940.cpp consists for 52 % of 262-94
+204-940.cpp consists for 76 % of 62-940|170-940.cpp consists for 51 % of 72-940
+133-940.cpp consists for 70 % of 245-94|143-940.cpp consists for 50 % of 17-940
+43-940.cpp consists for 63 % of 54-940.|132-940.cpp consists for 50 % of 133-94
+17-940.cpp consists for 58 % of 182-940|
+
+sim_res.txt: line 25-28                |sim_res.txt: line 29-32            [72]
+File 351-940.cpp: 67 tokens, 19 lines (|File 54-940.cpp: 76 tokens, 21 lines (n
+File 38-940.cpp: 61 tokens, 15 lines (n|File 62-940.cpp: 68 tokens, 17 lines (n
+File 43-940.cpp: 67 tokens, 17 lines (n|File 72-940.cpp: 72 tokens, 21 lines (n
+File 50-940.cpp: 85 tokens, 18 lines (n|File 83-940.cpp: 66 tokens, 11 lines (n
+
+sim_res.txt: line 44-48                |sim_res.txt: line 48-52            [64]
+17-940.cpp consists for 58 % of 182-940|122-940.cpp consists for 55 % of 204-94
+335-940.cpp consists for 58 % of 83-940|136-940.cpp consists for 53 % of 170-94
+38-940.cpp consists for 57 % of 83-940.|245-940.cpp consists for 52 % of 262-94
+101-940.cpp consists for 56 % of 132-94|170-940.cpp consists for 51 % of 72-940
+122-940.cpp consists for 55 % of 204-94|143-940.cpp consists for 50 % of 17-940
+
+121-940.cpp: line 2-16                 |245-940.cpp: line 2-16             [63]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+  int n,i=0;                           | int n,num=0;
+  cin>>n;                              | cin>>n;
+  while(n!=1){                         | while(n!=1){
+  if(n%2==0){                          |  if(n%2==0){
+  n=n/2;                               |  n=n/2;
+  }else{                               |  }
+  n=(3*n+1)/2;                         |  else{
+  }                                    |  n=(3*n+1)/2;
+  i++;                                 |  }
+  }                                    |  num++;
+                                       | }
+  cout<<i;                             | cout<<num;
+
+182-940.cpp: line 2-14                 |262-940.cpp: line 2-15             [59]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+ int n,k=0;                            | int n,count=0;
+ cin>>n;                               | cin >> n;
+ while(n!=1)                           | while(n != 1){
+ {                                     |  if(n%2==0)
+  if(n%2==0)                           |  n=n/2;
+  n=n/2;                               |  else
+  else n=(3*n+1)/2;                    |  n=(3*n+1)/2;
+  k++;                                 |  count++;
+ }                                     |  
+ cout<<k<<endl;                        | }
+                                       | cout << count;
+
+262-940.cpp: line 2-15                 |38-940.cpp: line 2-14              [59]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+ int n,count=0;                        |  int n,t=0;
+ cin >> n;                             |  cin>>n;
+ while(n != 1){                        |  while(n!=1)
+  if(n%2==0)                           |  {if(n%2==0)
+  n=n/2;                               |  n=n/2;
+  else                                 |  else
+  n=(3*n+1)/2;                         |  n=(3*n+1)/2;
+  count++;                             |  t++;
+                                       |  }
+ }                                     |  cout<<t;
+ cout << count;                        |
+
+1-940.cpp: line 2-11                   |335-940.cpp: line 2-13             [53]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+  int n,step=0;                        |  int n,tot=0;
+  cin>>n;                              |  cin>>n;
+  while(n!=1)                          |  while (n!=1)
+  {                                    |  {
+  if(n%2==0)n/=2;                      |  if(n%2==0)
+  else n=(3*n+1)/2;                    |  n/=2;
+  step++;                              |  else
+                                       |  n=(3*n+1)/2;
+                                       |  tot+=1;
+
+204-940.cpp: line 7-17                 |62-940.cpp: line 4-15              [51]
+ int count = 0;                        |  int n,i,count=0;
+ cin >> n;                             |  cin>>n;
+ while(n!=1){                          |  while(n!=1){ 
+  if(n%2 == 0){                        |  if(n%2==0){ 
+  n /= 2;                              |  n/=2;
+  }else{                               |  }
+  n = (3*n+1)/2;                       |  else{ 
+  }                                    |  n=(3*n+1)/2;
+  count++;                             |  }
+ }                                     |  count++;
+ cout << count <<endl;                 |  }
+                                       |  cout<<count;
+
+133-940.cpp: line 2-10                 |245-940.cpp: line 2-12             [46]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+ int x,i=0;                            |{
+ cin>>x;                               | int n,num=0;
+  while(x!=1){                         | cin>>n;
+  if(x%2==0){                          | while(n!=1){
+  x=x/2;                               |  if(n%2==0){
+  }else{                               |  n=n/2;
+  x=3*x+1;                             |  }
+                                       |  else{
+                                       |  n=(3*n+1)/2;
+
+43-940.cpp: line 7-16                  |54-940.cpp: line 9-19              [42]
+  while(a>1){                          |  while(n!=1){
+  if(a%2==0){                          |  if(n%2==0){
+  a/=2;                                |  n/=2;
+  i++;                                 |  cnt++;
+  }else{                               |  }
+  a=(3*a+1)/2;                         |  else{
+  i++;                                 |  n=(n*3+1)/2;
+  }                                    |  cnt++;
+  }                                    |  }
+  cout<<i;                             |  }
+                                       |  cout<<cnt;
+
+136-940.cpp: line 2-10                 |170-940.cpp: line 2-9              [40]
+using namespace std;                   |using namespace std;
+int main(){                            |int main(){
+  //输入;                               | int n;
+  int n;                               |cin>>n;
+  cin>>n;                              |int sum=0;
+  int count=0; //砍的计数器;            |while(n!=1){
+  while(n!=1){                         | if(n%2==0){
+  if(n%2==0){                          |  n=n/2;
+  n=n/2;                               |
+
+101-940.cpp: line 2-11                 |132-940.cpp: line 2-9              [39]
+using namespace std;                   |using namespace std;
+int main()                             |
+{                                      |int main(){
+ int n,sum=0;                          | int n,c = 0;
+ cin>>n;                               | cin >> n;
+ while (n!=1)                          | while(n != 1){
+ {                                     |  if (n % 2 == 0){
+  if(n%2==0)                           |  n /= 2;
+  {                                    |
+  n/=2;                                |
+
+335-940.cpp: line 2-10                 |83-940.cpp: line 2-7               [38]
+using namespace std;                   |using namespace std;
+int main()                             |int main(){
+{                                      |  int n,cnt=0;
+  int n,tot=0;                         |  cin>>n;
+  cin>>n;                              |  while(n!=1){
+  while (n!=1)                         |  if(n%2==0) n/=2,cnt++;
+  {                                    |
+  if(n%2==0)                           |
+  n/=2;                                |
+
+17-940.cpp: line 5-9                   |182-940.cpp: line 7-13             [38]
+  while(n!=1){                         | while(n!=1)
+  if(n%2==0)n=n/2;                     | {
+  else n=(3*n+1)/2;                    |  if(n%2==0)
+  t++;                                 |  n=n/2;
+  }                                    |  else n=(3*n+1)/2;
+                                       |  k++;
+                                       | }
+
+sim_res.txt: line 29-30                |sim_res.txt: line 31-32            [36]
+File 54-940.cpp: 76 tokens, 21 lines (n|File 72-940.cpp: 72 tokens, 21 lines (n
+File 62-940.cpp: 68 tokens, 17 lines (n|File 83-940.cpp: 66 tokens, 11 lines (n
+
+132-940.cpp: line 2-8                  |133-940.cpp: line 2-7              [36]
+using namespace std;                   |using namespace std;
+                                       |int main(){
+int main(){                            | int x,i=0;
+ int n,c = 0;                          | cin>>x;
+ cin >> n;                             |  while(x!=1){
+ while(n != 1){                        |  if(x%2==0){
+  if (n % 2 == 0){                     |
+
+213-940.cpp: line 9-15                 |43-940.cpp: line 8-15              [36]
+  else if(n%2==0){                     |  if(a%2==0){
+  n/=2; sum++;                         |  a/=2;
+  }                                    |  i++;
+  else{                                |  }else{
+  n=(3*n+1)/2; sum++;                  |  a=(3*a+1)/2;
+  }                                    |  i++;
+ }                                     |  }
+                                       |  }
+
+170-940.cpp: line 2-8                  |72-940.cpp: line 2-9               [36]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+ int n;                                |{
+cin>>n;                                |  int n;cin>>n;
+int sum=0;                             |  int count=0;
+while(n!=1){                           |  while(n!=1)
+ if(n%2==0){                           |  {
+                                       |  if(n%2==0){
+
+122-940.cpp: line 2-10                 |204-940.cpp: line 2-10             [36]
+using namespace std;                   |using namespace std;
+                                       |
+int main() {                           |int main()
+ // your code goes here                |{
+ int n;                                | int n;
+ int x=0;                              | int count = 0;
+ cin>>n;                               | cin >> n;
+ while(n!=1){                          | while(n!=1){
+  if(n%2==0){                          |  if(n%2 == 0){
+
+38-940.cpp: line 2-8                   |83-940.cpp: line 2-7               [35]
+using namespace std;                   |using namespace std;
+int main()                             |int main(){
+{                                      |  int n,cnt=0;
+  int n,t=0;                           |  cin>>n;
+  cin>>n;                              |  while(n!=1){
+  while(n!=1)                          |  if(n%2==0) n/=2,cnt++;
+  {if(n%2==0)                          |
+
+245-940.cpp: line 2-8                  |262-940.cpp: line 2-8              [35]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+ int n,num=0;                          | int n,count=0;
+ cin>>n;                               | cin >> n;
+ while(n!=1){                          | while(n != 1){
+  if(n%2==0){                          |  if(n%2==0)
+
+sim_res.txt: line 48-50                |sim_res.txt: line 50-52            [32]
+122-940.cpp consists for 55 % of 204-94|245-940.cpp consists for 52 % of 262-94
+136-940.cpp consists for 53 % of 170-94|170-940.cpp consists for 51 % of 72-940
+245-940.cpp consists for 52 % of 262-94|143-940.cpp consists for 50 % of 17-940
+
+351-940.cpp: line 7-13                 |62-940.cpp: line 6-12              [31]
+  for(s=0;n!=1;s++){                   |  while(n!=1){ 
+  if(n%2==0){                          |  if(n%2==0){ 
+  n/=2;                                |  n/=2;
+  }                                    |  }
+  else{                                |  else{ 
+  n=(3*n+1)/2;                         |  n=(3*n+1)/2;
+  }                                    |  }
+
+54-940.cpp: line 10-19                 |72-940.cpp: line 9-19              [30]
+  if(n%2==0){                          |  if(n%2==0){
+  n/=2;                                |  n/=2;
+  cnt++;                               |  count++;
+  }                                    |  }
+  else{                                |  else{
+  n=(n*3+1)/2;                         |  n=(3*n+1)/2;
+  cnt++;                               |  count++;
+  }                                    |  
+  }                                    |  }
+  cout<<cnt;                           |  }
+                                       |  cout<<count<<endl;
+
+170-940.cpp: line 9-18                 |54-940.cpp: line 11-20             [30]
+  n=n/2;                               |  n/=2;
+sum++;                                 |  cnt++;
+ }else{                                |  }
+n=(3*n+1)/2;                           |  else{
+sum++;                                 |  n=(n*3+1)/2;
+}                                      |  cnt++;
+}                                      |  }
+cout<<sum;                             |  }
+                                       |  cout<<cnt;
+return 0;                              |  return 0;
+
+143-940.cpp: line 2-7                  |17-940.cpp: line 2-6               [30]
+int main()                             |int main(){
+{                                      |  int n,t=0;
+  int n,s=0;                           |  scanf("%d",&n);
+  scanf("%d",&n);                      |  while(n!=1){
+  while(n!=1){                         |  if(n%2==0)n=n/2;
+  if(n%2) n=(n*3+1)/2;                 |
+
+211-940.cpp: line 8-13                 |245-940.cpp: line 8-13             [30]
+  if (n%2==0){                         |  if(n%2==0){
+  n=n/2;                               |  n=n/2;
+  }                                    |  }
+  else {                               |  else{
+  n=(3*n+1)/2;                         |  n=(3*n+1)/2;
+  }                                    |  }
+
+117-940.cpp: line 12-19                |180-940.cpp: line 10-17            [29]
+  if(num%2==1)                         |  if (n % 2)
+  num=(3*num+1)/2;                     |  n = (n * 3 + 1) / 2;
+  else                                 |  else
+  num/=2;                              |  n /= 2;
+  result++;                            |  count++;
+  }                                    | }
+  cout<<result;                        | cout<<count;
+  return 0;                            | return 0;
+
+54-940.cpp: line 7-10                  |83-940.cpp: line 4-7               [27]
+  int n,cnt=0;                         |  int n,cnt=0;
+  cin>>n;                              |  cin>>n;
+  while(n!=1){                         |  while(n!=1){
+  if(n%2==0){                          |  if(n%2==0) n/=2,cnt++;
+
+30-940.cpp: line 2-6                   |335-940.cpp: line 2-8              [26]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+  int n,res=0;                         |{
+  cin>>n;                              |  int n,tot=0;
+  while(n!=1){                         |  cin>>n;
+                                       |  while (n!=1)
+                                       |  {
+
+62-940.cpp: line 4-7                   |83-940.cpp: line 4-7               [26]
+  int n,i,count=0;                     |  int n,cnt=0;
+  cin>>n;                              |  cin>>n;
+  while(n!=1){                         |  while(n!=1){
+  if(n%2==0){                          |  if(n%2==0) n/=2,cnt++;
+
+38-940.cpp: line 9-14                  |98-940.cpp: line 8-16              [26]
+  n=n/2;                               |  if(n%2==0)n=n/2;
+  else                                 |  else n=(3*n+1)/2;
+  n=(3*n+1)/2;                         |  f++;
+  t++;                                 |  
+  }                                    |  }
+  cout<<t;                             |  cout<<f;
+                                       |
+                                       |
+                                       |
+
+245-940.cpp: line 8-15                 |259-940.cpp: line 10-18            [25]
+  if(n%2==0){                          |  {
+  n=n/2;                               |  n=n/2;
+  }                                    |  }
+  else{                                |  else
+  n=(3*n+1)/2;                         |  {
+  }                                    |  n=(3*n+1)/2;
+  num++;                               |  }
+ }                                     |  count ++;
+                                       |  }
+
+144-940.cpp: line 6-9                  |72-940.cpp: line 6-10              [25]
+  int count = 0;                       |  int count=0;
+  while(num!=1){                       |  while(n!=1)
+  if(num%2 == 0){                      |  {
+  num/=2;                              |  if(n%2==0){
+                                       |  n/=2;
+
+83-940.cpp: line 4-7                   |98-940.cpp: line 5-8               [24]
+  int n,cnt=0;                         |  f=0;
+  cin>>n;                              |  cin>>n;
+  while(n!=1){                         |  while(n!=1){
+  if(n%2==0) n/=2,cnt++;               |  if(n%2==0)n=n/2;
+
+30-940.cpp: line 8-9                   |335-940.cpp: line 9-12             [24]
+  if(n%2==0)n/=2;                      |  if(n%2==0)
+  else n=(3*n+1)/2;                    |  n/=2;
+                                       |  else
+                                       |  n=(3*n+1)/2;
+
+136-940.cpp: line 12-18                |245-940.cpp: line 11-17            [24]
+  else if(n%2==1){                     |  else{
+  n=(3*n+1)/2;                         |  n=(3*n+1)/2;
+  }                                    |  }
+  count++;                             |  num++;
+  }                                    | }
+  cout<<count;                         | cout<<num;
+  return 0;                            | return 0;
+

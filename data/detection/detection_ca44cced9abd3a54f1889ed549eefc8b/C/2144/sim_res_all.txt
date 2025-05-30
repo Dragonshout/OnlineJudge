@@ -1,0 +1,736 @@
+File 110-2144.c: 145 tokens, 25 lines (not NL-terminated)
+File 120-2144.c: 129 tokens, 24 lines (not NL-terminated)
+File 125-2144.c: 142 tokens, 35 lines (not NL-terminated)
+File 148-2144.c: 144 tokens, 27 lines (not NL-terminated)
+File 160-2144.c: 132 tokens, 19 lines (not NL-terminated)
+File 172-2144.c: 168 tokens, 44 lines (not NL-terminated)
+File 190-2144.c: 159 tokens, 30 lines (not NL-terminated)
+File 191-2144.c: 154 tokens, 30 lines (not NL-terminated)
+File 194-2144.c: 128 tokens, 29 lines (not NL-terminated)
+File 201-2144.c: 134 tokens, 26 lines (not NL-terminated)
+File 214-2144.c: 163 tokens, 33 lines (not NL-terminated)
+File 215-2144.c: 139 tokens, 24 lines (not NL-terminated)
+File 220-2144.c: 154 tokens, 34 lines (not NL-terminated)
+File 234-2144.c: 121 tokens, 27 lines (not NL-terminated)
+File 236-2144.c: 159 tokens, 26 lines (not NL-terminated)
+File 237-2144.c: 156 tokens, 26 lines (not NL-terminated)
+File 244-2144.c: 163 tokens, 38 lines (not NL-terminated)
+File 254-2144.c: 125 tokens, 21 lines (not NL-terminated)
+File 262-2144.c: 145 tokens, 31 lines (not NL-terminated)
+File 263-2144.c: 172 tokens, 27 lines (not NL-terminated)
+File 264-2144.c: 151 tokens, 25 lines (not NL-terminated)
+File 284-2144.c: 150 tokens, 26 lines (not NL-terminated)
+File 287-2144.c: 155 tokens, 32 lines (not NL-terminated)
+File 291-2144.c: 159 tokens, 28 lines (not NL-terminated)
+File 293-2144.c: 168 tokens, 30 lines (not NL-terminated)
+File 303-2144.c: 124 tokens, 32 lines (not NL-terminated)
+File 310-2144.c: 175 tokens, 29 lines (not NL-terminated)
+File 312-2144.c: 148 tokens, 23 lines (not NL-terminated)
+File 314-2144.c: 174 tokens, 31 lines (not NL-terminated)
+File 319-2144.c: 124 tokens, 26 lines (not NL-terminated)
+File 323-2144.c: 148 tokens, 22 lines (not NL-terminated)
+File 325-2144.c: 128 tokens, 23 lines (not NL-terminated)
+File 341-2144.c: 178 tokens, 33 lines (not NL-terminated)
+File 345-2144.c: 146 tokens, 30 lines (not NL-terminated)
+File 367-2144.c: 142 tokens, 28 lines (not NL-terminated)
+File 56-2144.c: 153 tokens, 22 lines (not NL-terminated)
+File sim_res.txt: 1335 tokens, 80 lines
+Total input: 37 files (37 new, 0 old), 6690 tokens
+
+sim_res.txt: line 37-59                |sim_res.txt: line 59-80           [336]
+Total input: 36 files (36 new, 0 old), |254-2144.c consists for 27 % of 264-214
+                                       |254-2144.c consists for 26 % of 303-214
+125-2144.c consists for 58 % of 319-214|254-2144.c consists for 24 % of 341-214
+110-2144.c consists for 45 % of 264-214|191-2144.c consists for 27 % of 237-214
+110-2144.c consists for 20 % of 191-214|191-2144.c consists for 23 % of 262-214
+237-2144.c consists for 44 % of 254-214|215-2144.c consists for 27 % of 367-214
+237-2144.c consists for 26 % of 263-214|264-2144.c consists for 26 % of 303-214
+220-2144.c consists for 42 % of 264-214|264-2144.c consists for 21 % of 367-214
+293-2144.c consists for 40 % of 56-2144|325-2144.c consists for 23 % of 341-214
+323-2144.c consists for 37 % of 325-214|319-2144.c consists for 23 % of 56-2144
+160-2144.c consists for 36 % of 310-214|319-2144.c consists for 22 % of 345-214
+244-2144.c consists for 34 % of 254-214|319-2144.c consists for 21 % of 367-214
+148-2144.c consists for 32 % of 293-214|287-2144.c consists for 23 % of 291-214
+303-2144.c consists for 31 % of 312-214|287-2144.c consists for 20 % of 310-214
+303-2144.c consists for 24 % of 367-214|367-2144.c consists for 22 % of 56-2144
+194-2144.c consists for 31 % of 314-214|310-2144.c consists for 22 % of 323-214
+120-2144.c consists for 31 % of 148-214|201-2144.c consists for 21 % of 291-214
+120-2144.c consists for 30 % of 323-214|201-2144.c consists for 20 % of 345-214
+214-2144.c consists for 30 % of 325-214|234-2144.c consists for 21 % of 345-214
+214-2144.c consists for 20 % of 237-214|236-2144.c consists for 20 % of 291-214
+262-2144.c consists for 28 % of 312-214|284-2144.c consists for 20 % of 345-214
+262-2144.c consists for 26 % of 319-214|341-2144.c consists for 20 % of 56-2144
+254-2144.c consists for 27 % of 264-214|
+
+sim_res.txt: line 1-18                 |sim_res.txt: line 19-36           [324]
+File 110-2144.c: 145 tokens, 25 lines (|File 262-2144.c: 145 tokens, 31 lines (
+File 120-2144.c: 129 tokens, 24 lines (|File 263-2144.c: 172 tokens, 27 lines (
+File 125-2144.c: 142 tokens, 35 lines (|File 264-2144.c: 151 tokens, 25 lines (
+File 148-2144.c: 144 tokens, 27 lines (|File 284-2144.c: 150 tokens, 26 lines (
+File 160-2144.c: 132 tokens, 19 lines (|File 287-2144.c: 155 tokens, 32 lines (
+File 172-2144.c: 168 tokens, 44 lines (|File 291-2144.c: 159 tokens, 28 lines (
+File 190-2144.c: 159 tokens, 30 lines (|File 293-2144.c: 168 tokens, 30 lines (
+File 191-2144.c: 154 tokens, 30 lines (|File 303-2144.c: 124 tokens, 32 lines (
+File 194-2144.c: 128 tokens, 29 lines (|File 310-2144.c: 175 tokens, 29 lines (
+File 201-2144.c: 134 tokens, 26 lines (|File 312-2144.c: 148 tokens, 23 lines (
+File 214-2144.c: 163 tokens, 33 lines (|File 314-2144.c: 174 tokens, 31 lines (
+File 215-2144.c: 139 tokens, 24 lines (|File 319-2144.c: 124 tokens, 26 lines (
+File 220-2144.c: 154 tokens, 34 lines (|File 323-2144.c: 148 tokens, 22 lines (
+File 234-2144.c: 121 tokens, 27 lines (|File 325-2144.c: 128 tokens, 23 lines (
+File 236-2144.c: 159 tokens, 26 lines (|File 341-2144.c: 178 tokens, 33 lines (
+File 237-2144.c: 156 tokens, 26 lines (|File 345-2144.c: 146 tokens, 30 lines (
+File 244-2144.c: 163 tokens, 38 lines (|File 367-2144.c: 142 tokens, 28 lines (
+File 254-2144.c: 125 tokens, 21 lines (|File 56-2144.c: 153 tokens, 22 lines (n
+
+sim_res.txt: line 19-27                |sim_res.txt: line 28-36           [162]
+File 262-2144.c: 145 tokens, 31 lines (|File 312-2144.c: 148 tokens, 23 lines (
+File 263-2144.c: 172 tokens, 27 lines (|File 314-2144.c: 174 tokens, 31 lines (
+File 264-2144.c: 151 tokens, 25 lines (|File 319-2144.c: 124 tokens, 26 lines (
+File 284-2144.c: 150 tokens, 26 lines (|File 323-2144.c: 148 tokens, 22 lines (
+File 287-2144.c: 155 tokens, 32 lines (|File 325-2144.c: 128 tokens, 23 lines (
+File 291-2144.c: 159 tokens, 28 lines (|File 341-2144.c: 178 tokens, 33 lines (
+File 293-2144.c: 168 tokens, 30 lines (|File 345-2144.c: 146 tokens, 30 lines (
+File 303-2144.c: 124 tokens, 32 lines (|File 367-2144.c: 142 tokens, 28 lines (
+File 310-2144.c: 175 tokens, 29 lines (|File 56-2144.c: 153 tokens, 22 lines (n
+
+sim_res.txt: line 59-69                |sim_res.txt: line 69-79           [160]
+254-2144.c consists for 27 % of 264-214|319-2144.c consists for 22 % of 345-214
+254-2144.c consists for 26 % of 303-214|319-2144.c consists for 21 % of 367-214
+254-2144.c consists for 24 % of 341-214|287-2144.c consists for 23 % of 291-214
+191-2144.c consists for 27 % of 237-214|287-2144.c consists for 20 % of 310-214
+191-2144.c consists for 23 % of 262-214|367-2144.c consists for 22 % of 56-2144
+215-2144.c consists for 27 % of 367-214|310-2144.c consists for 22 % of 323-214
+264-2144.c consists for 26 % of 303-214|201-2144.c consists for 21 % of 291-214
+264-2144.c consists for 21 % of 367-214|201-2144.c consists for 20 % of 345-214
+325-2144.c consists for 23 % of 341-214|234-2144.c consists for 21 % of 345-214
+319-2144.c consists for 23 % of 56-2144|236-2144.c consists for 20 % of 291-214
+319-2144.c consists for 22 % of 345-214|284-2144.c consists for 20 % of 345-214
+
+125-2144.c: line 2-17                  |319-2144.c: line 3-15              [82]
+int main()                             |int main()
+{                                      |{
+  int n;                               |  int n;
+  scanf("%d",&n);                      |  scanf("%d",&n);
+  int a[n];                            |  int a[n];
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<n;i++){
+  {                                    |  scanf("%d",&a[i]);
+  scanf("%d",&a[i]);                   |  }
+  }                                    |  int t;
+  int lucky;                           |  scanf("%d",&t);
+  scanf("%d",&lucky);                  |  int sum=0;
+  int sum=0;                           |  for(int i=0;i<n;i++){
+  for(int i=0;i<n;i++)                 |  if(a[i]==t){
+  {                                    |
+  if(a[i]==lucky)                      |
+  {                                    |
+
+sim_res.txt: line 69-74                |sim_res.txt: line 74-79            [80]
+319-2144.c consists for 22 % of 345-214|310-2144.c consists for 22 % of 323-214
+319-2144.c consists for 21 % of 367-214|201-2144.c consists for 21 % of 291-214
+287-2144.c consists for 23 % of 291-214|201-2144.c consists for 20 % of 345-214
+287-2144.c consists for 20 % of 310-214|234-2144.c consists for 21 % of 345-214
+367-2144.c consists for 22 % of 56-2144|236-2144.c consists for 20 % of 291-214
+310-2144.c consists for 22 % of 323-214|284-2144.c consists for 20 % of 345-214
+
+sim_res.txt: line 28-31                |sim_res.txt: line 32-35            [72]
+File 312-2144.c: 148 tokens, 23 lines (|File 325-2144.c: 128 tokens, 23 lines (
+File 314-2144.c: 174 tokens, 31 lines (|File 341-2144.c: 178 tokens, 33 lines (
+File 319-2144.c: 124 tokens, 26 lines (|File 345-2144.c: 146 tokens, 30 lines (
+File 323-2144.c: 148 tokens, 22 lines (|File 367-2144.c: 142 tokens, 28 lines (
+
+237-2144.c: line 6-14                  |254-2144.c: line 8-16              [69]
+ int t;                                | int count=0;
+ scanf("%d",&n);                       | scanf("%d",&n);
+ for(int i=0;i < n;i++){               | for(int i=0;i<n;i++){
+  scanf("%d",&num[i]);                 |  scanf("%d",&a[i]);
+  }                                    | }
+ scanf("%d",&t);                       | scanf("%d",&t);
+ for(int i=0;i<n;i++){                 | for(int j=0;j<n;j++){
+  if(num[i]==t)lucky+=10;              |  if(a[j]==t)count+=10;
+  else{                                |  else count-=abs(a[j]-t);
+
+110-2144.c: line 3-12                  |264-2144.c: line 5-15              [65]
+ int n,sum=0;                          |  sum=0;
+  scanf("%d",&n);                      |  scanf("%d",&n);
+  int a[1000];                         |  int a[n];
+  for(int i=0;i<n;i++){                |  for(int i=0;i<n;i++)
+  scanf("%d",&a[i]);                   |  {scanf("%d",&a[i]);
+  }                                    |  }
+  int k;                               |  int t;
+  scanf("%d",&k);                      |  scanf("%d",&t);
+  for(int i=0;i<n;i++){                |  for(int j=0;j<n;j++)
+  if(k==a[i]){                         |  {
+                                       |  if(a[j]==t)sum=sum+10;
+
+220-2144.c: line 8-18                  |264-2144.c: line 8-16              [64]
+  for(int o=0;o<n;o++)                 |  for(int i=0;i<n;i++)
+  {                                    |  {scanf("%d",&a[i]);
+  scanf("%d",&arr[o]);                 |  }
+  }                                    |  int t;
+  int shu;                             |  scanf("%d",&t);
+  scanf("%d",&shu);//xingyunshu        |  for(int j=0;j<n;j++)
+  for(int i=0;i<n;i++)                 |  {
+  {                                    |  if(a[j]==t)sum=sum+10;
+  if(arr[i]==shu)                      |  else if(a[j]<t)sum=sum-(t-a[j]);
+  yun=yun+10;                          |
+  else                                 |
+
+323-2144.c: line 6-11                  |325-2144.c: line 7-12              [55]
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+  }                                    |  }
+  scanf("%d",&x);                      |  scanf("%d",&b);
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  if(a[i]==x){                         |  if(a[i]==b){
+
+244-2144.c: line 8-16                  |254-2144.c: line 9-15              [55]
+ scanf("%d", &n);//n表示今天给n个幸运数字| scanf("%d",&n);
+ for (int i = 0; i < n; i++)           | for(int i=0;i<n;i++){
+ {                                     |  scanf("%d",&a[i]);
+  scanf("%d", &a[i]);                  | }
+ }                                     | scanf("%d",&t);
+ scanf("%d", &m);//今天的幸运数字        | for(int j=0;j<n;j++){
+ for (int i = 0; i < n; i++)           |  if(a[j]==t)count+=10;
+ {                                     |
+  if (m == a[i])                       |
+
+214-2144.c: line 9-16                  |325-2144.c: line 8-14              [49]
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+  }                                    |  }
+  scanf("%d",&t);                      |  scanf("%d",&b);
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  if(a[i]==t){                         |  if(a[i]==b){
+  ha+=10;                              |  t+=10;
+  }                                    |  }else{
+  else{                                |
+
+sim_res.txt: line 74-77                |sim_res.txt: line 77-80            [48]
+310-2144.c consists for 22 % of 323-214|234-2144.c consists for 21 % of 345-214
+201-2144.c consists for 21 % of 291-214|236-2144.c consists for 20 % of 291-214
+201-2144.c consists for 20 % of 345-214|284-2144.c consists for 20 % of 345-214
+234-2144.c consists for 21 % of 345-214|341-2144.c consists for 20 % of 56-2144
+
+160-2144.c: line 5-9                   |310-2144.c: line 3-8               [47]
+  int n,t,l,i,a[100],c=0,b=0,s=0;      | int i,n,a[1000],k=0,m,y,x,sum=0,count=
+  scanf("%d",&n);                      | scanf("%d",&n);
+  for(i=0;i<n;i++)                     | for(i=0;i<n;i++){
+  {scanf("%d",&a[i]);}                 |  scanf("%d",&a[i]);
+  scanf("%d",&t);                      | } 
+                                       | scanf("%d",&x);
+
+148-2144.c: line 7-14                  |293-2144.c: line 10-17             [46]
+  scanf("%d",&temp2);                  |  scanf("%d",&x);
+  a[i]=temp2;                          |  arr[i] = x;
+  }                                    | }
+  scanf("%d",&t);                      | scanf("%d",&t);
+  for(i=0;i<n;i++){                    | for(j = 0;j < n;j++){
+  if(a[i]==t){                         |  if(arr[j] == t){
+  x+=10;                               |  num += 10;
+  }else{                               |  }else if(arr[j] != t){
+
+191-2144.c: line 7-13                  |237-2144.c: line 6-11              [41]
+ int t;                                | int t;
+ scanf("%d",&n);                       | scanf("%d",&n);
+ for(int i=0;i<n;i++)                  | for(int i=0;i < n;i++){
+ {                                     |  scanf("%d",&num[i]);
+ scanf("%d",&a[i]);                    |  } 
+ };                                    | scanf("%d",&t);
+ scanf("%d",&t);                       |
+
+237-2144.c: line 17-25                 |263-2144.c: line 16-26             [41]
+  lucky=lucky-(t-num[i]);}             |  luck-=(t-a[i]);
+  }                                    |  }
+ }                                     |  }
+ if(lucky>0){                          |  }
+  printf("%d\n",lucky);                |  if(luck>0){
+  printf("Happy");                     |  printf("%d\n",luck);
+ }else{printf("%d",lucky);             |  printf("Happy");
+ }                                     |  }else{
+ return 0;                             |  printf("%d\n",luck);
+                                       |  }
+                                       |  return 0;
+
+264-2144.c: line 5-10                  |303-2144.c: line 7-13              [40]
+  sum=0;                               |  int all=0;
+  scanf("%d",&n);                      |  scanf("%d",&n);
+  int a[n];                            |  int ace[n];
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<n;i++)
+  {scanf("%d",&a[i]);                  |  {
+  }                                    |  scanf("%d",&ace[i]);
+                                       |  }
+
+194-2144.c: line 6-12                  |314-2144.c: line 6-11              [40]
+ scanf("%d",&n);                       |  scanf("%d",&n);
+ int i;                                |  int i;
+ for(i = 0;i<n;i++)                    |  for(i=0;i<n;i++){
+ {                                     |  scanf("%d",&a[i]);
+  scanf("%d",&a[i]);                   |  }
+ }                                     |  scanf("%d",&b);
+ scanf("%d",&t);                       |
+
+262-2144.c: line 4-10                  |312-2144.c: line 3-7               [40]
+  int n;                               |  int a,c,x=0;
+  scanf("%d",&n);                      |  scanf("%d",&a);
+  int a[n-1];                          |  int b[a-1];
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<a;i++){
+  {                                    |  scanf("%d",&b[i]);}
+  scanf("%d",&a[i]);                   |
+  }                                    |
+
+120-2144.c: line 9-14                  |148-2144.c: line 7-12              [40]
+  scanf("%d",&x);                      |  scanf("%d",&temp2);
+  a[i]=x;                              |  a[i]=temp2;
+}                                      |  }
+scanf("%d",&t);                        |  scanf("%d",&t);
+for(i=0;i<n;i++){                      |  for(i=0;i<n;i++){
+  if(a[i]==t){                         |  if(a[i]==t){
+
+120-2144.c: line 5-9                   |323-2144.c: line 3-7               [39]
+  int n,x,i,t,count=0;                 |  int n,i,x,j=0;
+  int a[101];                          |  int a[100];
+  scanf("%d",&n);                      |  scanf("%d",&n);
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  scanf("%d",&x);                      |  scanf("%d",&a[i]);
+
+303-2144.c: line 11-17                 |312-2144.c: line 6-10              [39]
+  {                                    |  for(int i=0;i<a;i++){
+  scanf("%d",&ace[i]);                 |  scanf("%d",&b[i]);}
+  }                                    |  scanf("%d",&c);
+  scanf("%d",&a);                      |  for(int i=0;i<a;i++){
+  for(int i=0;i<n;i++)                 |  if(b[i]<c){
+  {                                    |
+  if(ace[i]!=a)                        |
+
+262-2144.c: line 11-17                 |319-2144.c: line 11-15             [38]
+  int t;                               |  int t;
+  scanf("%d",&t);                      |  scanf("%d",&t);
+  int y=0;                             |  int sum=0;
+  for(int j=0;j<n;j++)                 |  for(int i=0;i<n;i++){
+  {                                    |  if(a[i]==t){
+  if(a[j]==t)                          |
+  {                                    |
+
+310-2144.c: line 4-8                   |323-2144.c: line 5-9               [38]
+ scanf("%d",&n);                       |  scanf("%d",&n);
+ for(i=0;i<n;i++){                     |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+ }                                     |  }
+ scanf("%d",&x);                       |  scanf("%d",&x);
+
+215-2144.c: line 7-11                  |367-2144.c: line 10-14             [37]
+  scanf("%d",&s[i]);                   |  scanf("%d",&a[i]);
+  scanf("%d",&m);                      |  scanf("%d",&t);
+  for(int i=0;i<n;i++)                 |  for(int n=0;n<m;n++)
+  {                                    |  {
+  if(s[i]!=m)                          | if(a[n]==t)
+
+287-2144.c: line 13-19                 |291-2144.c: line 10-14             [36]
+  int luck = 0;                        |  int t;
+  int shao = 0;                        |  int count=0;
+  scanf("%d",&luck);                   |  scanf("%d",&t);
+  for(i = 0;i<n;i++)                   |  for(i=0;i<n;i++){
+  {                                    |  if(a[i]==t){
+  if(arr[i]==luck)                     |
+  {                                    |
+
+sim_res.txt: line 32-33                |sim_res.txt: line 34-35            [36]
+File 325-2144.c: 128 tokens, 23 lines (|File 345-2144.c: 146 tokens, 30 lines (
+File 341-2144.c: 178 tokens, 33 lines (|File 367-2144.c: 142 tokens, 28 lines (
+
+341-2144.c: line 8-12                  |56-2144.c: line 6-10               [35]
+scanf("%d",&n);                        | scanf("%d",&n);
+for(int m=0;m<n;m++){                  | for(int i=0;i<n;i++){
+ scanf("%d",&b);                       |  scanf("%d",&b);
+ a[m]=b;                               |  a[i]=b;
+}                                      | }
+
+191-2144.c: line 14-18                 |262-2144.c: line 13-20             [35]
+ int l=0;                              |  int y=0;
+ for(int i=0;i<n;i++){                 |  for(int j=0;j<n;j++)
+  if(a[i]==t){                         |  {
+  l=l+10;                              |  if(a[j]==t)
+  };                                   |  {
+                                       |  y=y+10;
+                                       |  
+                                       |  }
+
+293-2144.c: line 14-17                 |56-2144.c: line 12-15              [34]
+ for(j = 0;j < n;j++){                 | for(int i=0;i<n;i++){
+  if(arr[j] == t){                     | if (a[i]==lucky)
+  num += 10;                           | {sum+=10;}
+  }else if(arr[j] != t){               |  else if(a[i]>lucky){
+
+254-2144.c: line 16-20                 |264-2144.c: line 17-23             [34]
+  else count-=abs(a[j]-t);             |  else sum=sum-(a[j]-t);
+ }                                     |  
+ if(count>0){printf("%d\n",count);     |  }
+ printf("Happy");}                     |  if(sum>0){
+ else printf("%d",count);              |  printf("%d\n",sum);
+                                       |  printf("Happy\n");}
+                                       |  else printf("%d",sum);
+
+293-2144.c: line 9-14                  |56-2144.c: line 7-12               [34]
+ for(i = 0;i<n;i++){                   | for(int i=0;i<n;i++){
+  scanf("%d",&x);                      |  scanf("%d",&b);
+  arr[i] = x;                          |  a[i]=b;
+ }                                     | }
+ scanf("%d",&t);                       | scanf("%d",&lucky);
+ for(j = 0;j < n;j++){                 | for(int i=0;i<n;i++){
+
+214-2144.c: line 22-32                 |237-2144.c: line 17-25             [33]
+  }                                    |  lucky=lucky-(t-num[i]);}
+  }                                    |  }
+  }                                    | }
+  if(ha>0){                            | if(lucky>0){
+  printf("%d\n",ha);                   |  printf("%d\n",lucky);
+  printf("Happy");                     |  printf("Happy");
+  }                                    | }else{printf("%d",lucky);
+  else{                                | }
+  printf("%d",ha);                     | return 0;
+  }                                    |
+  return 0;                            |
+
+254-2144.c: line 11-15                 |303-2144.c: line 12-17             [33]
+  scanf("%d",&a[i]);                   |  scanf("%d",&ace[i]);
+ }                                     |  }
+ scanf("%d",&t);                       |  scanf("%d",&a);
+ for(int j=0;j<n;j++){                 |  for(int i=0;i<n;i++)
+  if(a[j]==t)count+=10;                |  {
+                                       |  if(ace[i]!=a)
+
+236-2144.c: line 17-19                 |291-2144.c: line 13-17             [32]
+ while(b>=0){                          |  for(i=0;i<n;i++){
+  if(a[b]==t){x=x+10;}                 |  if(a[i]==t){
+  else if(a[b]>t){x=x+t-a[b];}         |  count=count+10;
+                                       |  }else if(a[i]>t){
+                                       |  count=count-a[i]+t;
+
+291-2144.c: line 11-14                 |341-2144.c: line 13-16             [31]
+  int count=0;                         |int k;
+  scanf("%d",&t);                      |scanf("%d",&k);
+  for(i=0;i<n;i++){                    |for(m=0;m<n;m++){
+  if(a[i]==t){                         | if(a[m]==k)
+
+263-2144.c: line 6-9                   |314-2144.c: line 8-12              [31]
+  for(i=0;i<=n-1;i++){                 |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+  }scanf("%d",&t);                     |  }
+  for(i=0;i<=j-1;i++){                 |  scanf("%d",&b);
+                                       |  for(i=0;i<n;i++){
+
+367-2144.c: line 11-14                 |56-2144.c: line 11-13              [31]
+  scanf("%d",&t);                      | scanf("%d",&lucky);
+  for(int n=0;n<m;n++)                 | for(int i=0;i<n;i++){
+  {                                    | if (a[i]==lucky)
+ if(a[n]==t)                           |
+
+264-2144.c: line 12-15                 |367-2144.c: line 11-14             [31]
+  scanf("%d",&t);                      |  scanf("%d",&t);
+  for(int j=0;j<n;j++)                 |  for(int n=0;n<m;n++)
+  {                                    |  {
+  if(a[j]==t)sum=sum+10;               | if(a[n]==t)
+
+287-2144.c: line 8-12                  |310-2144.c: line 4-7               [31]
+  scanf("%d",&n);                      | scanf("%d",&n);
+  for(i=0;i<n;i++)                     | for(i=0;i<n;i++){
+  {                                    |  scanf("%d",&a[i]);
+  scanf("%d",&arr[i]);                 | } 
+  }                                    |
+
+310-2144.c: line 10-12                 |314-2144.c: line 12-14             [30]
+ for(i=0;i<n;i++){                     |  for(i=0;i<n;i++){
+  if(a[i]!=x){                         |  if(a[i]!=b){
+  if(a[i]>=x){                         |  if(a[i]<b){
+
+254-2144.c: line 8-11                  |341-2144.c: line 7-10              [30]
+ int count=0;                          |int b=0;
+ scanf("%d",&n);                       |scanf("%d",&n);
+ for(int i=0;i<n;i++){                 |for(int m=0;m<n;m++){
+  scanf("%d",&a[i]);                   | scanf("%d",&b);
+
+284-2144.c: line 10-14                 |345-2144.c: line 14-18             [30]
+  for(i=0;i!=num;i++){                 |  for(i=0;i<n;i++){
+  if(a[i]==t){                         |  if(yuzhi[i]==t){
+  lucky+=10;                           |  xinyun+=10;
+  }else{                               |  }else{
+  if(a[i]<t){                          |  if(yuzhi[i]-t<0){
+
+325-2144.c: line 10-12                 |341-2144.c: line 14-16             [30]
+  scanf("%d",&b);                      |scanf("%d",&k);
+  for(i=0;i<n;i++){                    |for(m=0;m<n;m++){
+  if(a[i]==b){                         | if(a[m]==k)
+
+263-2144.c: line 9-13                  |284-2144.c: line 10-14             [30]
+  for(i=0;i<=j-1;i++){                 |  for(i=0;i!=num;i++){
+  if(a[i]==t){                         |  if(a[i]==t){
+  luck+=10;                            |  lucky+=10;
+  }else{                               |  }else{
+  if(a[i]>t){                          |  if(a[i]<t){
+
+303-2144.c: line 6-10                  |367-2144.c: line 5-9               [30]
+  int a,n;                             |  int l=0;
+  int all=0;                           |  int b=0;
+  scanf("%d",&n);                      |  scanf("%d",&m);
+  int ace[n];                          |  int a[m];
+  for(int i=0;i<n;i++)                 |  for(int i=0;i<m;i++)
+
+319-2144.c: line 14-17                 |56-2144.c: line 12-15              [29]
+  for(int i=0;i<n;i++){                | for(int i=0;i<n;i++){
+  if(a[i]==t){                         | if (a[i]==lucky)
+  sum+=10;                             | {sum+=10;}
+  }else{                               |  else if(a[i]>lucky){
+
+110-2144.c: line 18-24                 |191-2144.c: line 23-29             [29]
+  sum=sum-(a[i]-k);                    |  l=l+(a[i]-t);
+  }                                    |  }; 
+  }                                    | };
+  printf("%d\n",sum);                  | printf("%d\n",l);
+  if(sum>0){                           | if(l>0){
+  printf("Happy");                     |  printf("Happy");
+  }                                    | };
+
+284-2144.c: line 6-10                  |314-2144.c: line 8-12              [28]
+  for(i=0;i!=num;i++){                 |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+  }                                    |  }
+  scanf("%d",&t);                      |  scanf("%d",&b);
+  for(i=0;i!=num;i++){                 |  for(i=0;i<n;i++){
+
+345-2144.c: line 14-17                 |56-2144.c: line 12-15              [28]
+  for(i=0;i<n;i++){                    | for(int i=0;i<n;i++){
+  if(yuzhi[i]==t){                     | if (a[i]==lucky)
+  xinyun+=10;                          | {sum+=10;}
+  }else{                               |  else if(a[i]>lucky){
+
+191-2144.c: line 23-29                 |319-2144.c: line 18-24             [28]
+  l=l+(a[i]-t);                        |  sum-=fabs(a[i]-t);
+  };                                   |  }
+ };                                    |  }
+ printf("%d\n",l);                     |  printf("%d\n",sum);
+ if(l>0){                              |  if(sum>0){
+  printf("Happy");                     |  printf("Happy");
+ };                                    |  }
+
+201-2144.c: line 5-10                  |291-2144.c: line 5-9               [28]
+  int a[n+2];                          |  int a[n];
+  int i;                               |  int i;
+ for(i=0;i<n;i++)                      |  for(i=0;i<n;i++){
+  {                                    |  scanf("%d",&a[i]);
+  scanf("%d",&a[i]);                   |  }
+  }                                    |
+
+284-2144.c: line 17-25                 |293-2144.c: line 20-28             [27]
+  de=a[i]-t;                           |  sub = 0-sub;
+  }                                    |  }
+  lucky-=de;                           |  num -= sub;
+  }                                    |  }
+  }                                    | }
+  printf("%d\n",lucky);                | printf("%d\n",num);
+  if(lucky>0){                         | if(num >0){
+  printf("Happy");                     |  printf("Happy");
+  }                                    | }
+
+312-2144.c: line 8-10                  |367-2144.c: line 11-14             [27]
+  scanf("%d",&c);                      |  scanf("%d",&t);
+  for(int i=0;i<a;i++){                |  for(int n=0;n<m;n++)
+  if(b[i]<c){                          |  {
+                                       | if(a[n]==t)
+
+201-2144.c: line 11-16                 |345-2144.c: line 11-15             [27]
+  int t,b;                             |  int t;
+  scanf("%d",&t);                      |  scanf("%d",&t);
+ int sum=0;                            |  int xinyun=0;
+  for(i=0;i<n;i++)                     |  for(i=0;i<n;i++){
+  {                                    |  if(yuzhi[i]==t){
+  if(t==a[i]) sum+=10;                 |
+
+319-2144.c: line 8-14                  |345-2144.c: line 8-14              [27]
+  for(int i=0;i<n;i++){                |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&yuzhi[i]);
+  }                                    |  }
+  int t;                               |  int t;
+  scanf("%d",&t);                      |  scanf("%d",&t);
+  int sum=0;                           |  int xinyun=0;
+  for(int i=0;i<n;i++){                |  for(i=0;i<n;i++){
+
+110-2144.c: line 15-18                 |244-2144.c: line 22-28             [27]
+  if(k>a[i]){                          |  if (m>a[i])
+  sum=sum-(k-a[i]);                    |  {
+  }else{                               |  grade = grade - (m - a[i]);
+  sum=sum-(a[i]-k);                    |  }
+                                       |  else
+                                       |  {
+                                       |  grade = grade + (m - a[i]);
+
+190-2144.c: line 13-17                 |323-2144.c: line 10-14             [27]
+ for(i=1;i<=n;i++){                    |  for(i=0;i<n;i++){
+  if(a[i]==t){                         |  if(a[i]==x){
+  sum=sum+10;                          |  j=j+10;}
+  }else{                               |  else{
+  if(a[i]>t){                          |  if(x>=a[i]){
+
+125-2144.c: line 27-34                 |254-2144.c: line 17-20             [27]
+  }                                    | }
+  if(sum>0)                            | if(count>0){printf("%d\n",count);
+  {                                    | printf("Happy");}
+  printf("%d\n",sum);                  | else printf("%d",count);
+  printf("Happy");                     |
+  }                                    |
+  else                                 |
+  printf("%d",sum);                    |
+
+312-2144.c: line 5-7                   |319-2144.c: line 7-10              [27]
+  int b[a-1];                          |  int a[n];
+  for(int i=0;i<a;i++){                |  for(int i=0;i<n;i++){
+  scanf("%d",&b[i]);}                  |  scanf("%d",&a[i]);
+                                       |  }
+
+314-2144.c: line 11-13                 |323-2144.c: line 9-11              [26]
+  scanf("%d",&b);                      |  scanf("%d",&x);
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  if(a[i]!=b){                         |  if(a[i]==x){
+
+190-2144.c: line 21-29                 |262-2144.c: line 24-29             [26]
+  }                                    |  if(cha<0) {cha=cha*(-1);}
+  sum=sum-b;                           |  y=y-cha;
+  }                                    |  }
+                                       |  }
+ }                                     |  printf("%d\n",y);
+ printf("%d\n",sum);                   |  if(y>0){printf("Happy\n");}
+ if(sum>0){                            |
+  printf("Happy");                     |
+ }                                     |
+
+148-2144.c: line 4-7                   |160-2144.c: line 5-8               [26]
+  int i,n,x=0,t,temp,a[100],temp2;     |  int n,t,l,i,a[100],c=0,b=0,s=0;
+  scanf("%d",&n);                      |  scanf("%d",&n);
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++)
+  scanf("%d",&temp2);                  |  {scanf("%d",&a[i]);}
+
+291-2144.c: line 6-9                   |314-2144.c: line 7-10              [26]
+  int i;                               |  int i;
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+  }                                    |  }
+
+172-2144.c: line 33-37                 |262-2144.c: line 11-15             [26]
+  int lnum = 0;                        |  int t;
+  scanf("%d",&lnum);                   |  scanf("%d",&t);
+  int luckypoint = 0;                  |  int y=0;
+  for(int i = 0;i<count;i++)           |  for(int j=0;j<n;j++)
+  {                                    |  {
+
+341-2144.c: line 15-18                 |367-2144.c: line 12-16             [26]
+for(m=0;m<n;m++){                      |  for(int n=0;n<m;n++)
+ if(a[m]==k)                           |  {
+  sum+=10;                             | if(a[n]==t)
+ else if(a[m]!=k){                     |  l+=10;
+                                       |  else{
+
+319-2144.c: line 5-8                   |367-2144.c: line 6-9               [26]
+  int n;                               |  int b=0;
+  scanf("%d",&n);                      |  scanf("%d",&m);
+  int a[n];                            |  int a[m];
+  for(int i=0;i<n;i++){                |  for(int i=0;i<m;i++)
+
+172-2144.c: line 29-32                 |191-2144.c: line 9-12              [25]
+  for(int i = 0;i<count;i++)           | for(int i=0;i<n;i++)
+  {                                    | {
+  scanf("%d",&arr[i]);                 | scanf("%d",&a[i]);
+  }                                    | };
+
+234-2144.c: line 6-9                   |345-2144.c: line 11-14             [25]
+ int n;                                |  int t;
+ scanf("%d",&n);                       |  scanf("%d",&t);
+ int i=0;                              |  int xinyun=0;
+ for(i=0;i<n;i++)                      |  for(i=0;i<n;i++){
+
+190-2144.c: line 6-10                  |284-2144.c: line 6-9               [25]
+ for(i=1;i<=n;i++){                    |  for(i=0;i!=num;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&a[i]);
+                                       |  }
+ }                                     |  scanf("%d",&t);
+ scanf("%d",&t);                       |
+
+291-2144.c: line 20-26                 |325-2144.c: line 16-22             [25]
+  }                                    |  }
+  }                                    |  }
+  if(count>0){                         |  if(t>0){
+  printf("%d\nHappy",count);           |  printf("%d\nHappy",t);
+  }else{                               |  }else{
+  printf("%d",count);                  |  printf("%d",t);
+  }                                    |  }
+
+314-2144.c: line 7-10                  |345-2144.c: line 7-10              [25]
+  int i;                               |  int yuzhi[n],i;
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&yuzhi[i]);
+  }                                    |  }
+
+201-2144.c: line 20-25                 |367-2144.c: line 21-27             [25]
+  sum-=b;                              |  l-=b;
+  }                                    |  }
+  }                                    |  }
+  printf("%d\n",sum);                  |  printf("%d\n",l);
+  if(sum>0) printf("Happy");           |  if(l>0)
+ return 0;                             |  printf("Happy");
+                                       |  return 0;
+
+215-2144.c: line 4-6                   |56-2144.c: line 5-7                [25]
+  int s[110];                          |  int a[N];
+  scanf("%d",&n);                      | scanf("%d",&n);
+  for(int i=0;i<n;i++)                 | for(int i=0;i<n;i++){
+
+160-2144.c: line 10-12                 |341-2144.c: line 15-17             [25]
+  for(i=0;i<n;i++)                     |for(m=0;m<n;m++){
+  {                                    | if(a[m]==k)
+  if(a[i]==t) c++;                     |  sum+=10;
+
+291-2144.c: line 15-18                 |56-2144.c: line 14-17              [25]
+  count=count+10;                      | {sum+=10;}
+  }else if(a[i]>t){                    |  else if(a[i]>lucky){
+  count=count-a[i]+t;                  |  sum=sum-a[i]+lucky;}
+  }else if(a[i]<t){                    |  else
+
+323-2144.c: line 16-21                 |345-2144.c: line 21-29             [25]
+  else{j=j-a[i]+x;                     |  xinyun-=yuzhi[i]-t;
+  }}}                                  |  }
+  printf("%d\n",j);                    |  }
+  if(j>0){                             |  }
+  printf("Happy");}                    |  printf("%d\n",xinyun);
+  return 0;                            |  if(xinyun>0){
+                                       |  printf("Happy");
+                                       |  }
+                                       | return 0;
+
+214-2144.c: line 6-8                   |345-2144.c: line 12-14             [24]
+  scanf("%d",&n);                      |  scanf("%d",&t);
+  int i=0;                             |  int xinyun=0;
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+
+325-2144.c: line 7-9                   |345-2144.c: line 8-10              [24]
+  for(i=0;i<n;i++){                    |  for(i=0;i<n;i++){
+  scanf("%d",&a[i]);                   |  scanf("%d",&yuzhi[i]);
+  }                                    |  }
+
+244-2144.c: line 29-37                 |323-2144.c: line 17-21             [24]
+  }                                    |  }}}
+  }                                    |  printf("%d\n",j);
+ }                                     |  if(j>0){
+ printf("%d\n", grade);                |  printf("Happy");}
+ if (grade > 0)                        |  return 0;
+ {                                     |
+  printf("Happy");                     |
+ }                                     |
+ return 0;                             |
+
+262-2144.c: line 25-30                 |293-2144.c: line 22-29             [24]
+  y=y-cha;                             |  num -= sub;
+  }                                    |  }
+  }                                    | }
+  printf("%d\n",y);                    | printf("%d\n",num);
+  if(y>0){printf("Happy\n");}          | if(num >0){
+  return 0;                            |  printf("Happy");
+                                       | }
+                                       | return 0;
+

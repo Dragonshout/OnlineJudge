@@ -1,0 +1,65 @@
+File 1-7.cpp: 49 tokens, 10 lines (not NL-terminated)
+File 15-7.cpp: 45 tokens, 19 lines (not NL-terminated)
+File 21-7.cpp: 131 tokens, 23 lines (not NL-terminated)
+File 27-7.cpp: 171 tokens, 51 lines (not NL-terminated)
+File 45-7.cpp: 49 tokens, 10 lines (not NL-terminated)
+File 85-7.cpp: 131 tokens, 23 lines (not NL-terminated)
+File sim_res.txt: 171 tokens, 11 lines
+Total input: 7 files (7 new, 0 old), 747 tokens
+
+21-7.cpp: line 2-22                    |85-7.cpp: line 2-22               [131]
+#define all(x) (x).begin(),(x).end()   |#define all(x) (x).begin(),(x).end()
+#define lowbit(x) x&-x                 |#define lowbit(x) x&-x
+//#define int long long                |//#define int long long
+using namespace std;                   |using namespace std;
+using i64=long long;                   |using i64=long long;
+typedef pair<int,int> pii;             |typedef pair<int,int> pii;
+const int N=3e5+5;                     |const int N=3e5+5;
+int n,m;                               |int n,m;
+void solve()                           |void solve()
+{                                      |{
+ cin>>n>>m;                            | cin>>n>>m;
+ if(n==1&&m==1) cout<<"Walk Alone";    | if(n==1&&m==1) cout<<"Walk Alone";
+ else cout<<"Kelin";                   | else cout<<"Kelin";
+}                                      |}
+signed main()                          |signed main()
+{                                      |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);cin.tie(0);cou
+ int T=1;                              | int T=1;
+// cin>>T;                             |// cin>>T;
+ while(T--) solve();                   | while(T--) solve();
+ return 0;                             | return 0;
+
+sim_res.txt: line 1-3                  |sim_res.txt: line 4-6              [54]
+File 1-7.cpp: 49 tokens, 10 lines (not |File 27-7.cpp: 171 tokens, 51 lines (no
+File 15-7.cpp: 45 tokens, 19 lines (not|File 45-7.cpp: 49 tokens, 10 lines (not
+File 21-7.cpp: 131 tokens, 23 lines (no|File 85-7.cpp: 131 tokens, 23 lines (no
+
+1-7.cpp: line 4-9                      |45-7.cpp: line 4-9                 [42]
+signed main()                          |signed main()
+{                                      |{
+  int n,m;                             |  int n,m;
+  scanf("%lld%lld",&n,&m);             |  scanf("%lld%lld",&n,&m);
+  if(n==1&&m==1)puts("Walk Alone");    |  if(n==1&&m==1)puts("Walk Alone");
+  else puts("Kelin");                  |  else puts("Kelin");
+
+27-7.cpp: line 39-45                   |85-7.cpp: line 12-17               [35]
+ int n,m; cin>>n>>m;                   | cin>>n>>m;
+ if(n==1&&m==1)cout<<"Walk Alone\n";   | if(n==1&&m==1) cout<<"Walk Alone";
+ else cout<<"Kelin\n";                 | else cout<<"Kelin";
+}                                      |}
+                                       |signed main()
+signed main()                          |{
+{                                      |
+
+15-7.cpp: line 4-8                     |27-7.cpp: line 38-40               [28]
+int main()                             |void solve(){
+{                                      | int n,m; cin>>n>>m;
+  int n,m;                             | if(n==1&&m==1)cout<<"Walk Alone\n";
+  cin>>n>>m;                           |
+  if(n==1&&m==1){                      |
+
+27-7.cpp: line 18-19                   |85-7.cpp: line 2-3                 [25]
+#define all(x) (x).begin(),(x).end()   |#define all(x) (x).begin(),(x).end()
+#define sz(x) (int)(x).size()          |#define lowbit(x) x&-x
+

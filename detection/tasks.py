@@ -1,17 +1,18 @@
 import os
 import re
-import shutil
-import stat
 import time
 from collections import defaultdict
 
 import dramatiq
-from detection.models import Detection, DetectionComparison
+from django.db import transaction
+
+from detection.aigc import check_code_origin
+from detection.models import Detection, DetectionComparison, AIGCDetectionResult
 from oj import settings
+from problem.models import Problem
 from sim.runSIM import run_sim
 from submission.models import Submission
 from utils.shortcuts import DRAMATIQ_WORKER_ARGS
-
 
 def prepare_detection_files(detection):
     """
@@ -184,6 +185,7 @@ def run_and_analyze_detection(detection, language_dirs):
         return "success"
 
 
+
 @dramatiq.actor(**DRAMATIQ_WORKER_ARGS())
 def do_detection(detection_id):
     try:
@@ -200,8 +202,6 @@ def do_detection(detection_id):
         if result == "error":
             raise Exception("查重过程中发生错误")
 
-        # cleanup_detection_files(detection_dir,language_dirs)
-
 
     except Exception as e:
         detection.status = "失败"
@@ -210,53 +210,108 @@ def do_detection(detection_id):
         print(f"检测任务 {detection_id} 执行失败，错误信息：{str(e)}")
         raise
 
-'''
-def cleanup_detection_files(detection_dir, language_dirs):
-    """带重试和强制权限修复的清理函数"""
 
-    def force_remove(path):
+class AIGCDetectionDataPreparer:
+    def __init__(self, detection):
+        self.detection = detection
+        self.detection.status = "运行中"
+        self.detection.save()
+        self.submissions = self.detection.submissions.all()
+
+    def prepare_data(self):
+        grouped_data = {}
+        for submission in self.submissions:
+            prob_id = str(submission.problem_id)
+            if prob_id not in grouped_data:
+                grouped_data[prob_id] = []
+            record = {
+                "submission_id": submission.id,
+                "user_id": submission.user_id,
+                "problem_id": submission.problem_id,
+                "code": submission.code,
+                "language": submission.language,
+            }
+            grouped_data[prob_id].append(record)
+        return grouped_data
+
+
+def do_aigc_detection(detection):
+    preparer = AIGCDetectionDataPreparer(detection)
+    grouped_data = preparer.prepare_data()
+
+    # 计数器初始化
+    request_count = 0
+    sleep_interval = 30  # 每30次休息30秒
+    sleep_duration = 30
+
+    for prob_id, records in grouped_data.items():
         try:
-            if os.path.isfile(path):
-                os.chmod(path, stat.S_IWRITE)  # 强制可写
-                os.remove(path)
-            elif os.path.isdir(path):
-                shutil.rmtree(path, onerror=lambda func, path, _: (os.chmod(path, stat.S_IWRITE), func(path)))
-        except Exception as e:
-            print(f"清理失败（重试中）: {path} - {str(e)}")
-            raise
+            problem_instance = Problem.objects.get(pk=prob_id)
+        except Problem.DoesNotExist:
+            problem_instance = None
 
-    # 先清理子目录
-    for _, lang_dir, problem_dirs in language_dirs:
-        for problem_dir in problem_dirs:
-            for _ in range(3):  # 最多重试3次
-                try:
-                    if os.path.exists(problem_dir):
-                        force_remove(problem_dir)
-                    break
-                except Exception:
-                    time.sleep(0.5)
+        for record in records:
+            if record.get("language", "") != detection.language and detection.language != "全部":
+                continue
 
-    # 最后清理顶层目录
-    for _ in range(5):  # 更多重试次数
-        try:
-            if os.path.exists(detection_dir):
-                force_remove(detection_dir)
-            break
-        except Exception as e:
-            print(f"无法删除检测目录（重试中）: {detection_dir} - {str(e)}")
-            time.sleep(1)
-'''
+            code = record.get("code", "")
+
+            # 每30次请求后休息
+            if request_count > 0 and request_count % sleep_interval == 0:
+                time.sleep(sleep_duration)
+
+            # 调用检测API
+            similarity, result = check_code_origin(code)
+            request_count += 1  # 增加计数器
+
+            if result != "success":
+                return "error"
+
+            # 使用事务确保数据一致性
+            with transaction.atomic():
+                if similarity >= detection.similarity_threshold * 100:
+                    AIGCDetectionResult.objects.create(
+                        detection=detection,
+                        problem=problem_instance,
+                        user_id=record.get("user_id", ""),
+                        user_code=record.get("code", ""),
+                        language=record.get("language"),
+                        similarity=similarity
+                    )
+
+    return "success"
+
+@dramatiq.actor(**DRAMATIQ_WORKER_ARGS())
+def aigc_detection(detection_id):
+    try:
+        detection = Detection.objects.get(pk=detection_id)
+    except Detection.DoesNotExist:
+        print(f"Detection实例（ID: {detection_id}）不存在。")
+        return "error"
+
+    try:
+        result = do_aigc_detection(detection)
+
+        if result == "error":
+            detection.status = "失败"
+        else:
+            detection.status = "已完成"
+        detection.save()
+        print(f"检测任务 {detection_id} 执行成功,结果为:{detection.status}")
+
+    except Exception as e:
+        detection.status = "失败"
+        detection.error_message = str(e)
+        detection.save()
+        print(f"检测任务 {detection_id} 执行失败，错误信息：{str(e)}")
+        raise
+
 
 def get_file_extension(language):
     """根据编程语言返回合适的文件扩展名"""
     extension_map = {
         "C++": "cpp",
         "Java": "java",
-        "Python": "py",
         "C": "c",
-        "JavaScript": "js",
-        "Go": "go",
-        "Rust": "rs",
-        # 添加其他语言映射...
     }
     return extension_map.get(language, "txt")  # 默认使用txt扩展名

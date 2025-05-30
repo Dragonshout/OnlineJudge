@@ -1,0 +1,218 @@
+File 116-2145.cpp: 65 tokens, 21 lines (not NL-terminated)
+File 117-2145.cpp: 55 tokens, 15 lines (not NL-terminated)
+File 119-2145.cpp: 37 tokens, 10 lines (not NL-terminated)
+File 121-2145.cpp: 30 tokens, 9 lines (not NL-terminated)
+File 13-2145.cpp: 57 tokens, 14 lines (not NL-terminated)
+File 139-2145.cpp: 61 tokens, 13 lines (not NL-terminated)
+File 14-2145.cpp: 45 tokens, 10 lines (not NL-terminated)
+File 144-2145.cpp: 52 tokens, 29 lines (not NL-terminated)
+File 15-2145.cpp: 37 tokens, 11 lines (not NL-terminated)
+File 17-2145.cpp: 52 tokens, 17 lines (not NL-terminated)
+File 21-2145.cpp: 109 tokens, 21 lines (not NL-terminated)
+File 213-2145.cpp: 59 tokens, 19 lines (not NL-terminated)
+File 228-2145.cpp: 41 tokens, 11 lines (not NL-terminated)
+File 23-2145.cpp: 61 tokens, 15 lines (not NL-terminated)
+File 238-2145.cpp: 65 tokens, 15 lines (not NL-terminated)
+File 24-2145.cpp: 35 tokens, 11 lines (not NL-terminated)
+File 258-2145.cpp: 48 tokens, 12 lines (not NL-terminated)
+File 259-2145.cpp: 59 tokens, 16 lines (not NL-terminated)
+File 291-2145.cpp: 50 tokens, 13 lines (not NL-terminated)
+File 31-2145.cpp: 43 tokens, 11 lines (not NL-terminated)
+File 32-2145.cpp: 57 tokens, 15 lines (not NL-terminated)
+File 328-2145.cpp: 45 tokens, 11 lines (not NL-terminated)
+File 335-2145.cpp: 46 tokens, 11 lines (not NL-terminated)
+File 336-2145.cpp: 69 tokens, 18 lines (not NL-terminated)
+File 346-2145.cpp: 55 tokens, 13 lines (not NL-terminated)
+File 351-2145.cpp: 49 tokens, 12 lines (not NL-terminated)
+File 364-2145.cpp: 49 tokens, 12 lines (not NL-terminated)
+File 367-2145.cpp: 47 tokens, 14 lines (not NL-terminated)
+File 38-2145.cpp: 27 tokens, 8 lines (not NL-terminated)
+File 39-2145.cpp: 50 tokens, 11 lines (not NL-terminated)
+File 47-2145.cpp: 41 tokens, 7 lines (not NL-terminated)
+File 58-2145.cpp: 54 tokens, 13 lines (not NL-terminated)
+File 60-2145.cpp: 40 tokens, 13 lines (not NL-terminated)
+File 63-2145.cpp: 62 tokens, 15 lines (not NL-terminated)
+File 64-2145.cpp: 45 tokens, 10 lines (not NL-terminated)
+File 67-2145.cpp: 30 tokens, 9 lines (not NL-terminated)
+File 72-2145.cpp: 58 tokens, 13 lines (not NL-terminated)
+File 75-2145.cpp: 89 tokens, 10 lines (not NL-terminated)
+File 76-2145.cpp: 96 tokens, 20 lines (not NL-terminated)
+File 78-2145.cpp: 41 tokens, 11 lines (not NL-terminated)
+File 83-2145.cpp: 76 tokens, 15 lines (not NL-terminated)
+File 90-2145.cpp: 41 tokens, 10 lines (not NL-terminated)
+File 97-2145.cpp: 31 tokens, 9 lines (not NL-terminated)
+File sim_res.txt: 981 tokens, 57 lines
+Total input: 44 files (44 new, 0 old), 3240 tokens
+
+sim_res.txt: line 1-21                 |sim_res.txt: line 22-42           [378]
+File 116-2145.cpp: 65 tokens, 21 lines |File 328-2145.cpp: 45 tokens, 11 lines 
+File 117-2145.cpp: 55 tokens, 15 lines |File 335-2145.cpp: 46 tokens, 11 lines 
+File 119-2145.cpp: 37 tokens, 10 lines |File 336-2145.cpp: 69 tokens, 18 lines 
+File 121-2145.cpp: 30 tokens, 9 lines (|File 346-2145.cpp: 55 tokens, 13 lines 
+File 13-2145.cpp: 57 tokens, 14 lines (|File 351-2145.cpp: 49 tokens, 12 lines 
+File 139-2145.cpp: 61 tokens, 13 lines |File 364-2145.cpp: 49 tokens, 12 lines 
+File 14-2145.cpp: 45 tokens, 10 lines (|File 367-2145.cpp: 47 tokens, 14 lines 
+File 144-2145.cpp: 52 tokens, 29 lines |File 38-2145.cpp: 27 tokens, 8 lines (n
+File 15-2145.cpp: 37 tokens, 11 lines (|File 39-2145.cpp: 50 tokens, 11 lines (
+File 17-2145.cpp: 52 tokens, 17 lines (|File 47-2145.cpp: 41 tokens, 7 lines (n
+File 21-2145.cpp: 109 tokens, 21 lines |File 58-2145.cpp: 54 tokens, 13 lines (
+File 213-2145.cpp: 59 tokens, 19 lines |File 60-2145.cpp: 40 tokens, 13 lines (
+File 228-2145.cpp: 41 tokens, 11 lines |File 63-2145.cpp: 62 tokens, 15 lines (
+File 23-2145.cpp: 61 tokens, 15 lines (|File 64-2145.cpp: 45 tokens, 10 lines (
+File 238-2145.cpp: 65 tokens, 15 lines |File 67-2145.cpp: 30 tokens, 9 lines (n
+File 24-2145.cpp: 35 tokens, 11 lines (|File 72-2145.cpp: 58 tokens, 13 lines (
+File 258-2145.cpp: 48 tokens, 12 lines |File 75-2145.cpp: 89 tokens, 10 lines (
+File 259-2145.cpp: 59 tokens, 16 lines |File 76-2145.cpp: 96 tokens, 20 lines (
+File 291-2145.cpp: 50 tokens, 13 lines |File 78-2145.cpp: 41 tokens, 11 lines (
+File 31-2145.cpp: 43 tokens, 11 lines (|File 83-2145.cpp: 76 tokens, 15 lines (
+File 32-2145.cpp: 57 tokens, 15 lines (|File 90-2145.cpp: 41 tokens, 10 lines (
+
+sim_res.txt: line 22-32                |sim_res.txt: line 33-43           [198]
+File 328-2145.cpp: 45 tokens, 11 lines |File 60-2145.cpp: 40 tokens, 13 lines (
+File 335-2145.cpp: 46 tokens, 11 lines |File 63-2145.cpp: 62 tokens, 15 lines (
+File 336-2145.cpp: 69 tokens, 18 lines |File 64-2145.cpp: 45 tokens, 10 lines (
+File 346-2145.cpp: 55 tokens, 13 lines |File 67-2145.cpp: 30 tokens, 9 lines (n
+File 351-2145.cpp: 49 tokens, 12 lines |File 72-2145.cpp: 58 tokens, 13 lines (
+File 364-2145.cpp: 49 tokens, 12 lines |File 75-2145.cpp: 89 tokens, 10 lines (
+File 367-2145.cpp: 47 tokens, 14 lines |File 76-2145.cpp: 96 tokens, 20 lines (
+File 38-2145.cpp: 27 tokens, 8 lines (n|File 78-2145.cpp: 41 tokens, 11 lines (
+File 39-2145.cpp: 50 tokens, 11 lines (|File 83-2145.cpp: 76 tokens, 15 lines (
+File 47-2145.cpp: 41 tokens, 7 lines (n|File 90-2145.cpp: 41 tokens, 10 lines (
+File 58-2145.cpp: 54 tokens, 13 lines (|File 97-2145.cpp: 31 tokens, 9 lines (n
+
+sim_res.txt: line 44-51                |sim_res.txt: line 51-57            [96]
+Total input: 43 files (43 new, 0 old), |144-2145.cpp consists for 52 % of 23-21
+                                       |291-2145.cpp consists for 50 % of 364-2
+31-2145.cpp consists for 91 % of 335-21|32-2145.cpp consists for 49 % of 90-214
+121-2145.cpp consists for 87 % of 67-21|117-2145.cpp consists for 47 % of 328-2
+258-2145.cpp consists for 69 % of 351-2|336-2145.cpp consists for 43 % of 351-2
+335-2145.cpp consists for 59 % of 367-2|116-2145.cpp consists for 38 % of 258-2
+351-2145.cpp consists for 53 % of 58-21|21-2145.cpp consists for 38 % of 76-214
+144-2145.cpp consists for 52 % of 23-21|
+
+sim_res.txt: line 33-37                |sim_res.txt: line 38-42            [90]
+File 60-2145.cpp: 40 tokens, 13 lines (|File 75-2145.cpp: 89 tokens, 10 lines (
+File 63-2145.cpp: 62 tokens, 15 lines (|File 76-2145.cpp: 96 tokens, 20 lines (
+File 64-2145.cpp: 45 tokens, 10 lines (|File 78-2145.cpp: 41 tokens, 11 lines (
+File 67-2145.cpp: 30 tokens, 9 lines (n|File 83-2145.cpp: 76 tokens, 15 lines (
+File 72-2145.cpp: 58 tokens, 13 lines (|File 90-2145.cpp: 41 tokens, 10 lines (
+
+sim_res.txt: line 38-40                |sim_res.txt: line 41-43            [54]
+File 75-2145.cpp: 89 tokens, 10 lines (|File 83-2145.cpp: 76 tokens, 15 lines (
+File 76-2145.cpp: 96 tokens, 20 lines (|File 90-2145.cpp: 41 tokens, 10 lines (
+File 78-2145.cpp: 41 tokens, 11 lines (|File 97-2145.cpp: 31 tokens, 9 lines (n
+
+sim_res.txt: line 51-54                |sim_res.txt: line 54-57            [48]
+144-2145.cpp consists for 52 % of 23-21|117-2145.cpp consists for 47 % of 328-2
+291-2145.cpp consists for 50 % of 364-2|336-2145.cpp consists for 43 % of 351-2
+32-2145.cpp consists for 49 % of 90-214|116-2145.cpp consists for 38 % of 258-2
+117-2145.cpp consists for 47 % of 328-2|21-2145.cpp consists for 38 % of 76-214
+
+21-2145.cpp: line 13-20                |76-2145.cpp: line 12-19            [41]
+}                                      |}
+signed main()                          |signed main()
+{                                      |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);
+ int T=1;                              | cout.tie(0);cin.tie(0);
+// cin>>T;                             | int t=1;//cin>>t;
+ while(T--) solve();                   | while(t--)solve();
+ return 0;                             | return 0;
+
+31-2145.cpp: line 3-9                  |335-2145.cpp: line 2-9             [39]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+ long long n,num=0;                    |{
+ cin>>n;                               | long long n,tot=0;
+ for(int i=1;i<n;i++)                  | cin>>n;
+ num+=i;                               | for(int i=0;i<n;i++)
+ cout<<num;                            |  tot+=i;
+                                       | cout<<tot<<endl;
+
+258-2145.cpp: line 6-11                |351-2145.cpp: line 6-11            [33]
+ cin>>n;                               | cin>>n;
+ for(int i=1;i<=n;i++){                | for(int i=1;i<=n;i++){
+  tot+=i;                              |  sum+=i;
+ }                                     | }
+ cout<<tot-n;                          | cout<<sum-n;
+ return 0;                             | return 0;
+
+336-2145.cpp: line 7-12                |351-2145.cpp: line 4-9             [30]
+ long long res = 0;                    | long long n;
+ long long past = 0;                   | long long sum=0;
+ cin >> wd;                            | cin>>n;
+ for(int i = 1 ; i <= wd ; i++){       | for(int i=1;i<=n;i++){
+  past += i;                           |  sum+=i;
+ }                                     | }
+
+32-2145.cpp: line 4-8                  |90-2145.cpp: line 5-9              [28]
+void solve(){                          |signed main()
+ int n;                                |{
+ cin>>n;                               | int n;
+ cout<<(1+n)*n/2-n<<endl;              | cin>>n;
+}                                      | cout<<(1+n)*n/2-n<<endl;
+
+144-2145.cpp: line 4-21                |23-2145.cpp: line 2-8              [27]
+using namespace std;                   |using namespace std;
+                                       |int main()
+int main(){                            |{
+ // long long int arr[1000000001];     |  long long int n;
+  long long int n;                     |  cin>>n;
+  cin>>n;                              |  long long int n1=0;
+  // arr[0] = 0;                       |  long long int n2=0;
+  // arr[1] = 1;                       |
+  // arr[2] = 3;                       |
+  // 也就是将当前定义的整体的数字放到后面  |
+  // 前面一个和后面一个有很大的关联       |
+  //经过简单之后的维度就是当前需要的个数， |
+  //                                   |
+ // for(int i = 0;i<n;i++){            |
+                                       |
+  // }                                 |
+  long long int flag = n;              |
+  long long int sum = 0;               |
+
+335-2145.cpp: line 5-9                 |367-2145.cpp: line 7-11            [27]
+ long long n,tot=0;                    |  long long n=0;
+ cin>>n;                               | cin>>m;
+ for(int i=0;i<n;i++)                  |  for(int i=0;i<m;i++)
+  tot+=i;                              |  n+=i;
+ cout<<tot<<endl;                      |  cout<<n;
+
+351-2145.cpp: line 6-10                |58-2145.cpp: line 7-11             [26]
+ cin>>n;                               | ll t=0;
+ for(int i=1;i<=n;i++){                | for(int i=1;i<=n;i++){
+  sum+=i;                              |  t+=i;
+ }                                     | }
+ cout<<sum-n;                          | cout<<t-n<<endl;
+
+117-2145.cpp: line 2-8                 |328-2145.cpp: line 2-7             [26]
+using namespace std;                   |using namespace std;
+int main()                             |int main(){
+{                                      |  long long n;
+  long long k;                         |  cin>>n;
+  cin>>k;                              |  long long sum=0;
+  long long first=0;                   |  for(long long i=n;i;i--){
+  for(long long i=1;i<=k;i++)          |
+
+121-2145.cpp: line 3-8                 |67-2145.cpp: line 6-8              [26]
+int main()                             |signed main(){
+{                                      | long long n; cin>>n;
+ long long n;                          | cout<<(n+1)*n/2 - n;
+ cin>>n;                               |
+ cout<<(1+n)*n/2-n;                    |
+                                       |
+
+291-2145.cpp: line 7-11                |364-2145.cpp: line 7-11            [25]
+  long i;                              | long int sum=0;
+  for(i=1;i<=n;i++){                   | for(i=1;i<=a;i++){
+  m+=i;                                |  sum+=i;
+  }                                    | }
+  cout<<m-n;                           | cout<<sum-a;
+
+116-2145.cpp: line 14-18               |258-2145.cpp: line 7-10            [25]
+  for(int i=1;i<=n;i++)                | for(int i=1;i<=n;i++){
+  {                                    |  tot+=i;
+  res+=i;                              | }
+  }                                    | cout<<tot-n;
+  cout<<res-n;                         |
+

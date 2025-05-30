@@ -1,0 +1,214 @@
+File 117-2148.cpp: 27 tokens, 10 lines (not NL-terminated)
+File 119-2148.cpp: 31 tokens, 11 lines (not NL-terminated)
+File 121-2148.cpp: 38 tokens, 11 lines (not NL-terminated)
+File 124-2148.cpp: 22 tokens, 9 lines (not NL-terminated)
+File 13-2148.cpp: 76 tokens, 16 lines (not NL-terminated)
+File 136-2148.cpp: 40 tokens, 13 lines (not NL-terminated)
+File 14-2148.cpp: 29 tokens, 9 lines (not NL-terminated)
+File 144-2148.cpp: 51 tokens, 17 lines (not NL-terminated)
+File 15-2148.cpp: 36 tokens, 12 lines (not NL-terminated)
+File 17-2148.cpp: 36 tokens, 15 lines (not NL-terminated)
+File 21-2148.cpp: 107 tokens, 21 lines (not NL-terminated)
+File 24-2148.cpp: 60 tokens, 16 lines (not NL-terminated)
+File 256-2148.cpp: 24 tokens, 9 lines (not NL-terminated)
+File 263-2148.cpp: 26 tokens, 11 lines (not NL-terminated)
+File 291-2148.cpp: 27 tokens, 8 lines (not NL-terminated)
+File 32-2148.cpp: 79 tokens, 21 lines (not NL-terminated)
+File 326-2148.cpp: 54 tokens, 12 lines (not NL-terminated)
+File 328-2148.cpp: 38 tokens, 11 lines (not NL-terminated)
+File 335-2148.cpp: 28 tokens, 10 lines (not NL-terminated)
+File 336-2148.cpp: 28 tokens, 10 lines (not NL-terminated)
+File 346-2148.cpp: 76 tokens, 17 lines (not NL-terminated)
+File 357-2148.cpp: 43 tokens, 17 lines (not NL-terminated)
+File 364-2148.cpp: 105 tokens, 18 lines (not NL-terminated)
+File 38-2148.cpp: 22 tokens, 8 lines (not NL-terminated)
+File 39-2148.cpp: 24 tokens, 9 lines (not NL-terminated)
+File 42-2148.cpp: 111 tokens, 20 lines (not NL-terminated)
+File 43-2148.cpp: 38 tokens, 10 lines (not NL-terminated)
+File 49-2148.cpp: 25 tokens, 8 lines (not NL-terminated)
+File 58-2148.cpp: 36 tokens, 11 lines (not NL-terminated)
+File 64-2148.cpp: 39 tokens, 10 lines (not NL-terminated)
+File 66-2148.cpp: 47 tokens, 12 lines (not NL-terminated)
+File 67-2148.cpp: 25 tokens, 11 lines (not NL-terminated)
+File 72-2148.cpp: 28 tokens, 9 lines (not NL-terminated)
+File 75-2148.cpp: 83 tokens, 10 lines (not NL-terminated)
+File 76-2148.cpp: 98 tokens, 20 lines (not NL-terminated)
+File 78-2148.cpp: 26 tokens, 10 lines (not NL-terminated)
+File 83-2148.cpp: 24 tokens, 8 lines (not NL-terminated)
+File 90-2148.cpp: 42 tokens, 13 lines (not NL-terminated)
+File 97-2148.cpp: 24 tokens, 10 lines (not NL-terminated)
+File sim_res.txt: 909 tokens, 53 lines
+Total input: 40 files (40 new, 0 old), 2682 tokens
+
+sim_res.txt: line 1-19                 |sim_res.txt: line 20-38           [342]
+File 117-2148.cpp: 27 tokens, 10 lines |File 336-2148.cpp: 28 tokens, 10 lines 
+File 119-2148.cpp: 31 tokens, 11 lines |File 346-2148.cpp: 76 tokens, 17 lines 
+File 121-2148.cpp: 38 tokens, 11 lines |File 357-2148.cpp: 43 tokens, 17 lines 
+File 124-2148.cpp: 22 tokens, 9 lines (|File 364-2148.cpp: 105 tokens, 18 lines
+File 13-2148.cpp: 76 tokens, 16 lines (|File 38-2148.cpp: 22 tokens, 8 lines (n
+File 136-2148.cpp: 40 tokens, 13 lines |File 39-2148.cpp: 24 tokens, 9 lines (n
+File 14-2148.cpp: 29 tokens, 9 lines (n|File 42-2148.cpp: 111 tokens, 20 lines 
+File 144-2148.cpp: 51 tokens, 17 lines |File 43-2148.cpp: 38 tokens, 10 lines (
+File 15-2148.cpp: 36 tokens, 12 lines (|File 49-2148.cpp: 25 tokens, 8 lines (n
+File 17-2148.cpp: 36 tokens, 15 lines (|File 58-2148.cpp: 36 tokens, 11 lines (
+File 21-2148.cpp: 107 tokens, 21 lines |File 64-2148.cpp: 39 tokens, 10 lines (
+File 24-2148.cpp: 60 tokens, 16 lines (|File 66-2148.cpp: 47 tokens, 12 lines (
+File 256-2148.cpp: 24 tokens, 9 lines (|File 67-2148.cpp: 25 tokens, 11 lines (
+File 263-2148.cpp: 26 tokens, 11 lines |File 72-2148.cpp: 28 tokens, 9 lines (n
+File 291-2148.cpp: 27 tokens, 8 lines (|File 75-2148.cpp: 83 tokens, 10 lines (
+File 32-2148.cpp: 79 tokens, 21 lines (|File 76-2148.cpp: 98 tokens, 20 lines (
+File 326-2148.cpp: 54 tokens, 12 lines |File 78-2148.cpp: 26 tokens, 10 lines (
+File 328-2148.cpp: 38 tokens, 11 lines |File 83-2148.cpp: 24 tokens, 8 lines (n
+File 335-2148.cpp: 28 tokens, 10 lines |File 90-2148.cpp: 42 tokens, 13 lines (
+
+sim_res.txt: line 20-29                |sim_res.txt: line 30-39           [180]
+File 336-2148.cpp: 28 tokens, 10 lines |File 64-2148.cpp: 39 tokens, 10 lines (
+File 346-2148.cpp: 76 tokens, 17 lines |File 66-2148.cpp: 47 tokens, 12 lines (
+File 357-2148.cpp: 43 tokens, 17 lines |File 67-2148.cpp: 25 tokens, 11 lines (
+File 364-2148.cpp: 105 tokens, 18 lines|File 72-2148.cpp: 28 tokens, 9 lines (n
+File 38-2148.cpp: 22 tokens, 8 lines (n|File 75-2148.cpp: 83 tokens, 10 lines (
+File 39-2148.cpp: 24 tokens, 9 lines (n|File 76-2148.cpp: 98 tokens, 20 lines (
+File 42-2148.cpp: 111 tokens, 20 lines |File 78-2148.cpp: 26 tokens, 10 lines (
+File 43-2148.cpp: 38 tokens, 10 lines (|File 83-2148.cpp: 24 tokens, 8 lines (n
+File 49-2148.cpp: 25 tokens, 8 lines (n|File 90-2148.cpp: 42 tokens, 13 lines (
+File 58-2148.cpp: 36 tokens, 11 lines (|File 97-2148.cpp: 24 tokens, 10 lines (
+
+sim_res.txt: line 40-47                |sim_res.txt: line 47-53            [96]
+Total input: 39 files (39 new, 0 old), |15-2148.cpp consists for 86 % of 328-21
+                                       |328-2148.cpp consists for 82 % of 90-21
+256-2148.cpp consists for 100 % of 83-2|43-2148.cpp consists for 71 % of 64-214
+39-2148.cpp consists for 100 % of 97-21|13-2148.cpp consists for 53 % of 21-214
+335-2148.cpp consists for 100 % of 72-2|13-2148.cpp consists for 42 % of 15-214
+121-2148.cpp consists for 92 % of 136-2|32-2148.cpp consists for 41 % of 43-214
+136-2148.cpp consists for 88 % of 328-2|21-2148.cpp consists for 36 % of 76-214
+15-2148.cpp consists for 86 % of 328-21|
+
+sim_res.txt: line 30-34                |sim_res.txt: line 35-39            [90]
+File 64-2148.cpp: 39 tokens, 10 lines (|File 76-2148.cpp: 98 tokens, 20 lines (
+File 66-2148.cpp: 47 tokens, 12 lines (|File 78-2148.cpp: 26 tokens, 10 lines (
+File 67-2148.cpp: 25 tokens, 11 lines (|File 83-2148.cpp: 24 tokens, 8 lines (n
+File 72-2148.cpp: 28 tokens, 9 lines (n|File 90-2148.cpp: 42 tokens, 13 lines (
+File 75-2148.cpp: 83 tokens, 10 lines (|File 97-2148.cpp: 24 tokens, 10 lines (
+
+sim_res.txt: line 47-50                |sim_res.txt: line 50-53            [48]
+15-2148.cpp consists for 86 % of 328-21|13-2148.cpp consists for 53 % of 21-214
+328-2148.cpp consists for 82 % of 90-21|13-2148.cpp consists for 42 % of 15-214
+43-2148.cpp consists for 71 % of 64-214|32-2148.cpp consists for 41 % of 43-214
+13-2148.cpp consists for 53 % of 21-214|21-2148.cpp consists for 36 % of 76-214
+
+13-2148.cpp: line 11-15                |21-2148.cpp: line 14-20            [40]
+signed main(){                         |signed main()
+ ios::sync_with_stdio(0);cin.tie(0);cou|{
+ int t=1;//cin>>t;                     | ios::sync_with_stdio(0);cin.tie(0);cou
+ while(t--) solve();                   | int T=1;
+ return 0;                             |// cin>>T;
+                                       | while(T--) solve();
+                                       | return 0;
+
+21-2148.cpp: line 14-20                |76-2148.cpp: line 13-19            [39]
+signed main()                          |int main()
+{                                      |{
+ ios::sync_with_stdio(0);cin.tie(0);cou| ios::sync_with_stdio(0);
+ int T=1;                              | cout.tie(0);cin.tie(0);
+// cin>>T;                             | int t=1;//cin>>t;
+ while(T--) solve();                   | while(t--)solve();
+ return 0;                             | return 0;
+
+sim_res.txt: line 35-36                |sim_res.txt: line 37-38            [36]
+File 76-2148.cpp: 98 tokens, 20 lines (|File 83-2148.cpp: 24 tokens, 8 lines (n
+File 78-2148.cpp: 26 tokens, 10 lines (|File 90-2148.cpp: 42 tokens, 13 lines (
+
+136-2148.cpp: line 3-10                |328-2148.cpp: line 3-9             [35]
+using namespace std;                   |using namespace std;
+int main(){                            |int main(){
+  //输入;                               |  string p;
+  string x;                            |  cin>>p;
+  cin>>x;                              |  cout<<p;
+  cout<<x;                             |  for(int i=0;i<13;i++){
+  for(int i=0;i<13;i++){               |  cout<<0;
+ cout<<'0';                            |
+
+121-2148.cpp: line 2-9                 |136-2148.cpp: line 3-10            [35]
+using namespace std;                   |using namespace std;
+int main()                             |int main(){
+{                                      |  //输入;
+ string n;                             |  string x;
+ cin>>n;                               |  cin>>x;
+ cout<<n;                              |  cout<<x;
+ for(int i=0;i<13;i++){                |  for(int i=0;i<13;i++){
+  cout<<"0";                           | cout<<'0';
+
+32-2148.cpp: line 7-13                 |43-2148.cpp: line 3-9              [32]
+void solve(){                          |int main(){
+ string s;                             | string a;
+ cin>>s;                               | cin>>a;
+ for (int i=0;i<13;i++){               | for(int i=0;i<13;i++){
+  s+="0";                              |  a+="0";
+ }                                     | }
+ cout<<s<<endl;                        | cout<<a;
+
+13-2148.cpp: line 5-9                  |15-2148.cpp: line 5-11             [32]
+void solve(){                          |int main()
+ string s;cin>>s;                      |{
+ cout<<s;                              |  string op;
+ for(int i=0;i<13;i++)cout<<0;         |  cin>>op;
+}                                      |  cout<<op;
+                                       |  for(int i=0;i<13;i++) cout<<0;
+                                       |  
+
+15-2148.cpp: line 3-10                 |328-2148.cpp: line 3-8             [31]
+using namespace std;                   |using namespace std;
+                                       |int main(){
+int main()                             |  string p;
+{                                      |  cin>>p;
+  string op;                           |  cout<<p;
+  cin>>op;                             |  for(int i=0;i<13;i++){
+  cout<<op;                            |
+  for(int i=0;i<13;i++) cout<<0;       |
+
+328-2148.cpp: line 4-9                 |90-2148.cpp: line 4-11             [31]
+int main(){                            |signed main()
+  string p;                            |{
+  cin>>p;                              | string s;
+  cout<<p;                             | cin>>s;
+  for(int i=0;i<13;i++){               | cout<<s;
+  cout<<0;                             | for(int i=0;i<13;i++)
+                                       | {
+                                       |  cout<<'0';
+
+335-2148.cpp: line 2-9                 |72-2148.cpp: line 2-8              [28]
+using namespace std;                   |using namespace std;
+int main()                             |int main()
+{                                      |{
+ string s;                             |  string s;cin >> s;
+ cin>>s;                               |  s += "0000000000000";
+ s+="0000000000000";                   |  cout << s << endl;
+ cout<<s<<endl;                        |  return 0;
+ return 0;                             |
+
+43-2148.cpp: line 2-6                  |64-2148.cpp: line 2-7              [27]
+using namespace std;                   |using namespace std;
+int main(){                            |int main()
+ string a;                             |{
+ cin>>a;                               |  string ss;
+ for(int i=0;i<13;i++){                |  cin>>ss;
+                                       |  for(int i=0;i<13;i++)
+
+256-2148.cpp: line 2-8                 |83-2148.cpp: line 2-7              [24]
+using namespace std;                   |using namespace std;
+                                       |int main(){
+int main(){                            | string a;
+ string s;                             | cin>>a;
+ cin>>s;                               | a=a+"0000000000000";
+ s=s+"0000000000000";                  | cout<<a;
+ cout<<s;                              |
+
+39-2148.cpp: line 2-8                  |97-2148.cpp: line 3-9              [24]
+using namespace std;                   |using namespace std;
+int main()                             |int main( )
+{                                      |{
+ string str;                           |  string input;
+ cin>>str;                             |  cin>>input;
+ cout<<str<<"0000000000000";           |  cout<<input<<"0000000000000";
+ return 0;                             |  return 0;
+

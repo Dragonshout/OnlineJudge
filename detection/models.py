@@ -1,5 +1,3 @@
-from django.db import models
-from utils.models import JSONField
 from problem.models import Problem
 from account.models import User
 from submission.models import Submission  # 确保正确引用Submission模型
@@ -93,6 +91,9 @@ class Detection(models.Model):
 
     # 查重语言
     language = models.TextField()
+
+    #查重算法
+    algorithm_params = models.TextField()
 
     # 相似度阈值
     similarity_threshold = models.FloatField()
@@ -216,3 +217,38 @@ class DetectionComparison(models.Model):
             'a': {'code': self.user_a_code, 'language': self.language},
             'b': {'code': self.user_b_code, 'language': self.language}
         }
+
+
+class AIGCDetectionResult(models.Model):
+
+
+    detection = models.ForeignKey(
+        Detection,
+        on_delete=models.CASCADE,
+        related_name='aigc_detection_results',
+    )
+
+    problem = models.ForeignKey(
+        Problem,
+        on_delete=models.CASCADE,
+        related_name='aigc_detection_results',
+        null=True,
+        blank=True,
+    )
+
+    language = models.TextField(null=True)
+
+    user_id = models.IntegerField(db_index=True, default=0)
+
+    user_code = models.TextField(default="")
+
+    similarity = models.FloatField()
+
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"AIGCDetectionResult {self.id} - Probability: {self.aigc_probability}"
+
+    class Meta:
+        db_table = "aigc_detection_result"
+        ordering = ("-created_at",)

@@ -1,0 +1,6 @@
+File 125-2146.c: 222 tokens, 66 lines (not NL-terminated)
+File 172-2146.c: 273 tokens, 60 lines (not NL-terminated)
+File 284-2146.c: 226 tokens, 38 lines (not NL-terminated)
+File 345-2146.c: 425 tokens, 71 lines (not NL-terminated)
+Total input: 4 files (4 new, 0 old), 1146 tokens
+
